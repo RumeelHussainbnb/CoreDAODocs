@@ -74,6 +74,7 @@ const config = {
         logo: {
           alt: 'Core DAO Logo',
           src: 'img/core.png',
+          href:'/CoreDAODocs/docs/intro'
         },
         items: [
           {
