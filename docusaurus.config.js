@@ -113,12 +113,12 @@ const config = {
             position: 'left',
             label: 'FAQs',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'communitySidebar',
-            position: 'left',
-            label: 'Community',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'communitySidebar',
+          //   position: 'left',
+          //   label: 'Community',
+          // },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
