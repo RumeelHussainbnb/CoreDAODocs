@@ -36,13 +36,3 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Serve
-```
-$ npm run serve 
-
-OR 
-
-$ yarn serve
-```
-
-This command builds and serves the website locally 
