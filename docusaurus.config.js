@@ -20,8 +20,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'coredao-org', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'RumeelHussainbnb', // Usually your GitHub org/user name.
+  projectName: 'CoreDAODocs', // Usually your repo name.
+  deploymentBranch:'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
