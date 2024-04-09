@@ -1,16 +1,24 @@
-# Website
+# Core DAO Documentation 
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the restructuring of Core DAO official Docs built using [Docusaurus](https://docusaurus.io/).
 
 ### Installation
 
 ```
+$ npm run install 
+
+OR 
+
 $ yarn
 ```
 
 ### Local Development
 
 ```
+$ npm run start 
+
+OR 
+
 $ yarn start
 ```
 
@@ -19,23 +27,22 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
+$ npm run build 
+
+OR 
+
 $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
-
-Using SSH:
-
+### Serve
 ```
-$ USE_SSH=true yarn deploy
-```
+$ npm run serve 
 
-Not using SSH:
+OR 
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+$ yarn serve
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This command builds and serves the website locally 
