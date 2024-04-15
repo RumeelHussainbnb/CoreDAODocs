@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 🔶 Core DAO - Build for Innovation
+# 🔶 Core DAO - Unlocking Bitcoin DeFi
 
 ![core-header](../static/img/core-header.png)
 

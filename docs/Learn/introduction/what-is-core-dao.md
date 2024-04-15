@@ -4,7 +4,7 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# What is Core DAO
+# Core Chain: Unlocking Bitcoin DeFi
 
 Core Chain is the first Bitcoin-aligned EVM-compatible Layer-1 blockchain, designed to be Bitcoin's complementary and hyper-scalable smart contract platform. With 50% of Bitcoin mining hash power already contributing to its security model and non-custodial Bitcoin staking coming later this year, Core Chain is unlocking Bitcoin both as the prime protector and central asset of the future of DeFi.
 
@@ -18,3 +18,17 @@ There are four key features of Core Chain that separate it from its competition:
 * **Core DAO:** the DAO that manages on-chain governance.
 * **EVM Execution Layer:** Core DAO adaptes Ethereum Virtual Machine for smart contract execution making it EVM-compatible, similar to [BNB Smart Chain's implementation](https://github.com/bnb-chain/bsc) of Geth.
 * **coreBTC:** the enshrined Core-native bridged BTC.
+
+## Problems Addressed by Core DAO
+
+Core DAO addresses several key problems and issues in the blockchain space through its unique approach and technology. Here's a summary of the issues that Core DAO attempts to overcome:
+
+* **Scalability and Security:** Core DAO utilizes a novel consensus mechanism called "Satoshi Plus," which aims to balance the trade-offs between scalability, security, and decentralization. This mechanism combines Bitcoin's proof-of-work (PoW) and a delegated proof-of-stake (DPoS) system, seeking to leverage the security provided by Bitcoin's mining power while enhancing scalability through DPoS​.
+
+* **Blockchain Trilemma:** The blockchain trilemma posits that it is challenging to achieve decentralization, security, and scalability simultaneously. Core DAO's solution, the Satoshi Plus consensus, attempts to tackle this trilemma by integrating Bitcoin's computing power for security and the DPoS mechanism for scalability, aiming for a decentralized system that does not compromise on these critical aspects​.
+
+* **Ecosystem Roles and Participation:** Core DAO has designed a system where various participants play significant roles, including validators, relayers, BTC miners, CORE holders, and verifiers. This ecosystem aims to ensure network security, promote decentralization, and encourage community participation in governance and network activities​.
+
+* **Tokenomics and Incentive Structure:** CORE, the native utility token, is used for staking and paying gas fees. With a total supply of 2.1 billion tokens, Core DAO plans to distribute these over 81 years, aligning with its long-term vision. The project also includes mechanisms for burning a percentage of block rewards and gas fees to manage token supply dynamically​.
+
+* **Comparison with Other Blockchains:** Core DAO positions itself as an improvement over existing blockchains like Bitcoin, Ethereum, Solana, Polygon, and BNB Chain. By addressing issues such as low transaction throughput, centralization risks, and network stability, Core DAO aims to offer a more scalable, decentralized, and secure alternative​.
