@@ -90,7 +90,7 @@ const sidebars = {
               items: [
                 'Learn/products/btc-staking/overview',
                 'Learn/products/btc-staking/design',
-                // 'Learn/products/btc-staking/architecture',
+                'Learn/products/btc-staking/faqs-btc-staking',
                 'Learn/products/btc-staking/how-to-guides',
               ]
           },
