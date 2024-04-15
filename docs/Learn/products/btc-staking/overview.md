@@ -43,7 +43,7 @@ There are a few aspects of Core Chain's implementation of staking that set it ap
 
 ## How BTC Native Staking Works
 
-With the introduction of non-custodial bitcoin staking, Core Chain's recent protocol updates incorporate bitcoin holders as the third part of Satoshi Plus consensus. Core DAO's methodology for integrating bitcoin staking centers on absolute time locks. Absolute time locks are Bitcoin-native cryptographic feature that specify a condition under which the transaction output cannot be spent until a certain point in time has passed. This time can be defined in terms of a specific date and time or by block height (the number of blocks in the blockchain at which the transaction becomes valid). Rather than holders giving up custody of their bitcoins to external staking, stakers on Core DAO merely need to place their bitcoin in absolute time locks as part of a transaction, and the transaction can be designed to return the output after the time period has elapsed. Within that transaction, stakers must include a script containing the same information that Bitcoin miners include in their delegated blocks: 
+With the introduction of non-custodial bitcoin staking, Core Chain's recent protocol updates incorporate bitcoin holders as the third part of Satoshi Plus consensus. Core DAO's methodology for integrating bitcoin staking centers on [CLTV timelock](https://en.bitcoin.it/wiki/Timelock#CheckLockTimeVerify). CLTV timelock are Bitcoin-native cryptographic feature that specify a condition under which the transaction output cannot be spent until a certain point in time has passed. This time can be defined in terms of a specific date and time or by block height. Rather than holders giving up custody of their bitcoins to external staking, stakers on Core DAO merely need to place their bitcoins in CLTV timelocks as part of a transaction, and the transaction can be designed to return the output after the time period has elapsed. Within that transaction, stakers must include a script containing the same information that Bitcoin miners include in their delegated blocks: 
 
 1. The address of the Core Validator the staker wants to delegate their bitcoin to.
 2. The address that the staker would like their CORE token rewards to be sent to.
@@ -55,7 +55,7 @@ Bitcoin stakers earn a yield on their otherwise passive bitcoin in the form of C
 Core DAO welcomes BTC holders to stake their BTC on the Bitcoin network. By voting for a Core validator during your BTC staking transaction, you play a pivotal role in Core's decentralization, earning CORE tokens as recurring rewards.
 
 * There are _minimal requirements_ on both **amount** and **duration** to make the staking eligible on Core.
-    * A user should at least stake **0.001 BTC** (less transaction fees) for at least **7 days**. 
+    * A user should at least stake **0.01 BTC** (less transaction fees) for at least **7 days**. 
 
 ### Transaction Work Flow
 

@@ -57,7 +57,7 @@ The `RedeemScript`  should start with a CLTV time lock. Here are a few common ty
 * When using multi signature address `<CLTV timelock> OP_CLTV OP_DROP M <pubKey1> <pubKey1> ... <pubKeyN> N OP_CHECKMULTISIG` and the corresponding unlocking script in the withdrawal transaction is `OP_0 <sig1> ... <sigM> <RedeemScript>` The amount and duration of BTC locked in this output will be used for the calculation of validator election and reward distribution on the Core chain.
 
 > **Note** 
-> There are _minimal requirements_ on both **amount** and **duration** to make the staking eligible on Core. A user should at least stake **0.001 BTC** (less transaction fees) for at least **7 days** (`CLTV timestamp - transaction confirmation timestamp > 7 days`). 
+> There are _minimal requirements_ on both **amount** and **duration** to make the staking eligible on Core. A user should at least stake **0.01 BTC** (less transaction fees) for at least **7 days** (`CLTV timestamp - transaction confirmation timestamp > 7 days`). 
 
 ## OP_RETURN Output
 
@@ -70,7 +70,7 @@ The `OP_RETURN` output should contain all staking information in order, and be c
 - **`Chain ID`:** (e.g. **1115**) 2 bytes
 - **`Delegator`:** The Core address to receive rewards, 20 bytes
 - **`Validator`:** The Core validator address to stake to, 20 bytes
-- **`Fee`:** Fee for porter, 1 byte, range [0,255], measured in CORE
+- **`Fee`:** Fee for relayer, 1 byte, range [0,255], measured in CORE
 - (_Optional_) **`RedeemScript`**
 - (_Optional_) **`Timelock`:** 4 bytes
 
@@ -81,7 +81,7 @@ The `OP_RETURN` output should contain all staking information in order, and be c
 - Any bytes with length bigger than `255` uses `0x4d` (`OP_PUSHDATA2`)
 - Any bytes with length bigger than `65535` (`0xffff`) uses `0x4e` (`OP_PUSHDATA4`)
 
-Either `RedeemScript` or `Timelock` must be available, the purpose is to allow Porter to obtain the `RedeemScript` and submit transactions on the Core chain. If a `RedeemScript` is provided, porter will use it directly. Otherwise, porter will construct the redeem script based on the timelock and the information in the transaction inputs. You can find more information about the porter role in the [below section](#role-of-porter). 
+Either `RedeemScript` or `Timelock` must be available, the purpose is to allow relayer to obtain the `RedeemScript` and submit transactions on the Core chain. If a `RedeemScript` is provided, relayer will use it directly. Otherwise, relayer will construct the redeem script based on the timelock and the information in the transaction inputs. You can find more information about the relayer role in the [below section](#role-of-relayers). 
 
 # Transaction Examples
 
@@ -123,7 +123,7 @@ The full hex of this output is `6a4c505341542b01045bde60b7d0e6b758ca5dd8c61d377a
 - `045b` 1115, which is chain id
 - `de60b7d0e6b758ca5dd8c61d377a2c5f1af51ec1` is the reward address
 - `a9e209f5ea0036c8c2f41078a3cebee57d8a47d5` is the validator address
-- `01` is porter fee, measured in CORE
+- `01` is relayer fee, measured in CORE
 - `041f5e0e66b17576a914c4b8ae927ff2b9ce218e20bf06d425d6b68424fd88ac` is redeem script, which is explained in the above section.
 
 [1] Any bytes bigger than or equal to `0x4c` is pushed by using `0x4c` (ie. `OP_PUSHDATA`) followed by the length followed by the data (`byte[80] -> OP_PUSHDATA + 80 + byte[80])`
@@ -141,14 +141,14 @@ In the input, the redeem script `041f5e0e66b17576a914c4b8ae927ff2b9ce218e20bf06d
 > **Note**
     > Code samples of constructing the staking and withdrawal transactions on Bitcoin network will be provided soon. 
 
-# Role of Porter
+# Role of Relayers
 
 In a strict sense, the BTC Native Staking process consists of two steps
 
 - Stake on the Bitcoin network
 - Submit the confirmed BTC staking transaction to the Core chain
 
-To make the entire process more convenient, Core DAO introduces the role of Porter. Porter can help users submit transactions to the Core network after the staking transaction is confirmed on the Bitcoin network. Since it is necessary to verify the transaction on the Core network with the embedded Bitcoin light client, Porter needs to obtain the corresponding `RedeemScript` of the `P2SH/P2WSH` output. To meet this requirement, we suggest users to either
+To make the entire process more convenient, Core DAO introduces the role of relayers. Relayers can help users submit transactions to the Core network after the staking transaction is confirmed on the Bitcoin network. Since it is necessary to verify the transaction on the Core network with the embedded Bitcoin light client, relayers needs to obtain the corresponding `RedeemScript` of the `P2SH/P2WSH` output. To meet this requirement, we suggest users to either
 
 - Put the entire `RedeemScript` at the end of the `OP_RETURN` output, if the script is short. e.g. a `RedeemScript` constructed using public key hash as shown in the sample above.
 - Set the receiving address of the staking transaction as their own so porters can extract useful information from the transaction input and compose the `RedeemScript` by themselves. E.g.
