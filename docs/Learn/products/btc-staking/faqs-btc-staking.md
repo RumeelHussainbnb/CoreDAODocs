@@ -9,7 +9,7 @@ sidebar_position: 2
 ### Why is that the staking address provided differs from your original Bitcoin address?
 The staking address is derived from your wallet's master private key, ensuring your control and security over your assets. Your Bitcoins remain safely stored in your original wallet, unaffected by staking. While staked assets may not be visible in some wallet versions, you still have complete ownership. 
 
-You can view your staked funds by searching the staking address on the (explorer)[scan.coredao.org]. We're actively working to make staked assets visible in all supported wallets especially through command line versions.
+You can view your staked funds by searching the staking address on the any BTC explorer like (Mempool)[https://mempool.space/]. We're actively working to make staked assets visible in all supported wallets especially through command line versions.
 
 ### Does Core DAO provide any hardware wallet support for BTC Native Staking?
 
