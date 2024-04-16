@@ -67,7 +67,7 @@ The `OP_RETURN` output should contain all staking information in order, and be c
 - **`LENGTH`:** which represents the total byte length after the `OP_RETURN` opcode. _Note that all data has to be pushed with its appropriate size byte(s)_.
 - **`Satoshi Plus Identifier`:** (**SAT+**) 4 bytes
 - **`Version`:** (**0x01**) 1 byte
-- **`Chain ID`:** (e.g. **1115**) 2 bytes
+- **`Chain ID`:** (1115 for Core Testnet and 1116 for Core Mainnet) 2 bytes
 - **`Delegator`:** The Core address to receive rewards, 20 bytes
 - **`Validator`:** The Core validator address to stake to, 20 bytes
 - **`Fee`:** Fee for relayer, 1 byte, range [0,255], measured in CORE
@@ -120,7 +120,7 @@ The full hex of this output is `6a4c505341542b01045bde60b7d0e6b758ca5dd8c61d377a
 - `4c50` is the total byte length after the `OP_RETURN` opcode [1]
 - `5341542b` SAT+, which is satoshi plus identifier
 - `01` is version
-- `045b` 1115, which is chain id
+- `045b` 1115, which is chain id (1115 for Core Testnet and 1116 for Core Mainnet)
 - `de60b7d0e6b758ca5dd8c61d377a2c5f1af51ec1` is the reward address
 - `a9e209f5ea0036c8c2f41078a3cebee57d8a47d5` is the validator address
 - `01` is relayer fee, measured in CORE
@@ -151,6 +151,6 @@ In a strict sense, the BTC Native Staking process consists of two steps
 To make the entire process more convenient, Core DAO introduces the role of relayers. Relayers can help users submit transactions to the Core network after the staking transaction is confirmed on the Bitcoin network. Since it is necessary to verify the transaction on the Core network with the embedded Bitcoin light client, relayers needs to obtain the corresponding `RedeemScript` of the `P2SH/P2WSH` output. To meet this requirement, we suggest users to either
 
 - Put the entire `RedeemScript` at the end of the `OP_RETURN` output, if the script is short. e.g. a `RedeemScript` constructed using public key hash as shown in the sample above.
-- Set the receiving address of the staking transaction as their own so porters can extract useful information from the transaction input and compose the `RedeemScript` by themselves. E.g.
+- Set the receiving address of the staking transaction as their own so relayers can extract useful information from the transaction input and compose the `RedeemScript` by themselves. E.g.
     - If it's a normal address, the `pubkey` or `pubkey hash` should be set as the input's corresponding public key when constructing the `RedeemScript`.
     - If it is a multi-signature address, the corresponding multi-signature address's public key should be set when constructing the `RedeemScript`.
