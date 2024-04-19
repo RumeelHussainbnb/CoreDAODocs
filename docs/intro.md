@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 🔶 Core DAO - Unlocking Bitcoin DeFi
+# 🔶 Core DAO - Decentralized applications secured by Bitcoin
 
 ![core-header](../static/img/core-header.png)
 

@@ -6,9 +6,9 @@ sidebar_position: 2
 
 # Why Core DAO 
 
-Core Chain is a decentralized, secure, and scalable blockchain network backed by Bitcoin’s PoW. Some of the major characteristics that sets it apart from its competitors are as follows:
+Core DAO's Core Chain is a decentralized, secure, and scalable blockchain network backed by Bitcoin’s PoW. Some of the major characteristics that sets it apart from its competitors are as follows:
 
-* **Bitcoin-aligned:**  Core Chain is designed to unlock Bitcoin's protection by enabling Bitcoin miners to delegate their security to an EVM-compatible smart contract platform and (b) subsidize Bitcoin mining by providing CORE token rewards to Bitcoin miners that require virtually no added expense or opportunity cost. While Bitcoin serves as the defender of a perfectly scarce, passive monetary asset, Core Chain is designed to be the decentralized rails upon which digital assets gain substantial utility.
+* **Bitcoin-aligned:**  Core Chain is designed to unlock Bitcoin's protection by enabling Bitcoin miners to delegate their security to an EVM-compatible smart contract platform and subsidize Bitcoin mining by providing CORE token rewards to Bitcoin miners that require virtually no added expense or opportunity cost. While Bitcoin serves as the defender of a perfectly scarce, passive monetary asset, Core Chain is designed to be the decentralized rails upon which digital assets gain substantial utility.
 
 * **Decentralized:** Core Chain’s decentralization is facilitated through the two-part system by which validators are elected under Satoshi Plus consensus. On the one hand, Bitcoin miners can vote for validators by writing data into the coinbase transactions of newly-mined Bitcoin blocks (DPoW). On the other, CORE token holders can vote for validators by delegating CORE tokens to them (DPoS). Because Bitcoin hash power and CORE tokens are highly distributed, both the DPoW and DPoS aspects of Satoshi Plus consensus work together to uphold Core Chain’s decentralization.
 
@@ -18,7 +18,7 @@ Core Chain is a decentralized, secure, and scalable blockchain network backed by
 
 * **Permissionless:** Core Chain’s permissionlessness means anyone can participate in and build on Core Chain, without approval or authorization from any gatekeeping entity. The network’s decentralization, open-source software, and consensus model are designed to maintain this permissionlessness in perpetuity.
 
-* **Community Governed:** Core Chain’s governance is a blend of immutable and mutable components. The immutable aspects are those that must be kept in place, like the total supply of CORE. Nonetheless, other aspects of on-chain governance would benefit from adaptability. For those, the decentralized autonomous organization responsible for network development, Core DAO, is designed to become progressively more decentralized as on-chain participation grows. All CORE token holders will be able to vote on the adaptations of certain protocol parameters, but are naturally limited by certain immutable aspects of Core Chain’s design, described in further detail later.
+* **Community Governed:** Core Chain’s governance is a blend of immutable and mutable components. The immutable aspects are those that must be kept in place, like the total supply of CORE. Nonetheless, other aspects of on-chain governance would benefit from adaptability. For those, the decentralized autonomous organization responsible for network development, Core DAO, is designed to become progressively more decentralized as on-chain participation grows. All CORE token holders will be able to vote on the adaptations of certain protocol parameters.
 
 * **Interoperable:** Core Chain can interface with a wide variety of blockchain projects. Because it is EVM compatible all protocols on Core Chain can interact with one another, Ethereum-based protocols can be ported to Core Chain with relative ease, and cross-chain solutions allow communication across other blockchains.
 
