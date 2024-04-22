@@ -5,6 +5,8 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -49,6 +51,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            remarkPlugins: [remarkMath],
         },
         // blog: {
         //   showReadingTime: true,
