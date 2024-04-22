@@ -15,134 +15,136 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   learnSidebar: [
-    'intro',
     {
       type: 'category',
-      collapsed: true,
-      label: 'Introduction',
-      items: ['Learn/introduction/what-is-core-dao',
-              'Learn/introduction/why-core-dao',
-              'Learn/introduction/quickstart',
-              {
-                type: 'link',
-                label: 'Whitepaper', 
-                href: 'https://github.com/coredao-org/whitepaper', 
-              },
+      label: '📖 All About Core DAO',
+      link: {type: 'doc', id: 'intro'},
+      items:[
+          {
+            type: 'category',
+            collapsed: true,
+            label: 'Introduction',
+            items: ['Learn/introduction/what-is-core-dao',
+                    'Learn/introduction/why-core-dao',
+                    'Learn/introduction/quickstart',
+                    {
+                      type: 'link',
+                      label: 'Whitepaper', 
+                      href: 'https://github.com/coredao-org/whitepaper', 
+                    },
 
-            ]
-    },
-    {
-      type: 'category',
-      collapsed: true,
-      label: 'Core Concepts',
-      items: ['Learn/core-concepts/overview', 'Learn/core-concepts/architecture',
+                  ]
+          },
+          {
+            type: 'category',
+            collapsed: true,
+            label: 'Core Concepts',
+            items: ['Learn/core-concepts/overview', 'Learn/core-concepts/architecture',
+                      {
+                        type: 'category',
+                        collapsed: true,
+                        label: 'Satoshi Plus Consensus',
+                        items: [
+                          'Learn/core-concepts/satoshi-plus-consensus/components',
+                          'Learn/core-concepts/satoshi-plus-consensus/DPoW',
+                          'Learn/core-concepts/satoshi-plus-consensus/DPoS',
+                          {
+                            type: 'doc',
+                            id: 'Node/validator/validator-election', // document ID
+                            label: 'Validator Election', // sidebar label
+                          },
+                          'Learn/core-concepts/satoshi-plus-consensus/rewards', 
+                          'Learn/core-concepts/satoshi-plus-consensus/security',
+                          ]
+                      },
+                  ]
+          },
+          'Learn/governance',
+          {
+            type: 'category',
+              collapsed: true,
+              label: 'Economics',
+              items: [
+                  {
+                    type: 'category',
+                      collapsed: true,
+                      label: 'CORE Token',
+                      items: [
+                        'Learn/economics/core-token/token-utility',
+                        'Learn/economics/core-token/tokenomics',
+                        'Learn/economics/core-token/incentives'
+                      ]
+                  },
+                  'Learn/economics/gas-and-fees',
+              ]
+          },
+          {
+            type: 'category',
+              collapsed: true,
+              label: 'Products',
+              items: [
                 {
                   type: 'category',
-                  collapsed: true,
-                  label: 'Satoshi Plus Consensus',
-                  items: [
-                    'Learn/core-concepts/satoshi-plus-consensus/components',
-                    'Learn/core-concepts/satoshi-plus-consensus/DPoW',
-                    'Learn/core-concepts/satoshi-plus-consensus/DPoS',
-                    {
-                      type: 'doc',
-                      id: 'Node/validator/validator-election', // document ID
-                      label: 'Validator Election', // sidebar label
-                    },
-                    {
-                      type: 'doc',
-                      id: 'Node/validator/rewards', // document ID
-                      label: 'Validator Election', // sidebar label
-                    },
-                    'Learn/core-concepts/satoshi-plus-consensus/security',
+                    collapsed: true,
+                    label: 'BTC Native Staking',
+                    items: [
+                      'Learn/products/btc-staking/overview',
+                      'Learn/products/btc-staking/design',
+                      //'Learn/products/btc-staking/faqs-btc-staking',
+                      'Learn/products/btc-staking/how-to-guides',
                     ]
                 },
-            ]
+                {
+                  type: 'category',
+                    collapsed: true,
+                    label: 'coreBTC',
+                    items: [
+                      'Learn/products/coreBTC/overview',
+                      'Learn/products/coreBTC/design',
+                      'Learn/products/coreBTC/architecture',
+                      'Learn/products/coreBTC/how-to-guides',
+                    ]
+                },
+                {
+                  type: 'category',
+                    collapsed: true,
+                    label: 'HTLC Atomic Swap',
+                    items: [
+                      'Learn/products/htlc-atomic-swap/overview',
+                      'Learn/products/htlc-atomic-swap/design',
+                      'Learn/products/htlc-atomic-swap/architecture',
+                      'Learn/products/htlc-atomic-swap/how-to-guides',
+                    ]
+                },
+                {
+                  type: 'category',
+                    collapsed: true,
+                    label: 'Liquid Staking stCore',
+                    items: [
+                      'Learn/products/lst-stCore/overview',
+                      'Learn/products/lst-stCore/design',
+                      'Learn/products/lst-stCore/architecture',
+                      'Learn/products/lst-stCore/how-to-guides',
+                    ]
+                },
+              ]
+          },
+          {
+            type: 'category',
+              collapsed: true,
+              label: 'Audits',
+              items: [
+                  'Learn/audit'
+              ]
+          }
+    ]
     },
-    'Learn/governance',
-    {
-      type: 'category',
-        collapsed: true,
-        label: 'Economics',
-        items: [
-            {
-              type: 'category',
-                collapsed: true,
-                label: 'CORE Token',
-                items: [
-                  'Learn/economics/core-token/token-utility',
-                  'Learn/economics/core-token/tokenomics',
-                  'Learn/economics/core-token/incentives'
-                ]
-            },
-            'Learn/economics/gas-and-fees',
-        ]
-    },
-    {
-      type: 'category',
-        collapsed: true,
-        label: 'Products',
-        items: [
-          {
-            type: 'category',
-              collapsed: true,
-              label: 'BTC Native Staking',
-              items: [
-                'Learn/products/btc-staking/overview',
-                'Learn/products/btc-staking/design',
-                //'Learn/products/btc-staking/faqs-btc-staking',
-                'Learn/products/btc-staking/how-to-guides',
-              ]
-          },
-          {
-            type: 'category',
-              collapsed: true,
-              label: 'coreBTC',
-              items: [
-                'Learn/products/coreBTC/overview',
-                'Learn/products/coreBTC/design',
-                'Learn/products/coreBTC/architecture',
-                'Learn/products/coreBTC/how-to-guides',
-              ]
-          },
-          {
-            type: 'category',
-              collapsed: true,
-              label: 'HTLC Atomic Swap',
-              items: [
-                'Learn/products/htlc-atomic-swap/overview',
-                'Learn/products/htlc-atomic-swap/design',
-                'Learn/products/htlc-atomic-swap/architecture',
-                'Learn/products/htlc-atomic-swap/how-to-guides',
-              ]
-          },
-          {
-            type: 'category',
-              collapsed: true,
-              label: 'Liquid Staking stCore',
-              items: [
-                'Learn/products/lst-stCore/overview',
-                'Learn/products/lst-stCore/design',
-                'Learn/products/lst-stCore/architecture',
-                'Learn/products/lst-stCore/how-to-guides',
-              ]
-          },
-        ]
-    },
-    {
-      type: 'category',
-        collapsed: true,
-        label: 'Audits',
-        items: [
-            'Learn/audit'
-        ]
-    }
   ],
   devGuideSidebar: [
     {
       type: 'category',
       collapsed: true,
-      label: 'Core DAO for Developers',
+      label: '💻 Core DAO for Developers',
       items: [
       {
         type: 'category',
@@ -192,7 +194,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: 'Community',
+      label: '📝 Community',
       items: ['Community/contribution', 'Community/join-core-dao']
     },
   ],
@@ -200,7 +202,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: 'FAQs',
+      label: '❔ FAQs',
       items: ['FAQs/core-faqs', 'FAQs/validator-faqs',
               'FAQs/delegator-faqs', 'FAQs/btc-staking-faqs',
               'FAQs/coreBTC-faqs','FAQs/htlc-atomic-swap-faqs',
@@ -211,7 +213,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: 'Running Core Nodes',
+      label: '🚀 Running Core Nodes',
       items: ['Node/overview',    
       {
         type: 'category',
@@ -264,13 +266,13 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: 'Staking',
+      label: '💸 Staking',
       items: ['stake-and-delegate/staking-overview']
     },
     {
       type: 'category',
       collapsed: true,
-      label: 'Become a Delegator',
+      label: '💰 Become a Delegator',
       items: ['stake-and-delegate/delegators', 'stake-and-delegate/delegating-core',
       'stake-and-delegate/delegating-hash']
     },

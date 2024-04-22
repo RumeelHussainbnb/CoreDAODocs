@@ -1,5 +1,5 @@
 ---
-sidebar_label: Components
+sidebar_label: Major Components
 hide_table_of_contents: false
 sidebar_position: 2
 ---

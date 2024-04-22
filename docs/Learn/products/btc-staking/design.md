@@ -6,15 +6,15 @@ sidebar_position: 2
 
 # BTC Native Staking Transaction Design
 
-# Background
+## Background
 
 Core DAO’s methodology for integrating bitcoin staking centers on [CLTV timelock](https://en.bitcoin.it/wiki/Timelock#CheckLockTimeVerify). The `OP_CHECKLOCKTIMEVERIFY` (CLTV) timelock is a specific opcode used in Bitcoin's scripting language that allows for creating conditions based on time or block height before bitcoins can be spent from a transaction output. This provides a way to create outputs that are time-locked, meaning they cannot be spent until a certain condition related to time or block height is met. 
 
 ![btc-staking-tx-design](../../../../static/img/btc-staking/tx-design/staking-tx-design%20(5).png)
 
-# Transaction Structure
+## Transaction Structure
 
-## Staking transaction
+### Staking transaction
 
 A BTC staking transaction should have two/three outputs, which are
 
@@ -26,15 +26,15 @@ Note that there are **no** restrictions on inputs.
 
 ![btc-staking-tx-output](../../../../static/img/btc-staking/tx-design/staking-tx-design%20(1).png)
 
-## Withdrawal transaction
+### Withdrawal transaction
 
 When the time-lock ends, the locked UTXO can be spent using the redeem script
 
 ![btc-staking-withdrawal-tx](../../../../static/img/btc-staking/tx-design/staking-tx-design%20(2).png)
 
-# Script Design
+## Script Design
 
-## P2SH/P2WSH Output
+### P2SH/P2WSH Output
 
 * Core supports both `P2SH` and `P2WSH` outputs for BTC staking.
 
@@ -83,15 +83,15 @@ The `OP_RETURN` output should contain all staking information in order, and be c
 
 Either `RedeemScript` or `Timelock` must be available, the purpose is to allow relayer to obtain the `RedeemScript` and submit transactions on the Core chain. If a `RedeemScript` is provided, relayer will use it directly. Otherwise, relayer will construct the redeem script based on the timelock and the information in the transaction inputs. You can find more information about the relayer role in the [below section](#role-of-relayers). 
 
-# Transaction Examples
+## Transaction Examples
 
-## Staking transaction
+### Staking transaction
 
 [https://mempool.space/tx/9f5c66d5f90badafd537df44326f270aa64b7cc877ef68c3b69ed436870a3512](https://mempool.space/tx/9f5c66d5f90badafd537df44326f270aa64b7cc877ef68c3b69ed436870a3512)
 
 ![btc-staking-tx-example](../../../../static/img/btc-staking/tx-design/staking-tx-design%20(3).png)
 
-### P2WSH output
+#### P2WSH output
 
 This is the staking output and it is a standard P2WSH address. The redeem script used for this output is `041f5e0e66b17576a914c4b8ae927ff2b9ce218e20bf06d425d6b68424fd88ac`
 
@@ -112,7 +112,7 @@ The redeem script hash used in this P2WSH output is `SHA256(041f5e0e66b17576a914
 
 Here is an online tool to generate `P2WSH` `sha256` hash value from redeem script, by which you can verify the above calculation: [https://www.btcschools.net/bitcoin/bitcoin_tool_sha256.php](https://www.btcschools.net/bitcoin/bitcoin_tool_sha256.php)
 
-### OP_RETURN output
+#### OP_RETURN output
 
 The full hex of this output is `6a4c505341542b01045bde60b7d0e6b758ca5dd8c61d377a2c5f1af51ec1a9e209f5ea0036c8c2f41078a3cebee57d8a47d501041f5e0e66b17576a914c4b8ae927ff2b9ce218e20bf06d425d6b68424fd88ac` , where
 
@@ -128,7 +128,7 @@ The full hex of this output is `6a4c505341542b01045bde60b7d0e6b758ca5dd8c61d377a
 
 [1] Any bytes bigger than or equal to `0x4c` is pushed by using `0x4c` (ie. `OP_PUSHDATA`) followed by the length followed by the data (`byte[80] -> OP_PUSHDATA + 80 + byte[80])`
 
-## Withdrawal Transaction
+### Withdrawal Transaction
 
 [https://mempool.space/tx/dc02ddc54ff82ba561f4d82429338d1df50377fcce0725bc764b9b2562d10832](https://mempool.space/tx/10182ad08fdb0469ab3d91d1bb340c7b0cbd858ad8865f6b6ddf76e3806ba889)
 
@@ -141,7 +141,7 @@ In the input, the redeem script `041f5e0e66b17576a914c4b8ae927ff2b9ce218e20bf06d
 > **Note**
     > Code samples of constructing the staking and withdrawal transactions on Bitcoin network will be provided soon. 
 
-# Role of Relayers
+## Role of Relayers
 
 In a strict sense, the BTC Native Staking process consists of two steps
 
