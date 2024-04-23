@@ -31,47 +31,45 @@ Unlike traditional blockchains that rely solely on a single form of consensus, C
 
 ## Attack Vectors and Security Measures in the Core DAO Ecosystem
 
-The Core DAO employs a robust security architecture to mitigate potential threats, integrating both technological safeguards and economic incentives within the Satoshi Plus consensus mechanism. Here is an expanded view on how these mitigations are achieved for each potential attack vector:
+The Core DAO employs a robust security architecture to mitigate potential threats, integrating both technological safeguards and economic incentives within the Satoshi Plus consensus mechanism. Here is an expanded view on how these mitigations are achieved for each potential attack vector.
 
-### Common Attack Vectors and Mitigation Strategies
-
-* **1. Double Spending Attacks:**
+### Double Spending Attacks
 - **Description:** Double spending involves an attacker attempting to spend the same digital currency twice.
 - **Mitigation Achieved By:**
   - **Integration of PoW and PoS:** Utilizing Bitcoin’s mining network for its PoW component adds significant hashing power, which makes rewriting the blockchain costly and impractical. The PoS component requires validators to have skin in the game, making malicious activities financially damaging to the attacker themselves.
   - **Enhanced Transaction Validation:** Every transaction is validated by both miners and stakers, providing dual layers of verification against inconsistencies or fraud.
 
-* **2. 51% Attacks:**
+### 51% Attacks
 - **Description:** These attacks occur when a single entity gains control of more than half of the network's computational power or staking capacity.
 - **Mitigation Achieved By:**
   - **Decentralized Validator Base:** By requiring validators to be backed by substantial staking and hashing contributions, the system ensures a broad distribution of control, diluting the power any single miner or group might have.
   - **Economic Disincentives:** The cost associated with acquiring sufficient resources to control more than half of both mining and staking aspects of the network makes such attacks economically disadvantageous.
 
-* **3. Sybil Attacks:**
+### Sybil Attacks
 - **Description:** An attacker creates numerous fake identities to gain disproportionate influence over the network.
 - **Mitigation Achieved By:**
   - **Economic Barriers:** Staking and mining requirements introduce significant financial barriers to entry, discouraging the proliferation of false identities as each must be backed by substantial real resources.
   - **Identity Verification via Staking and Mining:** Validators are known entities that must continuously prove their commitment through ongoing mining and staking, ensuring only genuine participants control the network.
 
-* **4. Long-Range Attacks:**
+### Long-Range Attacks
 - **Description:** Attackers attempt to revert the blockchain to a previous state by building an alternative chain from a past point.
 - **Mitigation Achieved By:**
   - **Checkpointing:** Core DAO implements periodic checkpointing where the state of the blockchain at certain intervals is solidified, preventing reversion past these points.
   - **Finality Mechanism:** The blockchain employs mechanisms that confer finality on blocks after a certain number of confirmations, making it impossible to alter the chain’s history beyond these confirmed blocks.
 
-* **5. Economic Incentive Alignment:**
+### Economic Incentive Alignment
 - **Description:** Ensuring all network participants are economically incentivized to act in the network's best interest.
 - **Mitigation Achieved By:**
   - **Reward Distribution:** Miners, stakers, and validators receive rewards that correlate with their contribution to network security, aligning their economic incentives with the overall health and security of the blockchain.
   - **Penalties for Dishonest Behavior:** Validators and miners stand to lose their stakes or future earning potential if found to be acting maliciously, adding a layer of financial deterrence against misconduct.
 
-* **6. Governance Attacks:**
+### Governance Attacks
 - **Description:** These involve exploiting the governance mechanism to pass unfavorable or malicious proposals.
 - **Mitigation Achieved By:**
   - **Broad Consensus Requirements:** Proposals require broad consensus across a diverse set of stakeholders, minimizing the risk that a small, concentrated group can unilaterally affect changes.
   - **Transparent Proposal and Voting Process:** All governance actions are recorded transparently on the blockchain, ensuring traceability and accountability.
 
-* **7. Smart Contract Vulnerabilities:**
+### Smart Contract Vulnerabilities
 - **Description:** Vulnerabilities in smart contract code can be exploited to conduct thefts or manipulate services.
 - **Mitigation Achieved By:**
   - **Code Audits and Security Reviews:** Regular and thorough audits of smart contract code by independent security firms help identify and rectify potential vulnerabilities.

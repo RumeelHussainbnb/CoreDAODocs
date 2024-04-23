@@ -48,11 +48,7 @@ const sidebars = {
                           'Learn/core-concepts/satoshi-plus-consensus/components',
                           'Learn/core-concepts/satoshi-plus-consensus/DPoW',
                           'Learn/core-concepts/satoshi-plus-consensus/DPoS',
-                          {
-                            type: 'doc',
-                            id: 'Node/validator/validator-election', // document ID
-                            label: 'Validator Election', // sidebar label
-                          },
+                          'Learn/core-concepts/satoshi-plus-consensus/validator-election',
                           'Learn/core-concepts/satoshi-plus-consensus/rewards', 
                           'Learn/core-concepts/satoshi-plus-consensus/security',
                           ]
