@@ -5,6 +5,8 @@ sidebar_position: 2
 ---
 
 # Rewards in the Core DAO Ecosystem 
+---
+
 The Core DAO ecosystem is designed to incentivize participation and secure commitment from its community through a well-structured rewards system. This system underpins the Satoshi Plus consensus mechanism, ensuring network security, stakeholder engagement, and alignment of interests among all participants. The rewards system is fundamental in encouraging the community to partake actively in mining, staking, and governance, thereby enhancing the overall health and growth of the ecosystem.
 
 ## Types of Rewards

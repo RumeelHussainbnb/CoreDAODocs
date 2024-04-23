@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Core DAO BTC Native Staking FAQs
+---
 
 ### Why is that the staking address provided differs from your original Bitcoin address?
 The staking address is derived from your wallet's master private key, ensuring your control and security over your assets. Your Bitcoins remain safely stored in your original wallet, unaffected by staking. While staked assets may not be visible in some wallet versions, you still have complete ownership. 

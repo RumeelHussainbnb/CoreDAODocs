@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Quickstart
+---
 
 #### _Access Core's tools and resources_
 

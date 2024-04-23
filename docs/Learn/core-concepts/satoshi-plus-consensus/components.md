@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Satoshi Plus Consensus Mechanism 
+---
 
 The Satoshi Plus consensus mechanism represents a groundbreaking innovation in blockchain technology, specifically engineered for the Core Chain platform to synergistically combine the robust security attributes of Bitcoin with the flexibility and scalability of smart contracts. This hybrid consensus model merges Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS), enabling Bitcoin miners to participate directly in the governance and security of a decentralized smart contract platform without incurring additional costs. By leveraging the established Bitcoin mining infrastructure, Satoshi Plus not only fosters a dual-layered security protocol but also enhances the incentive structures across both ecosystems, ensuring a balanced alignment of interests among all stakeholders involved in Core Chain. 
 
@@ -43,7 +44,7 @@ Validators are central to the functioning of the Satoshi Plus mechanism. They pe
 **How it works:**
 - **Block Production:** Validators are responsible for creating new blocks in the Core Chain blockchain. They aggregate transactions into blocks, execute them, and then append these blocks to the blockchain.
 - **Workflow:** Validators are chosen to produce blocks based on their total delegated stake (from both DPoW and DPoS). The selection process considers the amount of hash power and token stake delegated to them, ensuring that those with higher support from the community have a higher chance of being selected to create blocks.
-    * **Validator Election** - The validator set is determined through election, with validators chosen based on their hybrid score for each round. Any validator in the current validator set which hasn’t been jailed or slashed is considered “_live_”. To ensure a more stable TPS, the live validators are updated every **200** blocks, meaning that if any validators are jailed or slashed, the others can continue mining blocks as usual.
+    * **Validator Election** - The validator set is determined through election, with validators chosen based on their hybrid score for each round. Any validator in the current validator set which hasn’t been jailed or slashed is considered “_live_”. To ensure a more stable TPS, the live validators are updated every **200** blocks, meaning that if any validators are jailed or slashed, the others can continue mining blocks as usual. Core uses its Validator Election mechanism to rank the top 21 validators based on hybrid scores, creating the validator set for a consensus period of **200** slots, known as an epoch. Each slot presents an opportunity for a block to be created and lasts **3** seconds. As such, each epoch lasts **600** seconds, or **10** minutes, and gives a validator up to **10** chances to create a block once accepted for an epoch.
 
     * **Hybrid Score** - Every validator node seeking to become part of the validator set is given a hybrid score, which is calculated based on three factors: the DPoW from Bitcoin miners, the DPoS from CORE holders, and bitcoin holders delegating bitcoin to their preferred validators. The validator set is made up of the **21** validators with the highest hybrid scores.
     

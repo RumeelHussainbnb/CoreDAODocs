@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Overview of Core DAO
+---
 
 ## Introduction
 Core DAO's Core Chain is designed as the first Bitcoin-aligned Ethereum Virtual Machine (EVM) blockchain. It introduces a novel consensus mechanism called Satoshi Plus, enhancing Bitcoin's utility by integrating it into the decentralized finance (DeFi) sector through smart contracts and additional blockchain functionalities.

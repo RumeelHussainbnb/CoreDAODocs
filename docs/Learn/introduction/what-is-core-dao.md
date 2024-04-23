@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Core Chain: Unlocking Bitcoin DeFi
+---
 
 Core DAO's Core Chain is the first Bitcoin-aligned EVM-compatible Layer-1 blockchain, designed to be Bitcoin's complementary and hyper-scalable smart contract platform. With 50% of Bitcoin mining hash power already contributing to its security model and non-custodial Bitcoin staking coming later this year, Core Chain is unlocking Bitcoin both as the prime protector and central asset of the future of DeFi.
 

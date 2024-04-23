@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # BTC Native Staking Transaction Design
+---
 
 ## Background
 

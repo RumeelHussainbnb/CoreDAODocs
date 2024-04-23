@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Delegated Proof of Stake (DPoS) in the Satoshi Plus Consensus Mechanism
+---
 
 ## Overview
 Delegated Proof of Stake (DPoS) is a pivotal component of the Satoshi Plus consensus mechanism employed by Core Chain. This consensus model is designed to complement the robustness of Delegated Proof of Work (DPoW) with a flexible, democratic, and scalable staking system. DPoS not only enhances network security but also promotes community involvement in governance, making it an essential aspect of the blockchain’s operation. 

@@ -5,8 +5,31 @@ sidebar_position: 2
 ---
 
 # Why Core DAO 
+---
 
-Core DAO's Core Chain is a decentralized, secure, and scalable blockchain network backed by Bitcoin’s PoW. Some of the major characteristics that sets it apart from its competitors are as follows:
+Core DAO represents a groundbreaking shift in decentralized governance, merging together the security of Bitcoin with the flexibility of smart contracts to create a truly democratic and scalable ecosystem. Its innovative Satoshi Plus consensus mechanism offers a unique blend of security and participatory governance, inviting a broad spectrum of stakeholders to shape its future. By enabling on-chain and off-chain governance mechanisms, Core DAO is paving a progressive path towards a fully decentralized network. This approach not only safeguards the network but also aligns with the ethos of blockchain technology—decentralization, transparency, and community empowerment. 
+
+
+| Feature                                      | Core DAO       | Babylon        | Stacks         | Rootstock      | Botanix        | Sovereign Rollup |
+|----------------------------------------------|----------------|----------------|----------------|----------------|----------------|------------------|
+| Trustless Bridge                             | ✅             | ❌             | ❌             | ✅             | ❌             | ❌               |
+| Custom Execution Environment                 | ✅             | ✅             | ✅             | ✅             | ✅             | ✅               |
+| Bitcoin-Grade Data Availability              | ✅             | ✅             | ❌             | ❌             | ❌             | ✅               |
+| Bitcoin-Grade Double-Spend Resistance        | ✅             | ❌             | ✅             | ✅             | ❌             | ❌               |
+| Enhanced Security with DPoW and DPoS         | ✅             | ❌             | ❌             | ❌             | ❌             | ❌               |
+| Integrated Mining and Staking Rewards        | ✅             | ✅             | ❌             | ❌             | ❌             | ❌               |
+| Governance by Token Holders                  | ✅             | ❌             | ✅             | Partial        | ❌             | Partial          |
+| Scalable Smart Contract Platform             | ✅             | Partial        | Partial        | ✅             | ❌             | ✅               |
+| Non-Custodial Bitcoin Staking                | ✅             | ✅             | ❌             | ❌             | ❌             | ❌               |
+| Decentralized Validator Set                  | ✅             | ❌             | ❌             | ✅             | ❌             | ✅               |
+| Transparent and Democratic Governance        | ✅             | ❌             | ✅             | Partial        | ❌             | ❌               |
+| Interoperability with Bitcoin Network        | ✅             | ❌             | ✅             | ✅             | Partial        | ❌               |
+| Resistance to Long-Range Attacks             | ✅             | ❌             | ✅             | ✅             | ❌             | ❌               |
+| Incentives for Participation and Governance  | ✅             | ❌             | ❌             | ❌             | ❌             | ❌               |
+| Sustainable Tokenomics and Inflation Control | ✅             | ❌             | ❌             | ❌             | ❌             | ❌               |
+
+
+Core Chain is a decentralized, secure, and scalable blockchain network backed by Bitcoin’s PoW. Some of the major characteristics that sets it apart from its competitors are as follows:
 
 * **Bitcoin-aligned:**  Core Chain is designed to unlock Bitcoin's protection by enabling Bitcoin miners to delegate their security to an EVM-compatible smart contract platform and subsidize Bitcoin mining by providing CORE token rewards to Bitcoin miners that require virtually no added expense or opportunity cost. While Bitcoin serves as the defender of a perfectly scarce, passive monetary asset, Core Chain is designed to be the decentralized rails upon which digital assets gain substantial utility.
 

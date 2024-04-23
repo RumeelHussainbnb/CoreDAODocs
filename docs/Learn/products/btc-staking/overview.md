@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # BTC Native Staking - Unlocking Bitcoin DeFi
+---
 
 Over 1 trillion dollars' worth of BTC has remained idle, yielding no returns for over 10 years. Bitcoin network inherently is not Turing-complete, due to this, to have utility outside the Bitcoin network, the bitcoins have to be wrapped, bridged, or sent to a third-party custody. None of them is secure: they all need trust on a third-party. This is why most of the bitcoins are idle. Securely utilizing them to protect the decentralized economy seems a mission impossible. Previous attempts by other projects to leverage this liquidity have met with limited success. However, with technical advancements on Bitcoin's side and through the innovative and robust ecosystem, Core DAO presents a promising opportunity to unlock the dormant potential of Bitcoin liquidity.
 

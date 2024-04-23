@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Delegated Proof of Work (DPoW) in the Satoshi Plus Consensus Mechanism
+---
 
 ## Overview
 

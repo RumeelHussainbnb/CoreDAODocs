@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Validator Election Process in Core DAO Network
+---
 
 ## Overview
 
@@ -21,6 +22,8 @@ Validators are a crucial part of the Core network. In addition to the fact that 
 * **Efficiency and Scalability**: Competent Validators enhance the network's transaction handling capacity, crucial for performance and scalability.
 
 ## Workflow of the Validator Election Process
+
+<!-- ![election-process](../../../../static/img/staoshi-plus/validator-election.png) -->
 
 The Validator election process in Satoshi Plus involves key steps, supported by specific equations to quantify stake and hash power contributions:
 

@@ -125,14 +125,15 @@ const sidebars = {
                 },
               ]
           },
-          {
-            type: 'category',
-              collapsed: true,
-              label: 'Audits',
-              items: [
-                  'Learn/audit'
-              ]
-          }
+          {type: 'doc', id: 'Learn/audit', label:'Audit'},
+          // {
+          //   type: 'category',
+          //     collapsed: true,
+          //     label: 'Audits',
+          //     items: [
+          //         'Learn/audit'
+          //     ]
+          // }
     ]
     },
   ],

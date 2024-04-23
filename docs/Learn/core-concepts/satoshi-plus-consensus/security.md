@@ -5,6 +5,7 @@ sidebar_position: 2
 ---
 
 # Core Chain's Approach to Security
+---
 
 ## Overview
 Core Chain, as a revolutionary Bitcoin-aligned EVM blockchain, leverages the Satoshi Plus consensus mechanism to ensure an optimal blend of security, decentralization, and scalability. This approach harnesses the intrinsic security features of Bitcoin while enabling robust smart contract functionality and DeFi integration, making it a pioneering platform in the blockchain space.
