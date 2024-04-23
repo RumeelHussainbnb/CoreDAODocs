@@ -1,10 +1,7 @@
 ---
-sidebar_label: Tokenomics
+sidebar_label: CORE Tokenomics and Utility
 hide_table_of_contents: false
 sidebar_position: 2
----
-
-# Tokenomics
 ---
 
 # Core DAO Tokenomics and Utility

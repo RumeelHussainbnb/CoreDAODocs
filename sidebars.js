@@ -61,16 +61,17 @@ const sidebars = {
               collapsed: true,
               label: 'Economics',
               items: [
-                  {
-                    type: 'category',
-                      collapsed: true,
-                      label: 'CORE Token',
-                      items: [
-                        'Learn/economics/core-token/token-utility',
-                        'Learn/economics/core-token/tokenomics',
-                        'Learn/economics/core-token/incentives'
-                      ]
-                  },
+                  // {
+                  //   type: 'category',
+                  //     collapsed: true,
+                  //     label: 'CORE Token',
+                  //     items: [
+                  //       'Learn/economics/core-token/token-utility',
+                  //       'Learn/economics/core-token/tokenomics',
+                  //       'Learn/economics/core-token/incentives'
+                  //     ]
+                  // },
+                  'Learn/economics/core-token/tokenomics-and-utility',
                   'Learn/economics/gas-and-fees',
               ]
           },

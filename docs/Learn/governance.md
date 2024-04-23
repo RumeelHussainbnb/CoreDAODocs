@@ -47,6 +47,6 @@ Until Core achieves its decentralization goals, the Core team has been entrusted
 
 The DAO is set to gradually expand its membership, transitioning governance responsibilities to the community as the network matures.
 
-#### Conclusion
+## Conclusion
 
 The governance framework of Core DAO embodies a phased approach, beginning with offchain governance and advancing through stages towards full onchain governance. By adapting to the evolving needs and maturity of the network, Core DAO aims to foster a strong, decentralized, and active community governance model. This gradual transition ensures that Core Chain can maintain security, stability, and user trust, while progressively enhancing community control and participation in its governance processes.
