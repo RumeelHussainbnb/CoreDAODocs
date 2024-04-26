@@ -40,7 +40,7 @@ CORE tokens serve multiple critical functions within the Core network:
 
 ## Sound Supply and Emissions
 
-Following a strict hard cap of **2.1 billion** tokens, CORE adopts Bitcoin's absolute scarcity principle, providing resistance to inflation. The block rewards for CORE are designed to be distributed over an 81-year period to incentivize network participation sustainably.
+Following a strict hard cap of **2.1 billion** tokens, CORE adopts Bitcoin's absolute scarcity principle, providing resistance to inflation. The block rewards for CORE are designed to be distributed over an **81-year** period to incentivize network participation sustainably.
 
 - **Annual Reward Adjustment:** Each year, block rewards decrease by **3.6%**, extending the emissions schedule and maintaining a deflationary pressure.
 

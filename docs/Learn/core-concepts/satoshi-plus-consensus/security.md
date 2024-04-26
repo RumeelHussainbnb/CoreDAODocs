@@ -21,13 +21,13 @@ Validators are central to maintaining the integrity and security of the Core Cha
 The Satoshi Plus mechanism incentivizes both miners and stakers by providing rewards in CORE tokens, aligning their interests with the network’s longevity and integrity. This economic incentivization helps sustain a robust participation level, crucial for maintaining a secure and decentralized network.
 
 ## Security Protocols and Implementations
-### A. Robust Transaction Validation
+1. **Robust Transaction Validation**
 Core Chain validators are responsible for verifying transactions and creating new blocks. The unique combination of DPoW and DPoS ensures that these validators have sufficient computational and stake-based support to perform their roles effectively, reducing the likelihood of fraudulent activities and ensuring the accuracy of the blockchain ledger.
 
-### B. Network Resilience Against Attacks
+2. **Network Resilience Against Attacks**
 The integration of Bitcoin’s hash power with CORE token staking makes the Core Chain exceptionally resilient against various types of attacks. The high cost of attacking such a hybrid system, combined with distributed consensus achieved through delegated mechanisms, significantly enhances network security.
 
-### C. Upgradability and Flexibility
+3. **Upgradability and Flexibility**
 Unlike traditional blockchains that rely solely on a single form of consensus, Core Chain’s hybrid model allows for adaptability and upgradability. This flexibility ensures that the network can evolve in response to emerging security threats or advancements in blockchain technology.
 
 ## Attack Vectors and Security Measures in the Core DAO Ecosystem

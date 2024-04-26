@@ -98,7 +98,7 @@ const sidebars = {
                     items: [
                       'Learn/products/coreBTC/overview',
                       'Learn/products/coreBTC/design',
-                      'Learn/products/coreBTC/architecture',
+                      // 'Learn/products/coreBTC/architecture',
                       'Learn/products/coreBTC/how-to-guides',
                     ]
                 },
@@ -109,7 +109,7 @@ const sidebars = {
                     items: [
                       'Learn/products/htlc-atomic-swap/overview',
                       'Learn/products/htlc-atomic-swap/design',
-                      'Learn/products/htlc-atomic-swap/architecture',
+                      // 'Learn/products/htlc-atomic-swap/architecture',
                       'Learn/products/htlc-atomic-swap/how-to-guides',
                     ]
                 },
@@ -120,7 +120,7 @@ const sidebars = {
                     items: [
                       'Learn/products/lst-stCore/overview',
                       'Learn/products/lst-stCore/design',
-                      'Learn/products/lst-stCore/architecture',
+                      // 'Learn/products/lst-stCore/architecture',
                       'Learn/products/lst-stCore/how-to-guides',
                     ]
                 },
@@ -149,7 +149,15 @@ const sidebars = {
         collapsed: true,
         label: 'Connecting to Core',
         items: ['Dev-Guide/dev-tools','Dev-Guide/network-config',
-        'Dev-Guide/rpc']
+        {
+          type: 'category',
+          collapsed: true,
+          label: 'RPC Endpoints',
+          link: {type: 'doc', id: 'Dev-Guide/rpc-list'},
+          items: ['Dev-Guide/rpc-cli', 'Dev-Guide/rpc-postman']
+        },
+        // 'Dev-Guide/rpc'
+      ]
       },
       {
         type: 'category',

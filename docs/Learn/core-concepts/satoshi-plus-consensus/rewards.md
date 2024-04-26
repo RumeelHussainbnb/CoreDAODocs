@@ -17,7 +17,7 @@ The reward structure in Core DAO is subject to adjustments based on periodic gov
 
 ![rewards](../../../../static/img/staoshi-plus/rewards.png)
 
-### 1. Mining Reward
+### 1. Mining Rewards
 * **Description:** Mining rewards are provided to Bitcoin miners who contribute their hashing power to secure the Core Chain. This process extends the traditional mining efforts on the Bitcoin blockchain to include support for Core Chain, without requiring miners to divert resources from their Bitcoin mining activities.
 * **Mechanism:** Miners include specific metadata in the Bitcoin blocks they mine, indicating their support for Core Chain. In return for their contribution, miners receive CORE tokens as supplemental rewards, on top of their regular Bitcoin mining rewards.
 
@@ -25,7 +25,7 @@ The reward structure in Core DAO is subject to adjustments based on periodic gov
 * **Description:** Staking rewards are distributed to CORE token holders who stake their tokens with Validators. This staking not only helps secure the network through the Delegated Proof of Stake (DPoS) component of the Satoshi Plus consensus but also enables token holders to participate in network governance.
 * **Mechanism:** Token holders stake their CORE tokens by delegating them to Validators. The rewards are proportional to the amount of CORE staked and the duration of the staking, incentivizing long-term holding and participation in the consensus process.
 
-### 3. Validator Rewards:
+### 3. Validator Rewards
 * **Description:** Validators earn rewards for their role in processing transactions, creating new blocks, and maintaining the blockchain's integrity. These rewards are critical for compensating Validators for their efforts and operational costs.
 * **Mechanism:** Validators receive a combination of transaction fees and new CORE tokens minted through the blockchain's inflation policy. The amount of rewards a Validator receives is proportional to their stake and the delegated hash power from miners. There are two categories of validator rewards:
     1. **Base rewards**, i.e. newly minted CORE tokens;
