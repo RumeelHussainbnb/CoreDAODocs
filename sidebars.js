@@ -191,8 +191,7 @@ const sidebars = {
         items: ['Dev-Guide/bridge-with-layerzero',
           'Dev-Guide/core-bridge-resources', ]
       },
-      'Dev-Guide/core-subgraph', 
-      'Dev-Guide/corescan'
+      'Dev-Guide/core-subgraph',
        ]
     },
   ],
@@ -285,7 +284,12 @@ const sidebars = {
   ],
 
  apiSidebar:[
-  
+    {
+      type: 'category',
+      collapsed: true,
+      label: '🔗 Connect with CORE API',
+      items: ['API/corescan']
+    },
   ],
   // But you can create a sidebar manually
   /*

@@ -123,7 +123,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'learnSidebar',
+            sidebarId: 'apiSidebar',
             position: 'left',
             label: 'Core API',
           },

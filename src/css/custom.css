@@ -32,3 +32,8 @@
 [data-theme='dark'] {
   --ifm-color-primary: #FF962B;
 }
+
+
+.markdown p img {
+  zoom: 85%;
+}
