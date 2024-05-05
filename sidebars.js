@@ -236,14 +236,16 @@ const sidebars = {
       {
         type: 'category',
         collapsed: true,
+        label: 'Running Full Node',
+        items: ['Node/Full-Node/on-testnet', 
+        'Node/Full-Node/on-mainnet']
+      },
+      {
+        type: 'category',
+        collapsed: true,
         label: 'Become a Validator',
         items: ['Node/validator/overview',
-        {
-          type: 'category',
-          collapsed: true,
-          label: 'Running Full Node',
-          items: ['Node/Full-Node/on-testnet', 'Node/Full-Node/on-mainnet']
-        },
+        'Node/validator/running-validator',
         'Node/validator/validator-register', 
         'Node/validator/validator-election',
         'Node/validator/rewards',
