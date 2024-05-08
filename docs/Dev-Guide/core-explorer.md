@@ -8,11 +8,11 @@ sidebar_position: 2
 ---
 Core Explorer is a graphic user interface designed to allow users to interact with the CORE blockchain. Through this interface, a user can browse information about blocks that have been added to the blockchain, transactions that have occurred on the blockchain, wallet balances, and information about tCORE and CORE tokens. Core Network provides explorers for both its mainnet and testnet.
 
-### Explorers for Mainnet
-* https://scan.coredao.org/
-
 ### Explorers for Testnet
 * https://scan.test.btcs.network/
+
+### Explorers for Mainnet
+* https://scan.coredao.org/
 
 ### Using the Explorer
 

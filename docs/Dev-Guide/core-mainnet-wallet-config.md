@@ -4,11 +4,11 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Connect to Core Testnet
+# Connect to Core Mainnet
 ---
 
 :::note
-This is a detailed guideline for connecting to Core Testnet using the Metamask wallet.
+This is a detailed guideline for connecting to Core Mainnet using the Metamask wallet.
 :::
 
 ## Software Prequisites
@@ -16,15 +16,15 @@ This is a detailed guideline for connecting to Core Testnet using the Metamask w
 1. [MetaMask Wallet Browser Extension](https://metamask.io/)
 
 ## MetaMask Wallet Setup
-We recommend using the [MetaMask web wallet](https://metamask.io/) to connect to Core Testnet. You'll need to install MetaMask and set up your account before you can use it to connect to Core Testnet. You can find MetaMask setup instructions here.
+We recommend using the [MetaMask web wallet](https://metamask.io/) to connect to Core Mainnet. You'll need to install MetaMask and set up your account before you can use it to connect to Core Mainnet. You can find MetaMask setup instructions here.
 
-## Adding Core Testnet to MetaMask
-There are multiple ways to add Core Testnet configurations to your Metamask Wallet, we have listed the most trusted and testest ways below.
+## Adding Core Mainnet to MetaMask
+There are multiple ways to add Core Mainnet configurations to your Metamask Wallet, we have listed the most trusted and testest ways below.
 
 ### Adding Network Manually
 1. Click on the network selector button (the downward facing arrow next to the current network). This will display a list of networks to which you’re already connected.
 
-![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-1.webp)
+<img src="https://github.com/RumeelHussainbnb/CoreDAODocs/assets/93580180/591f9fe0-d23d-41e2-94fa-9d125b631d37" alt="mainnet-wallet-config-1" style={{zoom:"50%"}}/>
 
 2. Click ‘Add network’ at the bottom of the network list
 

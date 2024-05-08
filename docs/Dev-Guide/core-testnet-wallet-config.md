@@ -5,7 +5,7 @@ sidebar_position: 2
 ---
 
 # Connect to Core Testnet
-
+---
 :::note
 This is a detailed guideline for connecting to Core Testnet using the Metamask wallet.
 :::

@@ -102,28 +102,28 @@ const sidebars = {
                       'Learn/products/coreBTC/how-to-guides',
                     ]
                 },
-                {
-                  type: 'category',
-                    collapsed: true,
-                    label: 'HTLC Atomic Swap',
-                    items: [
-                      'Learn/products/htlc-atomic-swap/overview',
-                      'Learn/products/htlc-atomic-swap/design',
-                      // 'Learn/products/htlc-atomic-swap/architecture',
-                      'Learn/products/htlc-atomic-swap/how-to-guides',
-                    ]
-                },
-                {
-                  type: 'category',
-                    collapsed: true,
-                    label: 'Liquid Staking stCore',
-                    items: [
-                      'Learn/products/lst-stCore/overview',
-                      'Learn/products/lst-stCore/design',
-                      // 'Learn/products/lst-stCore/architecture',
-                      'Learn/products/lst-stCore/how-to-guides',
-                    ]
-                },
+                // {
+                //   type: 'category',
+                //     collapsed: true,
+                //     label: 'HTLC Atomic Swap',
+                //     items: [
+                //       'Learn/products/htlc-atomic-swap/overview',
+                //       'Learn/products/htlc-atomic-swap/design',
+                //       // 'Learn/products/htlc-atomic-swap/architecture',
+                //       'Learn/products/htlc-atomic-swap/how-to-guides',
+                //     ]
+                // },
+                // {
+                //   type: 'category',
+                //     collapsed: true,
+                //     label: 'Liquid Staking stCore',
+                //     items: [
+                //       'Learn/products/lst-stCore/overview',
+                //       'Learn/products/lst-stCore/design',
+                //       // 'Learn/products/lst-stCore/architecture',
+                //       'Learn/products/lst-stCore/how-to-guides',
+                //     ]
+                // },
               ]
           },
           {type: 'doc', id: 'Learn/audit', label:'Audit'},
@@ -210,8 +210,10 @@ const sidebars = {
       label: '❔ FAQs',
       items: ['FAQs/core-faqs', 'FAQs/validator-faqs',
               'FAQs/delegator-faqs', 'FAQs/btc-staking-faqs',
-              'FAQs/coreBTC-faqs','FAQs/htlc-atomic-swap-faqs',
-              'FAQs/LST-stCore-faqs', 'FAQs/core-api-faqs']
+              'FAQs/coreBTC-faqs',
+              // 'FAQs/htlc-atomic-swap-faqs',
+              // 'FAQs/LST-stCore-faqs', 
+              'FAQs/core-api-faqs' ]
     },
   ],
   nodeSidebar:[ 

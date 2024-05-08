@@ -5,7 +5,7 @@ sidebar_position: 2
 ---
 
 # Core Testnet Faucet 
-
+---
 
 To help users get started and allow developers to quickly prototype their dApps, Core has released the public [Core Testnet Faucet](https://scan.test.btcs.network/faucet) to distribute Core testnet tokens, **tCORE**. 
 

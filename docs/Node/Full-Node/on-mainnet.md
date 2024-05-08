@@ -49,7 +49,7 @@ For full nodes on **Core mainnet**, we recommend the following minimal hardware 
 |----------------|---------------------------------------------------------------------------------------------------------|
 | Storage        | 1 TB of free disk space                                                                                 |
 | CPU            | 4 CPU cores                                                                                             |
-| RAM            | 32 gigabytes                                                                                             |
+| RAM            | 32 gigabytes                                                                                            |
 | Internet Speed | A broadband Internet connection with upload/download speeds of 5 megabytes per second.                  |
 
 
