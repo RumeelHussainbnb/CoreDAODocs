@@ -7,9 +7,10 @@ sidebar_position: 2
 # Core Chain: Unlocking Bitcoin DeFi
 ---
 
-Core DAO's Core Chain is the first Bitcoin-aligned EVM-compatible Layer-1 blockchain, designed to be Bitcoin's complementary and hyper-scalable smart contract platform. With 50% of Bitcoin mining hash power already contributing to its security model and non-custodial Bitcoin staking, Core Chain is unlocking Bitcoin both as the prime protector and central asset of the future of DeFi.
+Core DAO's Core Chain is the first Bitcoin-aligned EVM-compatible Layer-1 blockchain, designed to be Bitcoin's complementary and hyper-scalable smart contract platform. With **50%** of Bitcoin mining hash power already contributing to its security model and through the ground-breaking innovation of Non-Custodial Bitcoin staking, Core Chain is unlocking Bitcoin both as the prime protector and central asset of the future of DeFi.
 
-Core DAO's major innovation is it's novel consensus mechanism, Satoshi Plus, that unites Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). Through this combination, Core DAO incorporates Bitcoin miners in the security of Turing-complete smart contracts, unlocks the functionality and utility of those miners beyond the simple maintenance of the Bitcoin ledger, and provides them with purely additive supplemental income in the form of CORE token rewards. This symbiotic relationship works to strengthen Bitcoin without consuming Bitcoin block space or detracting from the miners' primary role as defenders of the Bitcoin network. While DPoW leverages Bitcoin miners, through the DPoS, Core leverages the CORE holders and the 
+Core DAO's major innovation is it's novel consensus mechanism, Satoshi Plus, that unites Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). Through this combination, Core DAO incorporates Bitcoin miners in the security of Turing-complete smart contracts, unlocks the functionality and utility of those miners beyond the simple maintenance of the Bitcoin ledger, and provides them with purely additive supplemental income in the form of CORE token rewards. This symbiotic relationship works to strengthen Bitcoin without consuming Bitcoin block space or detracting from the miners' primary role as defenders of the Bitcoin network. While DPoW leverages Bitcoin miners, through the DPoS, Core leverages both the CORE and BTC holders that stake their assets onto the Core blockchain and influence the network’s consensus by delegating their staked assets to the validators on the Core network.
+
 
 ## Key Features of Core DAO
 
