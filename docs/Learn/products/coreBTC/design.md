@@ -30,6 +30,11 @@ The coreBTC within Core DAO represents a significant innovation in the realm of 
    - **Role:** In the event of price fluctuations or Locker misbehavior, Liquidators are responsible for ensuring the safety and backing of the coreBTC by enforcing collateral requirements.
    - **Function:** Liquidators can force the liquidation of a Locker's collateral if the value of the locked Bitcoin falls or if the Locker fails to maintain the required collateral ratio. This helps maintain the integrity and backing of the coreBTC.
 
+**5. Guardians: **
+   - **Role:** The activity of Lockers is monitored by Guardians, who check for any misbehavior and apply slashing as appropriate.
+   - **Function:** A Guardian can trigger Core Chain smart contract to slash some of the Locker’s collateral. In this event, a portion of the Locker's collateral, equivalent to the value of the user's burned coreBTC, is transferred to the user. Additionally, the slasher is rewarded with a percentage of this collateral value for their action.
+
+
 ## How coreBTC Works
 
 coreBTC is an innovative synthetic asset developed within the Core DAO ecosystem that allows Bitcoin to be used seamlessly in decentralized finance (DeFi) applications on the Core Chain. The process begins when a user locks their Bitcoin with a designated custodian known as a **Locker**, who holds the actual Bitcoin and provides a significant amount of collateral to secure the transaction. This Bitcoin is then represented on the Core Chain as coreBTC, maintaining a strict **1:1 peg** to ensure value consistency between the locked Bitcoin and the issued coreBTC.
