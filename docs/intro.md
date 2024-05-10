@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 🔶 Core DAO - Decentralized applications secured by Bitcoin
+# Core DAO - Decentralized applications secured by Bitcoin
 
 ![core-header](../static/img/core-header.png)
 

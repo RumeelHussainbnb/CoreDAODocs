@@ -7,18 +7,19 @@ sidebar_position: 2
 # Core Chain: Unlocking Bitcoin DeFi
 ---
 
-Core DAO's Core Chain is the first Bitcoin-aligned EVM-compatible Layer-1 blockchain, designed to be Bitcoin's complementary and hyper-scalable smart contract platform. With 50% of Bitcoin mining hash power already contributing to its security model and non-custodial Bitcoin staking coming later this year, Core Chain is unlocking Bitcoin both as the prime protector and central asset of the future of DeFi.
+Core DAO's Core Chain is the first Bitcoin-aligned EVM-compatible Layer-1 blockchain, designed to be Bitcoin's complementary and hyper-scalable smart contract platform. With 50% of Bitcoin mining hash power already contributing to its security model and non-custodial Bitcoin staking, Core Chain is unlocking Bitcoin both as the prime protector and central asset of the future of DeFi.
 
-Core DAO's major innovation is it's novel consensus mechanism, Satoshi Plus, that unites Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). Through this combination, Core DAO incorporates Bitcoin miners in the security of Turing-complete smart contracts, unlocks the functionality and utility of those miners beyond the simple maintenance of the Bitcoin ledger, and provides them with purely additive supplemental income in the form of CORE token rewards. This symbiotic relationship works to strengthen Bitcoin without consuming Bitcoin block space or detracting from the miners' primary role as defenders of the Bitcoin network.
+Core DAO's major innovation is it's novel consensus mechanism, Satoshi Plus, that unites Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). Through this combination, Core DAO incorporates Bitcoin miners in the security of Turing-complete smart contracts, unlocks the functionality and utility of those miners beyond the simple maintenance of the Bitcoin ledger, and provides them with purely additive supplemental income in the form of CORE token rewards. This symbiotic relationship works to strengthen Bitcoin without consuming Bitcoin block space or detracting from the miners' primary role as defenders of the Bitcoin network. While DPoW leverages Bitcoin miners, through the DPoS, Core leverages the CORE holders and the 
 
 ## Key Features of Core DAO
 
-There are four key features of Core Chain that distinguishes it from its competitors:
+Some of the key features of Core Chain that distinguishes it from its competitors:
 
 * **Satoshi Plus Consensus Mechanism:** the novel consensus mechanism, which is a hybrid of Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS).
 * **Core DAO:** the DAO that manages on-chain governance.
 * **EVM Execution Layer:** Core Chain adaptes Ethereum Virtual Machine (EVM) for smart contract execution making it EVM-compatible, similar to [BNB Smart Chain's implementation](https://github.com/bnb-chain/bsc) of Geth.
 * **coreBTC:** the enshrined Core-native bridged BTC.
+* **Non-custodial BTC Staking:**
 
 ## Problems Addressed by Core DAO
 

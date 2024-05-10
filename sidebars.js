@@ -87,8 +87,16 @@ const sidebars = {
                     items: [
                       'Learn/products/btc-staking/overview',
                       'Learn/products/btc-staking/design',
-                      //'Learn/products/btc-staking/faqs-btc-staking',
-                      'Learn/products/btc-staking/how-to-guides',
+                      {
+                        type: 'category',
+                          collapsed: true,
+                          label: 'How To Guides',
+                          items: [
+                            'Learn/products/btc-staking/stake-btc-guide',
+                            'Learn/products/btc-staking/Redeeming-Guide',
+                          ]
+                      },
+                      
                     ]
                 },
                 {
@@ -168,12 +176,12 @@ const sidebars = {
       },
       'Dev-Guide/precompile-addresses',
       'Dev-Guide/core-explorer', 
-      {
-        type: 'category',
-        collapsed: true,
-        label: 'Token Swapping',
-        items: ['Dev-Guide/token-swapping']
-      },
+      // {
+      //   type: 'category',
+      //   collapsed: true,
+      //   label: 'Token Swapping',
+      //   items: ['Dev-Guide/token-swapping']
+      // },
       {
         type: 'category',
         collapsed: true,
@@ -207,7 +215,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: '❔ FAQs',
+      label: '🤔 FAQs',
       items: ['FAQs/core-faqs', 'FAQs/validator-faqs',
               'FAQs/delegator-faqs', 'FAQs/btc-staking-faqs',
               'FAQs/coreBTC-faqs',
@@ -220,7 +228,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: '🚀 Running Core Nodes',
+      label: '🔮 Running Core Nodes',
       items: ['Node/overview',    
       {
         type: 'category',
