@@ -31,6 +31,25 @@ Once you've set up your MetaMask wallet, you can use it to connect to Core Testn
 
 ![add-network-metamask](../../static/img/testnet-wallet-config/testnet-config-wallet-1.png)
 
+#### Adding the Core network via Chainlist.org
+1. Go to chainlist.org and search for ‘_core blockchain_’, make sure to check the _Include Testnets_ option.
+
+![chainlist-testnet-connect-metmask](../../static/img/testnet-wallet-config/chainlist-testnet-connect-1.png)
+
+2. Double check to make sure to choose the right network. Please check the details in the below snapshots — Chain ID, Currency etc. to ensure you will add the correct one.
+
+![chainlist-testnet-connect-metmask](../../static/img/testnet-wallet-config/chainlist-testnet-connect-2.png)
+
+3. Click on _Connect Wallet_ and then choose Metamask. Allow to connect to Metamask wallet by confirming the Metamask notifications.
+
+![chainlist-testnet-connect-metmask](../../static/img/testnet-wallet-config/chainlist-testnet-connect-3.png)
+
+4. Switch to the Core testnet by clicking the _‘Switch Network’_ button.
+
+![chainlist-testnet-connect-metmask](../../static/img/testnet-wallet-config/chainlist-testnet-connect-4.png)
+
+The Core Testnet is now added to your MetaMask.
+
 #### Adding Network via Core Testnet Explorer
 If you using the Chrome MetaMask extension, you can use a quick shortcut to add Core Testnet to Metamask. Visit [Core Testnet Explorer](https://scan.test.btcs.network/), scroll down to the bottom, and select the `Add Core Network` button. This will open a pop-up with all necessary network information loaded - you just need to confirm and approve.
 

@@ -30,9 +30,8 @@ const sidebars = {
                     {
                       type: 'link',
                       label: 'Whitepaper', 
-                      href: 'https://github.com/coredao-org/whitepaper', 
+                      href: 'https://docs.coredao.org/core-white-paper-v1.0.7', 
                     },
-
                   ]
           },
           {

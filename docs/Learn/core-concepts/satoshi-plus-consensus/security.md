@@ -12,20 +12,20 @@ Core Chain, as a revolutionary Bitcoin-aligned EVM blockchain, leverages the Sat
 
 ## Security Components
 ### 1. Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS)
-Core Chain incorporates these two powerful mechanisms to form a balanced and secure blockchain environment. The DPoW extends the proven security model of Bitcoin by allowing miners to delegate hashing power to Core Chain, thereby benefiting from Bitcoin’s immense hash rate and security pedigree. On the other hand, DPoS enables token holders to stake their CORE tokens with Validators, promoting a decentralized network governance and additional security layers.
+Core Chain incorporates these two powerful mechanisms to form a balanced and secure blockchain environment. The DPoW extends the proven security model of Bitcoin by allowing miners to delegate hashing power to Core Chain, thereby benefiting from Bitcoin’s immense hash rate and security pedigree. On the other hand, DPoS enables both BTC and CORE token holders to stake their assets with validators on the Core network, promoting a decentralized network governance and additional security layers.
 
 ### 2. Validator Security
-Validators are central to maintaining the integrity and security of the Core Chain. They are selected based on the combined weight of staked tokens and delegated hash power, ensuring that only the most supported and trusted nodes handle the consensus process. This dual support system mitigates the risk of centralization and security breaches.
+Validators are central to maintaining the integrity and security of the Core Chain. They are selected based on the combined weight of staked tokens (CORE and BTC) and delegated hash power, ensuring that only the most supported and trusted nodes handle the consensus process. This dual support system mitigates the risk of centralization and security breaches.
 
 ### 3. Security Through Incentivization
-The Satoshi Plus mechanism incentivizes both miners and stakers by providing rewards in CORE tokens, aligning their interests with the network’s longevity and integrity. This economic incentivization helps sustain a robust participation level, crucial for maintaining a secure and decentralized network.
+The Satoshi Plus mechanism incentivizes both miners and stakers (CORE and BTC) by providing rewards in CORE tokens, aligning their interests with the network’s longevity and integrity. This economic incentivization helps sustain a robust participation level, crucial for maintaining a secure and decentralized network.
 
 ## Security Protocols and Implementations
 1. **Robust Transaction Validation**
 Core Chain validators are responsible for verifying transactions and creating new blocks. The unique combination of DPoW and DPoS ensures that these validators have sufficient computational and stake-based support to perform their roles effectively, reducing the likelihood of fraudulent activities and ensuring the accuracy of the blockchain ledger.
 
 2. **Network Resilience Against Attacks**
-The integration of Bitcoin’s hash power with CORE token staking makes the Core Chain exceptionally resilient against various types of attacks. The high cost of attacking such a hybrid system, combined with distributed consensus achieved through delegated mechanisms, significantly enhances network security.
+The integration of Bitcoin’s hash power with CORE and BTC staking makes the Core Chain exceptionally resilient against various types of attacks. The high cost of attacking such a hybrid system, combined with distributed consensus achieved through delegated mechanisms, significantly enhances network security.
 
 3. **Upgradability and Flexibility**
 Unlike traditional blockchains that rely solely on a single form of consensus, Core Chain’s hybrid model allows for adaptability and upgradability. This flexibility ensures that the network can evolve in response to emerging security threats or advancements in blockchain technology.

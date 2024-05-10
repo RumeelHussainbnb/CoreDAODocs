@@ -35,7 +35,7 @@ To bootstrap the network, nodes are rewarded for securing the chain. These rewar
 CORE tokens serve multiple critical functions within the Core network:
 
 - **Transaction Fees:** Users pay for transactions and smart contract executions using CORE tokens.
-- **Staking:** CORE tokens can be staked on the network, securing it further and enabling stakers to earn rewards.
+- **Staking:** Core allows to stake both BTC and CORE tokens on the Core network, securing it further and enabling stakers to earn rewards.
 - **Governance Participation:** Token holders can participate in on-chain governance, shaping the future of the Core network.
 
 ## Sound Supply and Emissions
@@ -63,6 +63,8 @@ In addition to the hard cap, Core DAO introduces a deflationary mechanism:
 ## Incentive for Bitcoin Network Participants
 
 - **Supplemental Income for Miners:** With the eventual end of Bitcoin block rewards, CORE tokens offer an alternative revenue stream for miners who become validators on the Core network. By delegating their existing hash power, they receive rewards from both Bitcoin transactions and CORE token rewards, ensuring the continued security and viability of the Bitcoin mining ecosystem.
+
+- **Reward for HODLing BTC:** Core offer non-custodial BTC staking which is designed specifically for the kind of long-term holders and institutions who have shown a clear preference for keeping their assets on the Bitcoin blockchain. Recognizing that such entities are accustomed to holding their bitcoin without frequent transactions, native bitcoin staking offers them the opportunity to earn rewards during a specified holding period. Users can stake their bitcoin without moving it off the Bitcoin blockchain, thereby maintaining the high security and trust that comes with Bitcoin's robust infrastructure.
 
 ## Conclusion
 

@@ -20,7 +20,7 @@ Some of the key features of Core Chain that distinguishes it from its competitor
 * **Core DAO:** the DAO that manages on-chain governance.
 * **EVM Execution Layer:** Core Chain adaptes Ethereum Virtual Machine (EVM) for smart contract execution making it EVM-compatible, similar to [BNB Smart Chain's implementation](https://github.com/bnb-chain/bsc) of Geth.
 * **coreBTC:** the enshrined Core-native bridged BTC.
-* **Non-custodial BTC Staking:**
+* **Non-custodial BTC Staking:** Core offers BTC holders to stake their assets onto the Core blockchain in a trustless and secure manner without having to give up custody of their assets. This innovative feature integrates Bitcoin into Core DAO's DeFi activities, enhancing liquidity and enabling Bitcoin users to earn staking rewards in the form of CORE tokens within the Core ecosystem.
 
 ## Problems Addressed by Core DAO
 
@@ -33,5 +33,7 @@ Core DAO addresses several key problems and issues in the blockchain space throu
 * **Ecosystem Roles and Participation:** Core DAO has designed a system where various participants play significant roles, including validators, relayers, BTC miners, CORE holders, and verifiers. This ecosystem aims to ensure network security, promote decentralization, and encourage community participation in governance and network activities​.
 
 * **Tokenomics and Incentive Structure:** CORE, the native utility token, is used for staking and paying gas fees. With a total supply of **2.1 billion** tokens, Core DAO plans to distribute these over **81 years**, aligning with its long-term vision. The project also includes mechanisms for burning a percentage of block rewards and gas fees to manage token supply dynamically​.
+
+* **Passive Income:** Core furnishes an opportunity for BTC holders to earn passive income in the form of CORE tokens earned as rewards in exchange for staking their BTC onto Core chain and delegating these to valdiators on the Core network, indirectly contributing to Core Chain’s consensus mechanism and security.
 
 * **Comparison with Other Blockchains:** Core DAO positions itself as an improvement over existing blockchains like Bitcoin, Ethereum, Solana, Polygon, and BNB Chain. By addressing issues such as low transaction throughput, centralization risks, and network stability, Core DAO aims to offer a more scalable, decentralized, and secure alternative​.

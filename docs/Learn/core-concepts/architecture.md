@@ -27,6 +27,7 @@ Core Chain introduces a novel consensus mechanism known as Satoshi Plus, a hybri
 
 #### Delegated Proof of Stake
 - CORE token holders can stake their tokens with Core Validators, participating directly in the blockchain’s security and governance.
+- BTC holders can stake their BTC on the Core network through non-custodial BTC staking and then delegate these to any Core Validators, participating directly in the blockchain’s security and governance.
 - Stakers receive CORE token rewards, aligning their interests with the overall health and security of the network.
 
 #### Major Components and Roles 
@@ -44,13 +45,16 @@ Core Chain introduces a novel consensus mechanism known as Satoshi Plus, a hybri
 **4. CORE Holders:**
    - **Role**: CORE holders can stake their tokens by delegating them to validators, participating in securing the network and influencing the validator election process.
 
-**5. Verifiers:**
+**5. BTC Holders:**
+   - **Role**: BTC holders can stake thier BTC onto the Core network and then delegate thier staked BTC to a Core validator of their choice and earn CORE tokens as rewards in exchange of their staked BTC. In this way, BTC holders can participate in securing the network and influencing the validator election process.
+
+**6. Verifiers:**
    - **Role**: Verifiers are responsible for identifying and reporting malicious behaviors within the network. They play a vital role in the security mechanisms of the Core DAO ecosystem.
 
 #### Workflows and Processes
 
 **1. Staking and Governance Module:**
-   - CORE holders can delegate or stake their tokens to validators, participating in network security and governance decisions, like updates to consensus parameters or protocol upgrades.
+   - CORE and BTC holders can delegate or stake their tokens to validators, participating in network security and governance decisions, like updates to consensus parameters or protocol upgrades.
 
 **2. Block Production and Round Robin:**
    - Validators take turns producing blocks in a round-robin manner. Each round is divided into slots, with a length currently set to **3 seconds**.
@@ -65,7 +69,7 @@ Core Chain introduces a novel consensus mechanism known as Satoshi Plus, a hybri
    - Validators and relayers must act honestly to avoid penalties. Malicious behaviors reported by verifiers can lead to slashing of stakes or jailing, where validators are temporarily removed from the consensus process.
 
 **6. Hybrid Score Calculation:**
-   - This is the protocol function used in validator election calculations, incorporating the delegated BTC hash power and CORE tokens to produce a score determining the validators' ranks.
+   - This is the protocol function used in validator election calculations, incorporating the delegated BTC hash power, BTC and CORE tokens to produce a score determining the validators' ranks.
 
 
 ## Core Chain Infrastructure

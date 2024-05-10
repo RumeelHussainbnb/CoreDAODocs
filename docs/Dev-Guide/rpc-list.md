@@ -15,12 +15,13 @@ Remote Procedure Call (RPC) endpoints are crucial for developers and application
 * https://rpc.test.btcs.network
 
 ### CORE Mainnet (1116 (0x45c))
-* wss://core.drpc.org
+* ws://ws.coredao.org
 * https://rpc.coredao.org 
-* https://core.public.infstones.com 
 * https://core.drpc.org
+* https://rpcar.coredao.org (For Archive Node)
 
 ### Third Party RPC Enpoints for CORE Mainnet
 * **Ankr:** https://rpc.ankr.com/core 
 * **1RPC:** https://1rpc.io/core 
+* **INFSTONES:** https://core.public.infstones.com 
 * **IceCreamSwap:** https://rpc-core.icecreamswap.com

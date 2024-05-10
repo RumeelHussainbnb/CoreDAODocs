@@ -49,7 +49,7 @@ Opting for coreBTC offers several compelling benefits, making it an attractive c
 
 - **Trustless Transactions:** coreBTC maintains a trustless environment where users don’t have to trust a single entity with their Bitcoin; instead, the security is distributed among multiple parties (Lockers and Relayers), each bound by economic incentives to act honestly.
 
-- **Direct Participation in Governance:** Holding coreBTC enables users to participate in the governance of the Core DAO, influencing decisions regarding the platform's development and the use of community funds.
+<!-- - **Direct Participation in Governance:** Holding coreBTC enables users to participate in the governance of the Core DAO, influencing decisions regarding the platform's development and the use of community funds. -->
 
 - **No Custody Risk:** Users retain full control over their Bitcoin until they decide to lock it up for coreBTC, reducing the custody risk typically associated with handing over assets to a third party.
 
