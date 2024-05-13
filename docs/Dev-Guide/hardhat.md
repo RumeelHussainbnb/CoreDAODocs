@@ -2,6 +2,7 @@
 sidebar_label: Using Hardhat
 hide_table_of_contents: false
 sidebar_position: 2
+description: Deploy Contracts on Core Chain using the Hardhat
 ---
 
 # Using Hardhat
@@ -9,7 +10,7 @@ sidebar_position: 2
 
 Hardhat is a popular development environment for EVM-compatible blockchains, consisting of multiple components for writing, compiling, debugging, and deploying smart contracts.
 
-For more information about the topics covered in this tutorial, check out the [HardHat Tutorial](https://github.com/coredao-org/hardhat-tutorial) repository.
+In this tutorial, learn how to compile, deploy and call smart contracts on Core TestNet using HardHatcheck. Obtain codebase for this tutorial from [here](https://github.com/coredao-org/hardhat-tutorial).
 
 ## Installation
 

@@ -2,6 +2,7 @@
 sidebar_label: Overview
 hide_table_of_contents: false
 sidebar_position: 2
+description: Get an Overview of Core DAO - its Purpose, Mission, & Future Vision
 ---
 
 # Overview of Core DAO

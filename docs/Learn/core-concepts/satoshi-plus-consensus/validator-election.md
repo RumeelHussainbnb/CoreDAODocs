@@ -2,6 +2,7 @@
 sidebar_label: Validator Election
 hide_table_of_contents: false
 sidebar_position: 2
+description: Learn about Validator Election Process
 ---
 
 # Validator Election Process in Core DAO Network

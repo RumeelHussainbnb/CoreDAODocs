@@ -2,6 +2,7 @@
 sidebar_label: Delegated Proof of Stake
 hide_table_of_contents: false
 sidebar_position: 2
+description: Leveraging DPoS in Satoshi Plus
 ---
 
 # Delegated Proof of Stake (DPoS) in the Satoshi Plus Consensus Mechanism

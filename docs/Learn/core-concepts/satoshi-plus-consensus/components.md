@@ -2,6 +2,7 @@
 sidebar_label: Major Components
 hide_table_of_contents: false
 sidebar_position: 2
+description: Learn about the major components of the Satoshi Plus Mechanism
 ---
 
 # Satoshi Plus Consensus Mechanism 

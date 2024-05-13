@@ -9,25 +9,7 @@ sidebar_position: 2
 
 Core DAO represents a groundbreaking shift in decentralized governance, merging together the security of Bitcoin with the flexibility of smart contracts to create a truly democratic and scalable ecosystem. Its innovative Satoshi Plus consensus mechanism offers a unique blend of security and participatory governance, inviting a broad spectrum of stakeholders to shape its future. By enabling on-chain and off-chain governance mechanisms, Core DAO is paving a progressive path towards a fully decentralized network. This approach not only safeguards the network but also aligns with the ethos of blockchain technology—decentralization, transparency, and community empowerment. 
 
-
-| Feature                                      | Core DAO       | Babylon        | Stacks         | Rootstock      | Botanix        | Sovereign Rollup |
-|----------------------------------------------|----------------|----------------|----------------|----------------|----------------|------------------|
-| Trustless Bridge                             | ✅             | ❌             | ❌             | ✅             | ❌             | ❌               |
-| Custom Execution Environment                 | ✅             | ✅             | ✅             | ✅             | ✅             | ✅               |
-| Bitcoin-Grade Data Availability              | ✅             | ✅             | ❌             | ❌             | ❌             | ✅               |
-| Bitcoin-Grade Double-Spend Resistance        | ✅             | ❌             | ✅             | ✅             | ❌             | ❌               |
-| Enhanced Security with DPoW and DPoS         | ✅             | ❌             | ❌             | ❌             | ❌             | ❌               |
-| Integrated Mining and Staking Rewards        | ✅             | ✅             | ❌             | ❌             | ❌             | ❌               |
-| Governance by Token Holders                  | ✅             | ❌             | ✅             | Partial        | ❌             | Partial          |
-| Scalable Smart Contract Platform             | ✅             | Partial        | Partial        | ✅             | ❌             | ✅               |
-| Non-Custodial Bitcoin Staking                | ✅             | ✅             | ❌             | ❌             | ❌             | ❌               |
-| Decentralized Validator Set                  | ✅             | ❌             | ❌             | ✅             | ❌             | ✅               |
-| Transparent and Democratic Governance        | ✅             | ❌             | ✅             | Partial        | ❌             | ❌               |
-| Interoperability with Bitcoin Network        | ✅             | ❌             | ✅             | ✅             | Partial        | ❌               |
-| Resistance to Long-Range Attacks             | ✅             | ❌             | ✅             | ✅             | ❌             | ❌               |
-| Incentives for Participation and Governance  | ✅             | ❌             | ❌             | ❌             | ❌             | ❌               |
-| Sustainable Tokenomics and Inflation Control | ✅             | ❌             | ❌             | ❌             | ❌             | ❌               |
-
+![why-core-dao-infrographics](../../../static/img/Infographic.png)
 
 Core Chain is a decentralized, secure, and scalable blockchain network backed by Bitcoin’s PoW. Some of the major characteristics that sets it apart from its competitors are as follows:
 

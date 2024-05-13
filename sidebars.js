@@ -38,6 +38,12 @@ const sidebars = {
             type: 'category',
             collapsed: true,
             label: 'Core Concepts',
+            link: {
+              type: 'generated-index',
+              title: 'Core Concepts',
+              description: 'Learn about the Nuts and Bolts of the Core DAO Ecossytem!',
+              slug: '/category/core-concepts',
+            },
             items: ['Learn/core-concepts/overview', 'Learn/core-concepts/architecture',
                       {
                         type: 'category',
@@ -78,6 +84,12 @@ const sidebars = {
             type: 'category',
               collapsed: true,
               label: 'Products',
+              link: {
+                type: 'generated-index',
+                title: 'Exploring Core DAO: Pioneering DeFi Solutions for Bitcoin',
+                description: 'Learn about the different innovative products offered by Core DAO that are helping in unclocking the DeFi landscape for Bitcoin!',
+                slug: '/category/products',
+              },
               items: [
                 {
                   type: 'category',
@@ -185,6 +197,12 @@ const sidebars = {
         type: 'category',
         collapsed: true,
         label: 'Developer Guides',
+        link: {
+          type: 'generated-index',
+          title: 'Developer Guides: Mastering Core DAO Essentials',
+          description: 'Unlock Your Potential: Detailed Developer Guides for Building on Core Chain',
+          slug: '/category/dev-guides',
+        },
         items: ['Dev-Guide/remix', 'Dev-Guide/hardhat', 
         'Dev-Guide/erc20-tokens', 
         'Dev-Guide/erc721-tokens',

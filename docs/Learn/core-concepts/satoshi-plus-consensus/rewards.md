@@ -2,6 +2,7 @@
 sidebar_label: Rewards
 hide_table_of_contents: false
 sidebar_position: 2
+description: Rewards in the Core Ecosystem
 ---
 
 # Rewards in the Core DAO Ecosystem 

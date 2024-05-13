@@ -2,6 +2,7 @@
 sidebar_label: Security
 hide_table_of_contents: false
 sidebar_position: 2
+description: Learn about the Security Model of Core DAO
 ---
 
 # Core Chain's Approach to Security
