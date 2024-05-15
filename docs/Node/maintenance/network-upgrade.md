@@ -44,7 +44,7 @@ $ kill  $pid
 
 ### Step 3: Restart
 :::note
-Make sure to use the same start-up command you used before the upgrade. So in this case we use the same command as in our [tutorial](fullnode.md) 
+Make sure to use the same start-up command you used before the upgrade. 
 :::
 
 ```bash
