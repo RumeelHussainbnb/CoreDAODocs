@@ -17,17 +17,17 @@ Delegators can use Core's staking website to manage their positions:
 | ---------------------------------------------------- | ---------------------------------------------------------- |
 | [Mainnet staking website](https://stake.coredao.org) | [Testnet staking website](https://stake.test.btcs.network) |
 
-Validator information is listed on the staking site, with all validators ranked by their current hybrid score, as shown below. Explanations for key terms are available for each column header on the staking site, viewable by clicking on the i symbol next to the column header.
+Validator information is listed on the staking site, with all validators ranked by their current hybrid score, as shown below. Explanations for key terms are available for each column header on the staking site, viewable by clicking on the `i` symbol next to the column header.
 
 ![delegate-core](../../static/img/delegate/delegate-core/delegate-core-1.avif)
 
-At the start of each round, Satoshi Plus consensus selects the Validators by their hybrid scores. The nodes are ranked in descending order of this score, with the top 21 nodes selected to form the active Validator set for the current round. Hybrid scores are calculated using the following formula:
+At the start of each round, Satoshi Plus consensus selects the Validators by their hybrid scores. The nodes are ranked in descending order of this score, with the top **21** nodes selected to form the active Validator set for the current round. Hybrid scores are calculated using the following formula:
 
 `S = hash_percentage * m + coin_percentage * (1 - m)`
 
-Where `m` is a dynamic weighting factor initially set to 2/3.
+Where `m` is a dynamic weighting factor initially set to **2/3**.
 
-Validator information is refreshed daily at 00:00 UTC at the beginning of each round.
+Validator information is refreshed daily at **00:00 UTC** at the beginning of each round.
 
 ## Delegation
 

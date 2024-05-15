@@ -6,6 +6,7 @@ sidebar_position: 2
 
 # Precompiles & Deployment Addresses
 ---
+
 Following is a list of precompiled addresses of Core DAO ecosystem.
 
 | **Name**                              | **Address**                                                                  |

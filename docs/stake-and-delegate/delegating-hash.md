@@ -54,7 +54,7 @@ By adding the constant prefix to our example Delegate Information, we get a comp
 Simply include this byte string as a new output of the Bitcoin coinbase transaction to delegate your hash power and receive rewards.
 
 :::note
-Please note that your Validator and reward address will be different than above and must be substituted into the Delegate Information portion of the byte string in order to correctly delegate hash power and receive rewards.
+Please note that your Validator and reward address will be different than above and must be substituted into the `Delegate Information` portion of the byte string in order to correctly delegate hash power and receive rewards.
 :::
 
 ### Additional Information

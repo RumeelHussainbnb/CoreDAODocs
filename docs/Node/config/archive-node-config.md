@@ -27,20 +27,22 @@ For Archieve Nodes on **Core testnet**, we recommend the following minimal hardw
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
-| Storage        |                 |
-| CPU            |                 |
-| RAM            |                 |
-| Internet Speed |                 |
+| Storage        | Solid State Drive (SSD) with a minimum capacity of 4TB                                                  |
+| CPU            | 8 Core CPU                                                                                              |
+| RAM            | 32 Gigabytes                                                                                            |
+| Internet Speed | A broadband Internet connection with upload/download speeds of 5Mbps                                    |
 
 
 #### Mainnet Archieve Node Hardware Specifications
 
-For Sanpshot Nodes on **Core mainnet**, we recommend the following minimal hardware specs:
+For Archieve Nodes on **Core mainnet**, we recommend the following minimal hardware specs:
 
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
-| Storage        |                 |
-| CPU            |                 |
-| RAM            |                 |
-| Internet Speed |                 |
+| Storage        | Solid State Drive (SSD) with a minimum capacity of 4TB                                                  |
+| CPU            | 8 Core CPU                                                                                              |
+| RAM            | 32 Gigabytes                                                                                            |
+| Internet Speed | A broadband Internet connection with upload/download speeds of 5Mbps                                    |
+
+

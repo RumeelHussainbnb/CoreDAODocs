@@ -15,7 +15,7 @@ The Core DAO ecosystem is designed to incentivize participation and secure commi
     1. **Base rewards**, i.e. newly minted CORE tokens;
     2. **Fees collected from transactions in each block**;
 
-Base rewards are calculated and distributed when the last block of a round is mined. Currently, 90% of the rewards go to the validators and 10% of the rewards go to the System Reward Contract (more on this contract in the next section). Of the 90% paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
+Base rewards are calculated and distributed when the last block of a round is mined. Currently, 90% of the rewards go to the validators and 10% of the rewards go to the System Reward Contract. Of the 90% paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
 
 Validators share rewards with the entities that delegated to them – including CORE stakers, bitcoin stakers, and PoW delegators – but they decide how much to give back by deciding how much they (the validators) choose to keep for themselves. Validators can take as much or as little of the reward as they want, though they’re incentivized to be generous in order to attract more stake and hash power.
 

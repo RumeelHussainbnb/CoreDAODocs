@@ -18,11 +18,29 @@ Validator's rewards come from
     1. **Base rewards**, i.e. newly minted CORE tokens;
     2. **Fees collected from transactions in each block**;
 
-Base rewards are calculated and distributed when the last block of a round is mined. Currently, 90% of the rewards go to the validators and 10% of the rewards go to the System Reward Contract (more on this contract in the next section). Of the 90% paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
+Base rewards are calculated and distributed when the last block of a round is mined. Currently, **90%** of the rewards go to the validators and **10%** of the rewards go to the `System Reward Contract`. Of the **90%** paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates. Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
 
 Validators share rewards with the entities that delegated to them – including CORE stakers, bitcoin stakers, and PoW delegators – but they decide how much to give back by deciding how much they (the validators) choose to keep for themselves. Validators can take as much or as little of the reward as they want, though they’re incentivized to be generous in order to attract more stake and hash power.
 
 Validators are required to share rewards with the delegators who staked CORE or delegated hash power to them. Given the fact that each validator has an equal probability of producing blocks, all stable validators should get a similar portion of the rewards, in the long run. The portion validators keep for themselves (commission fees) will be distributed directly to their fee addresses at the end of each round. 
+
+Let us assume that the reward for a block is **100 CORE** and that a certain validator sets its commission rate to **20%**. These tokens do not go directly to the proposer. Instead, they are shared among validators and delegators. These **100 CORE** will be distributed according to each participant's stake. Assume that the fees generated from all transactions in the block was **1 CORE**.
+
+```maths
+    System Reward Contract gets = 100 x 10% = 10 CORE  
+
+    Accumulated Validator Reward = 100 x 90% = 90 CORE
+
+    Commission = 90 x 20% = 18 CORE
+
+    Validator gets = Fees from txs in the block + Commission = 1 CORE + 10 CORE = 11 CORE
+
+    All delegators gets = 90 x 80% - Commission = 54 CORE
+```
+
+:::note
+In the Core ecosystem, the rewards are distributed to each validator, from that reward valdiators are required to keep a percentage in the form of commission adn distribute the rest to its delegators. Each validator can set its own commission rate. However, there is no self-bonded CORE. Validator only gets commissions if they don't want to stake on their own validator.
+:::
 
 ## Potential Risks and Penalties for Validators
 In the Core DAO ecosystem, validators play a crucial role in maintaining the network's integrity and security. While this role comes with incentives like earning rewards for block validation, it also involves certain risks and potential penalties if validators fail to perform their duties adequately or engage in malicious activities. Here’s a detailed overview of the potential risks and penalties for validators in the Core DAO ecosystem:

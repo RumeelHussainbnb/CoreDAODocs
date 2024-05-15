@@ -31,7 +31,9 @@ Redeem
 
 The system is designed in such a way that users can always redeem whatever amount of stCORE token they have. E.g. if the conversion ratio is 1:1.1, then users can redeem 100 stCORE to get 110 CORE back. 
 
-Note there is a redemption period which by default is 7 days. Once users request redemption from the system, it gets 7 days for them to withdraw the CORE tokens to their wallet. 
+:::note 
+there is a redemption period which by default is 7 days. Once users request redemption from the system, it gets 7 days for them to withdraw the CORE tokens to their wallet. 
+:::
 
 Common ERC-20 use cases
 

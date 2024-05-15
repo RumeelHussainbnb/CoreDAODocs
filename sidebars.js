@@ -254,17 +254,20 @@ const sidebars = {
         items: ['Node/config/validator-node-config', 'Node/config/rpc-node-config',
         'Node/config/archive-node-config', 'Node/config/snapshot-node-config']
       },
-      {
-        type: 'category',
-        collapsed: true,
-        label: 'Syncing Nodes',
-        items: ['Node/sync/block-sync', 'Node/sync/state-sync', 'Node/sync/snapshot-sync']
-      },
+      // {
+      //   type: 'category',
+      //   collapsed: true,
+      //   label: 'Syncing Nodes',
+      //   items: ['Node/sync/block-sync', 
+      //   'Node/sync/state-sync', 'Node/sync/snapshot-sync']
+      // },
+      'Node/sync/snapshot-sync',
       {
         type: 'category',
         collapsed: true,
         label: 'Running Full Node',
-        items: ['Node/Full-Node/on-testnet', 
+        items: [
+          // 'Node/Full-Node/on-testnet', 
         'Node/Full-Node/on-mainnet']
       },
       {
@@ -289,7 +292,7 @@ const sidebars = {
         type: 'category',
         collapsed: true,
         label: 'Node Maintenance',
-        items: ['Node/maintenance/network-upgrade', 'Node/maintenance/node-monitoring',
+        items: ['Node/maintenance/maintenance','Node/maintenance/network-upgrade', 'Node/maintenance/node-monitoring',
         'Node/maintenance/restore-node', 'Node/maintenance/security-practices']
       },
       'Node/known-issues-and-errors',

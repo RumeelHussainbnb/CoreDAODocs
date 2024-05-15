@@ -16,7 +16,7 @@ The Core DAO ecosystem is designed to incentivize participation and secure commi
 The reward structure in Core DAO is subject to adjustments based on periodic governance votes, allowing the community to respond to changes in the ecosystem, such as fluctuations in token value or shifts in the security landscape.
 :::
 
-![rewards](../../../../static/img/staoshi-plus/rewards.png)
+![rewards](../../../../static/img/validator/Reward-Distribution.png)
 
 ### 1. Mining Rewards
 * **Description:** Mining rewards are provided to Bitcoin miners who contribute their hashing power to secure the Core Chain. This process extends the traditional mining efforts on the Bitcoin blockchain to include support for Core Chain, without requiring miners to divert resources from their Bitcoin mining activities.
