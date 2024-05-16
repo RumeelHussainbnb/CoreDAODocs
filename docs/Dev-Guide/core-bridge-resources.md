@@ -63,9 +63,9 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 
 | Polygon                       | Addresses                                                    |
 | ----------------------------- | ------------------------------------------------------------ |
-| [OriginalTokenBridge](https://polygonscan.com/address/0x52e75d318cfb31f9a2edfa2dfee26b161255b233) |
-| [USDC](https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174)                |
-| [USDT](https://polygonscan.com/address/0xc2132d05d31c914a87c6611c10748aeb04b58e8f)                |
+| OriginalTokenBridge | https://polygonscan.com/address/0x52e75d318cfb31f9a2edfa2dfee26b161255b233 |
+| USDC| https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174               |
+| USDT | https://polygonscan.com/address/0xc2132d05d31c914a87c6611c10748aeb04b58e8f                |
 | WBTC | 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 |
 
 
