@@ -1,10 +1,10 @@
 ---
-sidebar_label: Core Mainnet
+sidebar_label: Core Chain Mainnet
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Connect to Core Mainnet
+# Connect to Core Chain Mainnet
 ---
 
 :::note

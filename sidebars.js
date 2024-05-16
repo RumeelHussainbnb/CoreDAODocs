@@ -261,7 +261,7 @@ const sidebars = {
       //   items: ['Node/sync/block-sync', 
       //   'Node/sync/state-sync', 'Node/sync/snapshot-sync']
       // },
-      'Node/sync/snapshot-sync',
+     
       {
         type: 'category',
         collapsed: true,
@@ -270,13 +270,16 @@ const sidebars = {
           // 'Node/Full-Node/on-testnet', 
         'Node/Full-Node/on-mainnet']
       },
+
+      'Node/sync/snapshot-sync',
+
       {
         type: 'category',
         collapsed: true,
         label: 'Become a Validator',
         items: ['Node/validator/overview',
-        'Node/validator/running-validator',
         'Node/validator/validator-register', 
+        'Node/validator/running-validator',
         'Node/validator/validator-election',
         'Node/validator/rewards',
         {
@@ -295,7 +298,7 @@ const sidebars = {
         items: ['Node/maintenance/maintenance','Node/maintenance/network-upgrade', 'Node/maintenance/node-monitoring',
         'Node/maintenance/restore-node', 'Node/maintenance/security-practices']
       },
-      'Node/known-issues-and-errors',
+      //'Node/known-issues-and-errors',
     ]
     },
   ],

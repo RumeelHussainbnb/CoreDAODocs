@@ -161,15 +161,4 @@ If your `ProxyOFT` contract is registered on Etherscan, you can use the Ethersca
 
 Please refer to the[ checklist](https://layerzero.gitbook.io/docs/evm-guides/layerzero-integration-checklist) to prepare for a Mainnet deployment.
 
-## Full List of Bridge Token Addresses
 
-Here's the complete list of token contract addresses you can use for bridging:
-
-| Contract Address                                                              | Decimals | Name                      | Symbol |
-| ----------------------------------------------------------------------------- | -------- | ------------------------- | ------ |
-| `0xa4151B2B3e269645181dCcF2D426cE75fcbDeca9`         | 6        | USD Coin                  | USDC   |
-| `0x900101d06A7426441Ae63e9AB3B9b0F63Be145F1`         | 6        | Tether                    | USDT   |
-| `0xeAB3aC417c4d6dF6b143346a46fEe1B847B50296`         | 18       | Wrapped Ethereum          | WETH   |
-| `0x5832f53d147b3d6Cd4578B9CBD62425C7ea9d0Bd`         | 8        | Wrapped Bitcoin           | WBTC   |
-| `0x7A6888c85eDBA8E38F6C7E0485212da602761C08`         | 18       | Bitcoin BEP2              | BTCB   |
-| `0x2297aEbD383787A160DD0d9F71508148769342E3`         | 8        | Bitcoin Avalanche Bridged | BTC.b  |

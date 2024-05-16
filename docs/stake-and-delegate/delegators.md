@@ -36,16 +36,6 @@ In the context of the Core DAO ecosystem, delegation is a fundamental mechanism 
 
 6. **Facilitation of Liquid Democracy:** Delegation in Core DAO facilitates a form of liquid democracy, where token holders can directly choose their representatives (validators) in the consensus process or can change their delegation based on performance and trust metrics. This fluid governance model adapts quickly to changes and reflects the current sentiment of the community.
 
-## Risks for Delegators
-Delegating on the Core Chain involves entrusting your BTC hash power, BTC or CORE tokens to a validator to participate in the network's consensus mechanism. While this can yield rewards in the form of transaction fees and block rewards, several risks are associated with this process:
-
-1. **Validator Performance and Behavior Risks:** Poor performance or misconduct by validators can result in penalties like slashing of stakes, impacting both validators and their delegators.
-2. **Liquidity Risk:** Delegated assets are locked up for a period, during which they cannot be traded, posing a liquidity risk, especially during volatile market conditions.
-3. **Centralization Risks:** A high concentration of network power in a few validators can lead to centralization, potentially compromising network security and making it susceptible to collusion or attacks.
-4. **Security Risks:** Interacting with smart contracts or blockchain mechanisms when delegating can expose you to bugs or security vulnerabilities, risking loss of staked assets.
-5. **Slashing due to Downtime or Double Signing:** Significant downtime or double signing by a validator can trigger slashing and jailing penalties.
-6. **Mismanagement or Fraud:** Mismanagement or fraudulent activities by a validator can result in financial losses and reputational damage for delegators.
-7. **Reputation and Trust:** Poor management or security breaches at the validator level could compromise a delegator’s staked tokens.
 
 ## Conclusion
 Delegation is one of the key fundamentals of the Core DAO ecosystem, enabling it to maintain a secure, decentralized, and efficient blockchain network. By leveraging the strengths of both DPoS and elements of PoW through the innovative Satoshi Plus consensus mechanism, Core DAO not only enhances its operational capabilities but also aligns closely with the decentralized ethos of blockchain technology. This model of delegation ensures that all participants, from individual token holders to large-scale miners, have a stake in the network’s success and governance, making Core DAO a robust and dynamic blockchain platform.

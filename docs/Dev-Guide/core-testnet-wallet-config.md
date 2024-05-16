@@ -1,10 +1,10 @@
 ---
-sidebar_label: Core Testnet
+sidebar_label: Core Chain Testnet
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Connect to Core Testnet
+# Connect to Core Chain Testnet
 ---
 :::note
 This is a detailed guideline for connecting to Core Testnet using the Metamask wallet.

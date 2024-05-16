@@ -29,7 +29,7 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 | USDC | https://scan.coredao.org/address/0xa4151b2b3e269645181dccf2d426ce75fcbdeca9                |
 | USDT | https://scan.coredao.org/address/0x900101d06a7426441ae63e9ab3b9b0f63be145f1                |
 | WBTC | https://scan.coredao.org/address/0x5832f53d147b3d6Cd4578B9CBD62425C7ea9d0Bd                |
-| BTCB | https://scan.coredao.org/address/0x7A6888c85eDBA8E38F6C7E0485212da602761C08                |
+| Bitcoin BEP2  (BTCB) | https://scan.coredao.org/address/0x7A6888c85eDBA8E38F6C7E0485212da602761C08                |
 | WBNB | https://scan.coredao.org/address/0xdFBc618d3c48e553Cb197F42482A0795bef7fe28                |
 | stCORE | https://scan.coredao.org/token/0xb3a8f0f0da9ffc65318aa39e55079796093029ad                |
 
@@ -81,4 +81,5 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 | USDC                          | 0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E                   |
 | USDT                          | 0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7                   |
 | WBTC                          | 0x50b7545627a5162F82A992c33b87aDc75187B218                   |
+
 

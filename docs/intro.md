@@ -31,10 +31,10 @@ Starting building on the Core Chain and Contribute the BTC DeFi Landscape
     * [Explore the Developer Tooling Landscape](./Dev-Guide/dev-tools.md)
     * [Configure your Wallets with Core Network](./Dev-Guide/core-testnet-wallet-config.md) 
     * [Fund your wallets with tCORE](./Dev-Guide/core-faucet.md)
-    * [Iterate through Hands-on Detailed Guides to Jummpstart your Journey on Core](category/dev-guides)
+    * [Iterate through Hands-on Detailed Guides to Jumpstart your Journey on Core](category/dev-guides)
     * [Build a Full-Stack dApp on Core Chain](./Dev-Guide/dapp-on-core.md)
 
 ## 🙋‍♀️ Help & Support
 Connect with Core through the followings for any help or support required
     * [Official Discord Server for Help & Support](https://discord.com/invite/coredaoofficial)
-    * [Official Telegram Developer Channel for technical support](#️-help--support) (**_TBA_** 📢)
+    * [Official Telegram Developer Channel for technical support](https://t.me/CoreDAOTelegram)
