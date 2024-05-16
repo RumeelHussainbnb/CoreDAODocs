@@ -22,15 +22,6 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 
 ### Bridges and Tokens
 
-| Network      | Bridge Addresses                                           |
-| ------------ | ---------------------------------------------------------- |
-| **Core**     | 0xA4218e1F39DA4AaDaC971066458Db56e901bcbdE                 |
-| **Ethereum** | 0x52e75d318cfb31f9a2edfa2dfee26b161255b233                 |
-| **BSC**      | 0x52e75d318cfb31f9a2edfa2dfee26b161255b233                 |
-
-
-
-
 | CORE         | Addresses                                                                          |
 | ------------ | ---------------------------------------------------------------------------------- |
 | WrappedTokenBridge | https://scan.coredao.org/address/0xa4218e1f39da4aadac971066458db56e901bcbde  |
@@ -48,7 +39,7 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 | WETH | https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2                |
 | USDC | https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48                |
 | USDT | https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7                |
-| WBTC | 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599                                             |
+| WBTC | https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599                |
 
 
 | BNB Smart Chain (BSC)         | Addresses                                                    |
@@ -66,7 +57,7 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 | OriginalTokenBridge | https://polygonscan.com/address/0x52e75d318cfb31f9a2edfa2dfee26b161255b233 |
 | USDC| https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174               |
 | USDT | https://polygonscan.com/address/0xc2132d05d31c914a87c6611c10748aeb04b58e8f                |
-| WBTC | 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 |
+| WBTC | https://polygonscan.com/address/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 |
 
 
 
