@@ -233,9 +233,9 @@ const sidebars = {
       type: 'category',
       collapsed: true,
       label: '🤔 FAQs',
-      items: ['FAQs/core-faqs', 'FAQs/validator-faqs',
-              'FAQs/delegator-faqs', 'FAQs/btc-staking-faqs',
-              'FAQs/coreBTC-faqs',
+      items: ['FAQs/core-faqs', 'FAQs/core-node-faqs',
+              'FAQs/validator-faqs', 'FAQs/delegator-faqs', 
+              'FAQs/btc-staking-faqs', 'FAQs/coreBTC-faqs',
               // 'FAQs/htlc-atomic-swap-faqs',
               // 'FAQs/LST-stCore-faqs', 
               'FAQs/core-api-faqs' ]
