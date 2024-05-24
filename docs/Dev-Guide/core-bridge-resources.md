@@ -7,7 +7,7 @@ sidebar_position: 2
 # Core Bridge Resources
 ---
 
-The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enables seamless asset transfers between Core and the wider blockchain world. The Core Bridge consists of two parts: LayerZero contracts on Core that facilitate cross-chain transfers, and a set of bridge or token contracts deployed both on Core and each blockchain it’s connected to. The audited bridge codebase can be found[ here](https://github.com/LayerZero-Labs/wrapped-asset-bridge), and the full list of bridge token contract addresses can be found [here](./bridge-with-layerzero.md#full-list-of-bridge-token-addresses).
+The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enables seamless asset transfers between Core and the wider blockchain world. The Core Bridge consists of two parts: LayerZero contracts on Core that facilitate cross-chain transfers, and a set of bridge or token contracts deployed both on Core and each blockchain it’s connected to. The audited bridge codebase can be found[ here](https://github.com/LayerZero-Labs/wrapped-asset-bridge), and the full list of bridge token contract addresses can be found [here](./core-bridge-resources.md).
 
 ### LayerZero
 
