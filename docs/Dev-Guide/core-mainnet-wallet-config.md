@@ -8,7 +8,7 @@ sidebar_position: 2
 ---
 
 :::note
-This is a detailed guideline for connecting to Core Mainnet using the Metamask wallet.
+This is a detailed guideline for connecting to Core Mainnet using the MetaMask wallet.
 :::
 
 ## Software Prequisites
@@ -19,7 +19,7 @@ This is a detailed guideline for connecting to Core Mainnet using the Metamask w
 We recommend using the [MetaMask web wallet](https://metamask.io/) to connect to Core Mainnet. You'll need to install MetaMask and set up your account before you can use it to connect to Core Mainnet. You can find MetaMask setup instructions here.
 
 ## Adding Core Mainnet to MetaMask
-There are multiple ways to add Core Mainnet configurations to your Metamask Wallet, we have listed the most trusted and testest ways below.
+There are multiple ways to add Core Mainnet configurations to your MetaMask Wallet, we have listed the most trusted and testest ways below.
 
 ### Adding Network Manually
 1. Click on the network selector button (the downward facing arrow next to the current network). This will display a list of networks to which you’re already connected.
@@ -79,7 +79,7 @@ The Core network is now added to your MetaMask.
 
 4. After performing the above steps, you will be able to see Core network the next time you access the network selector.
 
-### Adding the Core network to Metamask mobile wallet:
+### Adding the Core network to MetaMask mobile wallet:
 1. Tap on the three lines in the top-left corner:
 
 ![metmask-mainnet](../../static/img/miannet-wallet-config/mainnet-wallet-config-12.webp)

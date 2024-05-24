@@ -10,33 +10,54 @@ description: Build a Full Stack dApp on Core Chain
 
 Decentralized applications (dApps) use a blockchain or on-chain smart contracts to store and reference data, rather than relying on traditional centralized databases. A common, simple dApp structure generally consists of a React.js or Vue.js front-end using Web3.js or Ethers.js to interact with smart contracts deployed to an EVM-compatible blockchain.
 
+## What Are We Building
 In this tutorial, we'll develop a simple dApp using React.js and Ethers.js that stores data in a smart contract on the Core blockchain and displays it to users. The dApp's full code is available on GitHub in the [dApp-tutorial](https://github.com/coredao-org/dapp-tutorial/tree/master) repository.
 
-Note: this tutorial assumes that the reader has front-end development experience and is familiar with JavaScript, Node.js, and React.js.
+:::note
+This tutorial assumes that the reader has front-end development experience and is familiar with JavaScript, Node.js, and React.js.
+:::
 
-## Run dApp Locally
+## Learning Takeaways
+This tutorial will help you gain knowledge on the following learning points:
 
-1\. Clone the [dApp-tutorial](https://github.com/coredao-org/dapp-tutorial/tree/master) repository:
+* MetaMask Wallet connectivity to Core Testnet;
+* Smart contract development and deployment on Core Testnet;
+* Front-end integration with the smart contract using Ethers.js library;
+* Read data from a smart contract;
+* Write data to a smart contract;
 
-```
+## Software Prerequisites
+* [Git](https://git-scm.com/) v2.44.0
+* [Node.js](https://nodejs.org/en) v20.11.1
+* [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) v10.2.4
+* [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation) v10.2.4
+* [MetaMask Web Wallet Extension](https://metamask.io/download/)
+
+## Setting up the development environment
+
+1. Clone the [dApp-tutorial](https://github.com/coredao-org/dapp-tutorial/tree/master) repository from GitHub using the following command.
+
+```bash
 git clone https://github.com/coredao-org/dapp-tutorial.git
 ```
 
-2\. Navigate into the project directory:
+2. Navigate into the project directory.
 
-```
+```bash
 cd dapp-tutorial
 ```
 
-3\. Install all the dependencies (node modules):
+3. Install all the dependencies, i.e., node modules.
 
-```
+```bash
 npm install
 ```
 
-4\. Serve with hot reload at [http://localhost:5173](http://localhost:5173/):
+4. Install and configure MetaMask Chrome Extension to use with Core Testnet. Refer [here](./core-testnet-wallet-config.md) for a detailed guide.
 
-```
+5. To test if things are working fine, run the application by using the following command. This will serve applciation with hot reload feature at [http://localhost:5173](http://localhost:5173/)
+
+```bash
 npm run dev
 ```
 
@@ -48,7 +69,7 @@ The application's key blockchain logic is implemented in [App.tsx](https://githu
 2. [App.tsx (Store)](https://github.com/coredao-org/dapp-tutorial/blob/master/src/components/App.tsx#L54): used to write data to a smart contract.
 3. [App.tsx (Retrieve)](https://github.com/coredao-org/dapp-tutorial/blob/master/src/components/App.tsx#L83): used to read data from a smart contract.
 
-We recommend using Remix and the MetaMask web wallet for the remainder of the tutorial. To connect MetaMask to Core Testnet, refer to our guide on[ using MetaMask on Core Testnet](https://docs.coredao.org/developer/develop-on-core/using-core-testnet/connect-to-core-testnet).
+We recommend using Remix and the MetaMask web wallet for the remainder of the tutorial. To connect MetaMask to Core Testnet, refer to our guide on[ using MetaMask on Core Testnet](./core-testnet-wallet-config.md).
 
 ## Smart Contract Deployment
 

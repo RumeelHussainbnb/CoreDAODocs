@@ -13,7 +13,7 @@ Core Chain, a Bitcoin-aligned EVM blockchain, represents a critical innovation f
 The Core DAO ecosystem is constructed upon a multifaceted and innovative blockchain architecture that ensures the network's security, scalability, and decentralization. At the forefront is the CORE Consensus Engine which integrates the Satoshi Plus consensus mechanism, a hybrid system that utilizes the combined strength of Bitcoin miners and Core validators.
 
 
-![architecture](../../../static/img/architecture.png)
+![component-diagram](../../../static/img/staoshi-plus/component-diagram.jpg)
 
 ## CORE Consensus Engine
 The CORE Consensus Engine is the heart of the Core DAO, where consensus is achieved through a unique combination of Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). This engine coordinates the intricate processes involving validators, relayers, and other network participants to maintain the blockchain's integrity and performance.

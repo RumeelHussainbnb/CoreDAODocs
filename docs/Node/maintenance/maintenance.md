@@ -13,16 +13,24 @@ All the clients are suggested to upgrade to the latest release. The [latest vers
 
 ### Prune State
 
-According to the test, the performance of a full node will degrade when the storage size reaches a high volume(previously it was 1.5TB, which is an experimental value, the latest number needs to be updated). We suggest that the fullnode always keep light storage by pruning the storage.
+According to the test, the performance of a full node will degrade when the storage size reaches a high volume (previously it was 1.5TB, which is an experimental value, the latest number needs to be updated). We suggest that the fullnode always keep light storage by pruning the storage.
+
+#### Rules for Pruning
+1.	**Do not try to prune an archive node.** Archive nodes need to maintain **ALL** historic data by definition.
+2.	Ensure there is at least **40 GB** of storage space still available on the disk that will be pruned. Failures have been reported with **~25GB** of free space.
+3.	Geth is fully sync'd
+4.	Geth has finished creating a snapshot that is at least **128 blocks** old. This is true when "state snapshot generation" is no longer reported in the logs.
 
 #### How to prune:
+1.	Stop the geth process
+2.	Run the prune command 
 
-1. Stop the Core node.
-2. Run `nohup geth snapshot prune-state --datadir {the data dir of your core node} &`. It will take 3-5 hours to finish.
-3. Start the node once it is done.
+   ```	nohup geth --datadir ~/node snapshot prune-state > . /prune.log 2>&1 & ```
 
-The maintainers should always have a few backup nodes in case one of the nodes is getting pruned.
-The hardware is also important, **make sure the SSD meets: 2 TB of free disk space, solid-state drive(SSD), gp3, 8k IOPS, 250MB/S throughput, read latency \<1ms**.
+3.	Check `prune.log`, wait for the prune operation to complete, and start geth.
+
+
+The maintainers should always have a few backup nodes in case one of the nodes is getting pruned. The hardware is also important, **make sure the SSD meets: 4TB of free disk space, solid-state drive(SSD), gp3, 8k IOPS, 250MB/S throughput, read latency \<1ms**.
 
 
 ### Prune Ancient Data in Real Time
@@ -42,8 +50,8 @@ Core offers the offline feature to prune undesired ancient block data. It will d
 
 How to prune:
 
-1. Stop the CORE Node.
-2. Run 
+1. Stop the Geth process.
+2. Run the following command
 
 ```bash
 ./geth snapshot prune-block --datadir /server/node --datadir.ancient ./chaindata/ancient --block-amount-reserved 1024

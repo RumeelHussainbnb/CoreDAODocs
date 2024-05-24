@@ -14,7 +14,7 @@ The following must be satisfied prior in order to complete this guide:
 
 1. **Xverse and/or Unisat Wallet(s):** You will need to add to either [Xverse](https://chromewebstore.google.com/detail/xverse-wallet/idnnbdplmphpflfnlkomgpfbpcgelopg?hl=en-GB\&authuser=1) and/or [Unisat](https://chromewebstore.google.com/detail/unisat-wallet/ppbibelpcjmhbdihakflkdcoccbgbkpo) wallet(s) via Chrome browser extension, to participate in the staking process. (_Must use a desktop, mobile and hardware wallets are not supported at this time_)
 
-2. **Core Wallet Address for Rewards:** Prepare your Core wallet address where you will receive Core token rewards for staking your BTC. If you do not have a Core wallet address, you can create one easily by connecting to Metamask.
+2. **Core Wallet Address for Rewards:** Prepare your Core wallet address where you will receive Core token rewards for staking your BTC. If you do not have a Core wallet address, you can create one easily by connecting to MetaMask.
 
 **1. Adding the Core network to MetaMask via the Core Explorer:**
 
@@ -27,7 +27,7 @@ The following must be satisfied prior in order to complete this guide:
 
 ![native-staking-guide](../../../../static/img/native-staking/native-staking-2.png)
 
-2. Alternatively, you can use this guide: [Add Core to Metamask](https://medium.com/@core\_dao/add-core-to-metamask-7b1dd90041ce) for a more detailed step by step guideline for manually filling out the network information.
+2. Alternatively, you can use this guide: [Add Core to MetaMask](https://medium.com/@core\_dao/add-core-to-metamask-7b1dd90041ce) for a more detailed step by step guideline for manually filling out the network information.
 
 ## Before you Start Staking
 

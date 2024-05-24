@@ -24,6 +24,8 @@ Validators share rewards with the entities that delegated to them – including 
 
 Validators are required to share rewards with the delegators who staked CORE or delegated hash power to them. Given the fact that each validator has an equal probability of producing blocks, all stable validators should get a similar portion of the rewards, in the long run. The portion validators keep for themselves (commission fees) will be distributed directly to their fee addresses at the end of each round. 
 
+![validator-reward-distribution](../../../static/img/validator/Reward-Distribution.png)
+
 Let us assume that the reward for a block is **100 CORE** and that a certain validator sets its commission rate to **20%**. These tokens do not go directly to the proposer. Instead, they are shared among validators and delegators. These **100 CORE** will be distributed according to each participant's stake. Assume that the fees generated from all transactions in the block was **1 CORE**.
 
 ```maths

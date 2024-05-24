@@ -89,3 +89,7 @@ geth --config ./config.toml --datadir ./node  --cache 8000
 ```
 
 5\. As our full node runs, we can monitor its logs to make sure that everything is operating correctly. The log file is located at `/node/logs/core.log` by default, but can be changed to another location if desired.
+
+:::note
+The steps for running full node on the Core Testnet is the same as that for the Core mainnet. You can download the latest snapshot for testnet from [here](https://github.com/coredao-org/core-snapshots?tab=readme-ov-file#testnet) and the latest binary from [here](https://github.com/coredao-org/core-chain/releases). Also, note that the recommended method for syncing testnet node is to sync from genesis block as currently the snapshot is not available. 
+:::

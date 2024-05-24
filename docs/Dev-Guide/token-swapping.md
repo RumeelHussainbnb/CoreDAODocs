@@ -15,7 +15,7 @@ Please note that all tokens on Core Testnet are only used for testing and do not
 
 ## Connect Wallet
 
-After connecting your [Metamask](https://metamask.io/) account to Core Testnet as described in our [guide](./core-testnet-wallet-config.md), select the **Connect to a wallet** button on the top-right corner of the [Testnet Uniswap Application](https://swap.test.btcs.network/#/swap) as seen in the picture below:
+After connecting your [MetaMask](https://metamask.io/) account to Core Testnet as described in our [guide](./core-testnet-wallet-config.md), select the **Connect to a wallet** button on the top-right corner of the [Testnet Uniswap Application](https://swap.test.btcs.network/#/swap) as seen in the picture below:
 
 ![connect-wallet-uniswap](../../static/img/uniswap/swap-token-1.png)
 
@@ -27,7 +27,7 @@ The very first time you use the test swap, you'll need to choose a token list. Y
 
 ## Load sUSDT From Faucet
 
-To test swapping, we can fetch sUSDT for free from the [faucet website](https://scan.test.btcs.network/faucet). Navigate to the website and fill in your address to receive **100-200 sUSDT**. Addresses can only fetch sUSDT from the faucet once per day. If you are using the MetaMask Chrome extension, you can add sUSDT to MetaMask automatically by clicking the Add sUSDT to Metamask button.
+To test swapping, we can fetch sUSDT for free from the [faucet website](https://scan.test.btcs.network/faucet). Navigate to the website and fill in your address to receive **100-200 sUSDT**. Addresses can only fetch sUSDT from the faucet once per day. If you are using the MetaMask Chrome extension, you can add sUSDT to MetaMask automatically by clicking the Add sUSDT to MetaMask button.
 
 :::note
 Please note that sUSDT is a testing token and does not have any actual value.

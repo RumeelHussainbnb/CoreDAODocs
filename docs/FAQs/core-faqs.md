@@ -26,9 +26,9 @@ Core Chain advocates open source project building and hence we have all of our c
 Core Chain is designed to cater to builders, offering a robust platform where various decentralized applications (dApps) can be deployed and flourish. Supporting a diverse range of dApps, the Core ecosystem is specifically structured to encourage development and innovation, making it a favorable environment for creators looking to deploy cutting-edge applications in the blockchain space. For more details, you can check out our [ecosystem](https://coredao.org/explore/ecosystem) to explore who’s building what.
  
 
-### 5. How to connect Metamask to Core Network?    
+### 5. How to connect MetaMask to Core Network?    
 
-Follow our detailed guide on how to connect your Metamask wallet to the Core [Testnet](https://rumeelhussainbnb.github.io/CoreDAODocs/docs/Dev-Guide/core-testnet-wallet-config) and [Mainnet](https://rumeelhussainbnb.github.io/CoreDAODocs/docs/Dev-Guide/core-mainnet-wallet-config).
+Follow our detailed guide on how to connect your MetaMask wallet to the Core [Testnet](https://rumeelhussainbnb.github.io/CoreDAODocs/docs/Dev-Guide/core-testnet-wallet-config) and [Mainnet](https://rumeelhussainbnb.github.io/CoreDAODocs/docs/Dev-Guide/core-mainnet-wallet-config).
 
 ### 6. What role does the CORE token play in securing the Core network?
 

@@ -13,7 +13,7 @@ As a native wrapped BTC on Core, coreBTC maintains a 1:1 peg with BTC through a 
 
 ## Getting Started: Prerequisites
 1. [Unisat Wallet Browser Extension](https://unisat.io/): Required for managing your BTC. Note that, Unisat currently has only desktop and Android wallet app.
-2. [Metamask](https://metamask.io/): Necessary for interacting with the Core blockchain.
+2. [MetaMask](https://metamask.io/): Necessary for interacting with the Core blockchain.
 
 ## Minting coreBTC
 1. **coreBTC Website:** Go to https://bridge.coredao.org/coreBTC
@@ -24,7 +24,7 @@ As a native wrapped BTC on Core, coreBTC maintains a 1:1 peg with BTC through a 
 6. **Adjust Fee Rate:** The default fees are set according to the current market rates. For faster transaction processing, it's essential to adjust the gas fee appropriately. Keep in mind that setting a higher fee can significantly speed up the transaction. Conversely, if the fee is set too low, the transaction may experience considerable delays in being mined, potentially taking days or even longer to process. It's crucial to find a balance that aligns with your urgency and the network's current demand.
 7. **Verification:** Double-check all details, including amounts, fees, and wallet addresses.
 8. **Mint:** Click on 'Mint coreBTC' to initiate the conversion.
-9. **AddToken:** Select 'Add coreBTC to your wallet' in Metamask to view your coreBTC.
+9. **AddToken:** Select 'Add coreBTC to your wallet' in MetaMask to view your coreBTC.
 
 ![core-guide-2](../../../../static/img/coreBTC/core-guides-2.png)
 <!-- 

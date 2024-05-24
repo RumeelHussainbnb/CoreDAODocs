@@ -78,6 +78,7 @@ The[ Core Bridge](https://bridge.coredao.org/) is powered by LayerZero, and enab
 | AVALANCHE                     | Addresses                                                    |
 | ----------------------------- | ------------------------------------------------------------ |
 | Bridge                        | 0x29d096cD18C0dA7500295f082da73316d704031A                   |
+| Bitcoin Avalanche Bridged (BTC.b) | 0x2297aEbD383787A160DD0d9F71508148769342E3               |
 | USDC                          | 0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E                   |
 | USDT                          | 0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7                   |
 | WBTC                          | 0x50b7545627a5162F82A992c33b87aDc75187B218                   |

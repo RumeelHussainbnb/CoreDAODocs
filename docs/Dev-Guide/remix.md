@@ -22,11 +22,11 @@ In the picture below, you'll see that you can choose different Solidity compiler
 
 You can choose different environments on Remix, as shown in the picture below. An environment is just the blockchain network you'll be working with. There are built-in Virtual Machines (VMs), as well as providers that enable you to connect to external VMs.
 
-To connect to Core Testnet, choose `Injected Provider - Metamask`. Make sure your Metamask wallet is [configured for Core Tesnet](./core-testnet-wallet-config.md) using the testnet chain settings, and verify that your account is funded from the [faucet](https://scan.test.btcs.network/faucet).
+To connect to Core Testnet, choose `Injected Provider - MetaMask`. Make sure your MetaMask wallet is [configured for Core Tesnet](./core-testnet-wallet-config.md) using the testnet chain settings, and verify that your account is funded from the [faucet](https://scan.test.btcs.network/faucet).
 
 ![remix-ide](../../static/img/remix/remix-3.avif)
 
-You will be asked to connect to Metamask. Once connected, Remix shows the connected address and the amount of CORE held by the address, as seen below:
+You will be asked to connect to MetaMask. Once connected, Remix shows the connected address and the amount of CORE held by the address, as seen below:
 
 ![remix-ide](../../static/img/remix/remix-4.avif)
 
@@ -42,7 +42,7 @@ Then switch to the `DEPLOY & RUN TRANSACTIONS` from the same lefthand menu and s
 
 ![remix-ide](../../static/img/remix/remix-6.avif)
 
-After selecting the **Deploy** button, Metamask will open a popup asking you to sign and then send the deployment transaction on Core Testnet, as seen below.
+After selecting the **Deploy** button, MetaMask will open a popup asking you to sign and then send the deployment transaction on Core Testnet, as seen below.
 
 ![remix-ide](../../static/img/remix/remix-7.png)
 
@@ -58,13 +58,13 @@ Locate the newly deployed contract in the `Deployed Contracts` section located i
 
 ![remix-ide](../../static/img/remix/remix-9.avif)
 
-Metamask will again ask us to sign and send the transaction.
+MetaMask will again ask us to sign and send the transaction.
 
 ![remix-ide](../../static/img/remix/remix-10.png)
 
 After successfully storing `100` in our smart contract, we can use the `retrieve`  function to read the value. Click the **retrieve** button to view the value and we should see the number `100` returned, as shown below in the blue box.
 
-You may have noticed that Metamask did not pop up for the `retrieve` function call; this is because _transactions_ are only necessary for smart contract interactions that require gas, and reading data from a smart contract doesn't require any gas.
+You may have noticed that MetaMask did not pop up for the `retrieve` function call; this is because _transactions_ are only necessary for smart contract interactions that require gas, and reading data from a smart contract doesn't require any gas.
 
 ![remix-ide](../../static/img/remix/remix-11.avif)
 

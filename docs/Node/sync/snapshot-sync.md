@@ -9,7 +9,7 @@ sidebar_position: 2
 On the Core network, you can sync your node to the latest state of the Core Chain by several ways. In this document, we guide you through the syncing process of nodes on the Core network.
 
 
-## Sync From Snapshot
+## Sync From Snapshot (Recommended)
 Download the pre-build binaries from the [release page](https://github.com/coredao-org/core-chain/releases/latest) or follow the instructions below 
 
 #### Linux
@@ -77,7 +77,11 @@ It is recommended to run a fast node, which is a full node with the flag --tries
 You can monitor the log from `/node/logs/core.log` by default. 
 
 
-## Sync from Genesis Block (Recommended)
+## Sync from Genesis Block (Not Recommended)
+
+:::note
+Note that the recommended method for syncing testnet node is to sync from genesis block as currently the snapshot is not available. You can download the latest binary  for testnet from [here](https://github.com/coredao-org/core-chain/releases).
+:::
 
 Write the genesis state locally by executing the following command from your node directory
 

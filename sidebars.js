@@ -77,7 +77,7 @@ const sidebars = {
                   //     ]
                   // },
                   'Learn/economics/core-token/tokenomics-and-utility',
-                  'Learn/economics/gas-and-fees',
+                  // 'Learn/economics/gas-and-fees',
               ]
           },
           {
@@ -262,15 +262,15 @@ const sidebars = {
       //   'Node/sync/state-sync', 'Node/sync/snapshot-sync']
       // },
      
-      {
-        type: 'category',
-        collapsed: true,
-        label: 'Running Full Node',
-        items: [
-          // 'Node/Full-Node/on-testnet', 
-        'Node/Full-Node/on-mainnet']
-      },
-
+      // {
+      //   type: 'category',
+      //   collapsed: true,
+      //   label: 'Running Full Node',
+      //   items: [
+      //     // 'Node/Full-Node/on-testnet', 
+      //   'Node/Full-Node/on-mainnet']
+      // },
+      'Node/Full-Node/on-mainnet',
       'Node/sync/snapshot-sync',
 
       {
@@ -286,8 +286,10 @@ const sidebars = {
           type: 'category',
           collapsed: true,
           label: 'Slashing',
-          items: ['Node/slashing/overview', 'Node/slashing/jail-and-unjail',
-          'Node/slashing/slashing-fee', 'Node/slashing/submit-evidence']
+          items: ['Node/slashing/overview', 'Node/slashing/slashing-fee'
+          //  'Node/slashing/jail-and-unjail',
+          // 'Node/slashing/slashing-fee', 'Node/slashing/submit-evidence'
+        ]
         },
       ],
       },
@@ -295,8 +297,10 @@ const sidebars = {
         type: 'category',
         collapsed: true,
         label: 'Node Maintenance',
-        items: ['Node/maintenance/maintenance','Node/maintenance/network-upgrade', 'Node/maintenance/node-monitoring',
-        'Node/maintenance/restore-node', 'Node/maintenance/security-practices']
+        items: ['Node/maintenance/maintenance','Node/maintenance/network-upgrade', 
+        // 'Node/maintenance/node-monitoring',
+        // 'Node/maintenance/restore-node', 
+        'Node/maintenance/security-practices']
       },
       //'Node/known-issues-and-errors',
     ]
