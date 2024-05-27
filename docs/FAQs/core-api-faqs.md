@@ -45,14 +45,14 @@ An API call that encounters an error will return 0 as its status code and displa
 }
 ```
 
-### 7. Does the Core API support smart contract interactions?
+<!-- ### 7. Does the Core API support smart contract interactions?
 
 ### 8. How do I ensure the security of my API usage?
 
-### 9. Are there any tools or libraries available to simplify API integration?
+### 9. Are there any tools or libraries available to simplify API integration? -->
 
-### 10. What should I do if I encounter issues or bugs with the API?
+### 7. What should I do if I encounter issues or bugs with the API?
 
 Refer to official API documentation for [Common issues messages](https://docs.coredao.org/api/tutorials/common-error-messages), If the problem persists, contact us on our official [Discord](https://discord.com/invite/coredaoofficial) server.
 
-### 11. What types of data can I retrieve using the Core API?
+<!-- ### 11. What types of data can I retrieve using the Core API? -->

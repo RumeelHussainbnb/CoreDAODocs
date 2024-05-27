@@ -106,10 +106,10 @@ Where,
 - m and n are dynamic factors adjusting the weights of hash power and the voting power of BTC versus CORE tokens.
 
 4. **Validator Set Formation**: The top 21 validators, based on hybrid scores, are selected for the next round.
+<!-- 
+### 9. How does the Core Chain ensure the security and integrity of Validators? -->
 
-### 9. How does the Core Chain ensure the security and integrity of Validators?
-
-### 10. What is slashing, and what are the different slashing fees charged on Core Chain?
+### 9. What is slashing, and what are the different slashing fees charged on Core Chain?
 
 "Slashing" is a penalty applied to validators in a blockchain network for misconduct or failures in their duties. In the Core Chain network, slashing can affect both potential rewards and deposited stakes.
 
@@ -118,17 +118,17 @@ Where,
 - **Permanent Ban for Double Signing**: Double signing, i.e., signing two different blocks at the same height, leads to severe consequences including slashing of all rewards, the entire validator deposit, and a permanent ban from the network, i.e., getting jailed forever.
 
 
-### 11. When do validators get jailed? What is the duration?
+### 10. When do validators get jailed? What is the duration?
 
 There are two scenarios where validators can get jailed.
 
 1. Failing to mine **150** consecutive blocks results in losing **10%** of the validator's deposit and a **jailing of three days**, during which they cannot be elected to the validator set.
 2. Double signing can lead to slashing of all rewards, the entire validator deposit, and a permanent ban from the network, i.e., getting jailed forever.
 
-### 12. How to get unjailed, if possible?
+<!-- ### 12. How to get unjailed, if possible? -->
 
-### 13. How frequently do Validators need to be online?
+### 11. How frequently do Validators need to be online?
 
 Validators are generally expected to be online and actively participating almost continuously.
 
-### 14. Can a Validator leave or stop participating in the network?
+<!-- ### 14. Can a Validator leave or stop participating in the network? -->

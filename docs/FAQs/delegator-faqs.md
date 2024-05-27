@@ -43,34 +43,34 @@ To maximize their rewards, delegators will look both for validators that are gen
 
 - **CORE Delegation:** users can transfer to other validators and will still receive the rewards of the acting day.
 
-### 9. How to un-delegate my CORE tokens?
+<!-- ### 9. How to un-delegate my CORE tokens?
 
-### 10. How to un-delegate my Bitcoin Hash Power?
+### 10. How to un-delegate my Bitcoin Hash Power? -->
 
-### 11. Are there any fees associated with delegating BTC or CORE tokens or hash power?
+### 9. Are there any fees associated with delegating BTC or CORE tokens or hash power?
 
 Other than the transaction fee/gas charges, Core Chain doesn’t charge any additional fees for delegation of BTC hash power, BTC or CORE tokens.
 
-### 12. How long does it take to start earning rewards after delegation of BTC,CORE or Bitcoin hash power?
+### 10. How long does it take to start earning rewards after delegation of BTC,CORE or Bitcoin hash power?
 
 - **BTC hash power delegators:** The Core blockchain uses Bitcoin network block records from seven days ago for hybrid score calculations. Additionally, after a validator is elected, staking rewards are distributed on the second day of the switched round. Therefore, after delegating their hash power, miners/mining pools will have their hash power used in the Validator election calculation N+7 days later and will have claimable rewards N+8 days later.
 
 - **CORE/BTC delegators:** after delegating their CORE/BTC, delegators will have their assets used in the Validator election calculation for the next round and will have claimable rewards a round later.
 
-### 13. How can delegators claim their rewards?
+### 11. How can delegators claim their rewards?
 
 Refer to the detailed guide [here](../stake-and-delegate/delegating-core#claiming-rewards) on Claiming rewards earned through staking of BTC and CORE. In case of BTC Hash Power delegation, refer [here](../stake-and-delegate/delegating-hash#implementation). 
 
-### 14. When are the rewards paid out?
+### 12. When are the rewards paid out?
 
 The rewards are paid out at the end of each round of consensus on the Core Chain.
 
-### 15. What happens if a validator stops performing or is penalized?
+### 13. What happens if a validator stops performing or is penalized?
 
 Poor performance or misconduct by validators can result in penalties like slashing of stakes, impacting both validators and their delegators. Note that delegators will not lose their staked assets, the penalties on validators will only be affecting the delegator's daily rewards.
 
-### 16. When can I receive my staking rewards?
+<!-- ### 16. When can I receive my staking rewards?
 
 ### 17. When can I receive my undelegated CORE?
 
-### 18. When can I redelegate my staked CORE?
+### 18. When can I redelegate my staked CORE? -->

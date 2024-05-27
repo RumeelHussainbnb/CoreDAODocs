@@ -112,10 +112,10 @@ For more details, refer to [Validator Node Confgiurations Guide](../Node/config/
 
 Refer to the detailed guide [here](https://rumeelhussainbnb.github.io/CoreDAODocs/docs/Node/Full-Node/on-mainnet) on how to set up and run a full node on the Core network.
 
-### 7. How can I secure my Core Chain full node?
+<!-- ### 7. How can I secure my Core Chain full node?
 
 ### 8. Where can I get support if I have problems with my Core Chain full node?
 
 ### 9. Are there any third-party infrastructure providers to help manage a Core Chain full node?
 
-### 10. How to gracefully shut down a Core Chain node when running as a system service?
+### 10. How to gracefully shut down a Core Chain node when running as a system service? -->
