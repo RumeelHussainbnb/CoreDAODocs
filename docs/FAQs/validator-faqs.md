@@ -26,7 +26,7 @@ Provide information for each of the form's fields:
 - **Consensus address**: the validator address you set when you initialized your validator full node.
 - **Fee address**: the address used to collect commission fees.
 - **Commission**: revenue is split between the validator and its delegators, with the commission determining what percentage of delegator revenue is taken by the validator as compensation.
-- **Total deposit**: the refundable CORE deposit locked up while performing validator services. On testnet, the minimum amount is **10,000 CORE**. Whereas, on the mainnet the minimum amount is **XX CORE**.
+- **Total deposit**: the refundable CORE deposit locked up while performing validator services. On testnet, the minimum amount is **10,000 CORE**. Whereas, on the mainnet the minimum amount is **10,00 tCORE**.
     1. Once you've entered the required information, select **register** to register as a validator.
     2. A quick way to check that you've successfully registered your full node as a validator is to open the log file and search for the error message "**unauthorized validato**r". This error occurs when this node is registered as a validator but not yet elected to the validator set.
 
@@ -64,13 +64,13 @@ On the Core Chain network, validators are required to stake a certain minimum am
 
 ### 5. How are validators rewarded in the Core Chain ecosystem?
 
-Validators earn rewards for their role in processing transactions, creating new blocks, and maintaining the blockchain's integrity. These rewards are critical for compensating Validators for their efforts and operational costs. The amount of rewards a Validator receives is proportional to their stake and the delegated hash power from miners. There are two categories of validator rewards:
+Validators earn rewards for their role in processing transactions, creating new blocks, and maintaining the blockchain's integrity. These rewards are critical for compensating Validators for their efforts and operational costs. TCore validators run in a round robin manner and each active validator receives almost the same amount of rewards every round. There are two categories of validator rewards:
 
 1\. **Base rewards**; i.e. newly minted CORE tokens;
 
 2\. **Fees collected from transactions in each block**;
 
-Base rewards are calculated and distributed when the last block of a round is mined. Currently, **90%** of the rewards go to the validators and **10%** of the rewards go to the System Reward Contract. Of the 90% paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates. The portion validators keep for themselves (commission fees) will be distributed directly to their fee addresses at the end of each round. Validators are required to share rewards with the delegators who staked BTC, CORE or delegated hash power to them. Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
+Both Base rewards and Transaction fees are calculated and distributed when the last block of a round is mined. Currently, **90%** of the rewards go to the validators and **10%** of the rewards go to the System Reward Contract. Of the 90% paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates. The portion validators keep for themselves (commission fees) will be distributed directly to their fee addresses at the end of each round. Validators are required to share rewards with the delegators who staked BTC, CORE or delegated hash power to them. Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
 
 ### 6. When are rewards paid out?
 

@@ -262,15 +262,14 @@ const sidebars = {
       //   'Node/sync/state-sync', 'Node/sync/snapshot-sync']
       // },
      
-      // {
-      //   type: 'category',
-      //   collapsed: true,
-      //   label: 'Running Full Node',
-      //   items: [
-      //     // 'Node/Full-Node/on-testnet', 
-      //   'Node/Full-Node/on-mainnet']
-      // },
-      'Node/Full-Node/on-mainnet',
+      {
+        type: 'category',
+        collapsed: true,
+        label: 'Running Full Node',
+        items: [
+        'Node/Full-Node/on-testnet', 
+        'Node/Full-Node/on-mainnet']
+      },
       'Node/sync/snapshot-sync',
 
       {

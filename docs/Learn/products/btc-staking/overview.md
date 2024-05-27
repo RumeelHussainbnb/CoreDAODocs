@@ -4,24 +4,24 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# BTC Native Staking - Unlocking Bitcoin DeFi
+# Non-Custodial BTC Staking - Unlocking Bitcoin DeFi
 ---
 
 Over [1 trillion dollars'](https://www.coingecko.com/en/coins/bitcoin) worth of BTC has remained idle, yielding no returns for over 10 years. Bitcoin network inherently is not Turing-complete, due to this, to have utility outside the Bitcoin network, the bitcoins have to be wrapped, bridged, or sent to a third-party custody. None of them is secure: they all need trust on a third-party. This is why most of the bitcoins are idle. Securely utilizing them to protect the decentralized economy seems a mission impossible. Previous attempts by other projects to leverage this liquidity have met with limited success. However, with technical advancements on Bitcoin's side and through the innovative and robust ecosystem, Core DAO presents a promising opportunity to unlock the dormant potential of Bitcoin liquidity.
 
-One of the most outstanding features of Core DAO that distinguishes it from other competitors is that of **`Non-Custodial BTC Native Staking`**. Core DAO welcomes BTC holders to stake their BTC on the Bitcoin network. With the introduction of non-custodial bitcoin staking, Core Chain's recent protocol updates incorporate Bitcoin holders as the third part of the Satoshi Plus consensus mechanism.
+One of the most outstanding features of Core DAO that distinguishes it from other competitors is that of **`Non-Custodial BTC Staking`**. Core DAO welcomes BTC holders to stake their BTC on the Bitcoin network. With the introduction of non-custodial bitcoin staking, Core Chain's recent protocol updates incorporate Bitcoin holders as the third part of the Satoshi Plus consensus mechanism.
 
 ## Empowering Bitcoin Holders and Strengthening Core
-#### _The Dual Benefits of BTC Native Staking_
+#### _The Dual Benefits of Non-Custodial BTC Staking_
 
-1. **Benefits for BTC Holders from BTC Native Staking**
+1. **Benefits for BTC Holders from Non-Custodial BTC Staking**
     - **Maintaining Assets on Bitcoin:** By participating in BTC native staking, Bitcoin holders have the unique opportunity to keep their assets securely on the Bitcoin network. This is significant because it allows them to retain their investment in what is widely regarded as the most decentralized and secure blockchain, often referred to as digital gold. In essence, they can continue to hold their Bitcoin, enjoying the security and reputation it offers, without needing to transfer their assets elsewhere.
     - **Earning Core Tokens as Rewards:** Participating in BTC native staking offers an additional incentive: earning Core tokens. This is a way for Bitcoin holders to not only retain their Bitcoin assets but also to receive additional rewards in the form of Core tokens.
     - **Social Responsibility in Decentralization:** By staking their BTC, holders contribute to the decentralization of the Core blockchain. This is a form of social responsibility, as their participation helps in maintaining a diverse and distributed network, which is fundamental to the ethos of blockchain technology.
 2. **Core's Rationale Behind Offering BTC Native Staking**
     - **Enhancing Decentralization and Security:** Core blockchain is offering BTC native staking as a strategic move to enhance its decentralization and security. By incorporating Bitcoin, which has a robust and well-established network, into its consensus mechanism, Core can leverage the decentralization and security features of Bitcoin.
 
-## Advantages of BTC Native Staking
+## Advantages of Non-Custodial BTC Staking
 
 1. It is designed specifically for the kind of long-term holders and institutions who have shown a clear preference for keeping their assets on the Bitcoin blockchain. Recognizing that such entities are accustomed to holding their bitcoin without frequent transactions, native bitcoin staking offers them the opportunity to earn rewards during a specified holding period.
 2. No new trust assumptions are added. Users can stake their bitcoins without moving it off the Bitcoin blockchain, thereby maintaining the high security and trust that comes with Bitcoin's robust infrastructure.
@@ -31,7 +31,7 @@ One of the most outstanding features of Core DAO that distinguishes it from othe
 6. Users can build the transaction in any way and with any tool they prefer, it is highly not possible to encounter supply chain attacks from untrusted/unverified third party libraries.
 
 
-## Why Opt Core DAO's BTC Native Staking 
+## Why Opt Core DAO's Non-Custodial BTC Staking
 
 There are a few aspects of Core Chain's implementation of staking that set it apart.
 
@@ -42,9 +42,9 @@ There are a few aspects of Core Chain's implementation of staking that set it ap
 5. The reward system helps align cross-chain incentives. The reward pool comes from a shared consensus reward system that integrates the contributions of both Bitcoin miners and CORE token stakers, thereby optimizing the reward distribution for all participants. Additionally, the rewards are sustainable over the long-term, and will be distributed over a period of 81 years.
 
 
-## How BTC Native Staking Works
+## How Non-Custodial BTC Staking Works
 
-With the introduction of non-custodial bitcoin staking, Core Chain's recent protocol updates incorporate bitcoin holders as the third part of Satoshi Plus consensus. Core DAO's methodology for integrating bitcoin staking centers on [CLTV timelock](https://en.bitcoin.it/wiki/Timelock#CheckLockTimeVerify). CLTV timelock are Bitcoin-native cryptographic feature that specify a condition under which the transaction output cannot be spent until a certain point in time has passed. This time can be defined in terms of a specific date and time or by block height. Rather than holders giving up custody of their bitcoins to external staking, stakers on Core DAO merely need to place their bitcoins in CLTV timelocks as part of a transaction, and the transaction can be designed to return the output after the time period has elapsed. Within that transaction, stakers must include a script containing the same information that Bitcoin miners include in their delegated blocks: 
+With the non-custodial bitcoin staking, Core Chain's protocol incorporate bitcoin holders as the third part of Satoshi Plus consensus. Core Chain's methodology for integrating bitcoin staking centers on [CLTV timelock](https://en.bitcoin.it/wiki/Timelock#CheckLockTimeVerify). CLTV timelock are Bitcoin-native cryptographic feature that specify a condition under which the transaction output cannot be spent until a certain point in time has passed. This time can be defined in terms of a specific date and time or by block height. Rather than holders giving up custody of their bitcoins to external staking, stakers on Core DAO merely need to place their bitcoins in CLTV timelocks as part of a transaction, and the transaction can be designed to return the output after the time period has elapsed. Within that transaction, stakers must include a script containing the same information that Bitcoin miners include in their delegated blocks: 
 
 1. The address of the Core Validator the staker wants to delegate their bitcoin to.
 2. The address that the staker would like their CORE token rewards to be sent to.
@@ -55,7 +55,7 @@ Bitcoin stakers earn a yield on their otherwise passive bitcoin in the form of C
 
 Core DAO welcomes BTC holders to stake their BTC on the Bitcoin network. By voting for a Core validator during your BTC staking transaction, you play a pivotal role in Core's decentralization, earning CORE tokens as recurring rewards.
 
-* There are _minimal requirements_ on both **amount** and **duration** to make the staking eligible on Core.
+* There are _minimal requirements_ on both **amount** and **duration** to make the staking eligible on Core Chain.
     * A user should at least stake **0.01 BTC** (less transaction fees) for at least **7 days**. 
 
 ### Transaction Work Flow

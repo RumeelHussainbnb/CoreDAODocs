@@ -4,7 +4,7 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Running Core Full Nodes
+# Running Core Full Nodes on Core Mainnet
 ---
 
 A Core full node stores the entire history of the Core blockchain, enabling anyone to verify the state of any account. A Core full node can take many forms:
@@ -21,39 +21,23 @@ This document provides a detailed guideline on running Normal Full Nodes on the 
 
 There are several system requirements for setting up a Full Node on Core.
 
-### Software
+### Software Specifications for Full Nodes on Core Mainnet
 
-Currently, a Core Full Node can only run on Mac OS X and Linux.
+* Currently, a Core Full Node can **_only_** run on **Mac OS X** and **Linux**.
 
-### Hardware
+### Hardware Specifications for Full Nodes on Core Mainnet
 
-Core nodes perform several resource-intensive tasks, which can include storing blockchain data, verifying blocks or transactions, communicating with peer nodes, and answering network requests, depending on their configuration. Each type of Core node has specific hardware requirements based on their expected needs.
-
-#### Testnet Full Node Hardware Specifications
-
-For full nodes on **Core testnet**, we recommend the following minimal hardware specs:
+Core nodes perform several resource-intensive tasks, which can include storing blockchain data, verifying blocks or transactions, communicating with peer nodes, and answering network requests, depending on their configuration. For full nodes on **Core mainnet**, we recommend the following minimal hardware specs:
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
 | Storage        | 1 TB of free disk space                                                                                 |
 | CPU            | 4 CPU cores                                                                                             |
-| RAM            | 8 gigabytes                                                                                             |
-| Internet Speed | A broadband Internet connection with upload/download speeds of 5 megabytes per second.                  |
+| RAM            | 32 Gigabytes                                                                                            |
+| Internet Speed | A broadband Internet connection with upload/download speeds of 5 Mbps                                   |
 
 
-#### Mainnet Full Node Hardware Specifications
-
-For full nodes on **Core mainnet**, we recommend the following minimal hardware specs:
-
-| Requirements   | Details                                                                                                 |  
-|----------------|---------------------------------------------------------------------------------------------------------|
-| Storage        | 1 TB of free disk space                                                                                 |
-| CPU            | 4 CPU cores                                                                                             |
-| RAM            | 32 gigabytes                                                                                            |
-| Internet Speed | A broadband Internet connection with upload/download speeds of 5 megabytes per second.                  |
-
-
-## Build and Run
+## Build and Run Full Node on Core Mainnet
 
 1\. We recommend using the [core-chain](https://github.com/coredao-org/core-chain) GitHub repository to directly build and run your full node, running your full node directly from our blockchain codebase. Instructions for building the source code can be found in the repository's [README](https://github.com/coredao-org/core-chain#building-the-source).
 
@@ -89,7 +73,3 @@ geth --config ./config.toml --datadir ./node  --cache 8000
 ```
 
 5\. As our full node runs, we can monitor its logs to make sure that everything is operating correctly. The log file is located at `/node/logs/core.log` by default, but can be changed to another location if desired.
-
-:::note
-The steps for running full node on the Core Testnet is the same as that for the Core mainnet. You can download the latest snapshot for testnet from [here](https://github.com/coredao-org/core-snapshots?tab=readme-ov-file#testnet) and the latest binary from [here](https://github.com/coredao-org/core-chain/releases). Also, note that the recommended method for syncing testnet node is to sync from genesis block as currently the snapshot is not available. 
-:::
