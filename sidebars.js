@@ -203,12 +203,14 @@ const sidebars = {
           description: 'Unlock Your Potential: Detailed Developer Guides for Building on Core Chain',
           slug: '/category/dev-guides',
         },
-        items: ['Dev-Guide/remix', 'Dev-Guide/hardhat', 
-        'Dev-Guide/erc20-tokens', 
-        'Dev-Guide/erc721-tokens',
-        'Dev-Guide/dapp-on-core-copy',]
+        items: [
+          'Dev-Guide/smart-contract-guidelines',
+          'Dev-Guide/remix', 'Dev-Guide/hardhat', 
+          'Dev-Guide/contract-verify', 
+          'Dev-Guide/erc20-tokens', 
+          'Dev-Guide/erc721-tokens',
+          'Dev-Guide/dapp-on-core-copy',]
       },
-      'Dev-Guide/contract-verify', 
       {
         type: 'category',
         collapsed: true,
