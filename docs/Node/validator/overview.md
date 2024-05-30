@@ -31,7 +31,7 @@ Validators are required to share rewards with the delegators who staked CORE or 
 Let us assume that the base reward for a round is **3000 CORE** and that a certain validator sets its commission rate to **20%**. These tokens do not go directly to the proposer. Instead, they are shared among validators and delegators. These **3000 CORE** will be distributed according to each participant's stake. Assume that the fees generated from all transactions in all the blocks in a round was **100 CORE**.
 
 ```maths
-    Total Accumulated Reward = Base Reward + Transaction Fees = 3000 + 100 = 3100 CORE
+    Total Accumulated Reward = Base Reward + Transaction Fees = 3,000 + 100 = 3,100 CORE
 
     System Reward Contract gets = 3,100 x 10% = 310 CORE  
 
@@ -41,7 +41,7 @@ Let us assume that the base reward for a round is **3000 CORE** and that a certa
 
     Total Reward Validator gets = Commission = 558 CORE
 
-    All Delegators gets = Accumulated Validator Reward Commission = 2,790 - 558 = 2,232 CORE
+    All Delegators gets = Accumulated Validator Reward - Commission = 2,790 - 558 = 2,232 CORE
 ```
 
 :::note
