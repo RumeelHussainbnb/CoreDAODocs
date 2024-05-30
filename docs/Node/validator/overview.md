@@ -20,24 +20,28 @@ Validator's rewards come from
 
 Base rewards are calculated and distributed when the last block of a round is mined. Currently, **90%** of the rewards go to the validators and **10%** of the rewards go to the `System Reward Contract`. Of the **90%** paid to validators, some percentage is taken as a commission by the validator before they pay out their delegates. Each validator has an equal probability of producing blocks, so in the long run, all stable validators should get a similar portion of the reward.
 
+Similar is the case with the transaction fees collected from each block in a round, it is not directed completely to the validator, but is calculated similar to base rewards, i.e., 90% of accumulated fees is paid to the validators, some percentage is taken as a commission by the validator and the rest is distributed to the delegators. Whereas, the 10% is deposited into the System Reward Contract.
+
 Validators share rewards with the entities that delegated to them – including CORE stakers, bitcoin stakers, and PoW delegators – but they decide how much to give back by deciding how much they (the validators) choose to keep for themselves. Validators can take as much or as little of the reward as they want, though they’re incentivized to be generous in order to attract more stake and hash power.
 
 Validators are required to share rewards with the delegators who staked CORE or delegated hash power to them. Given the fact that each validator has an equal probability of producing blocks, all stable validators should get a similar portion of the rewards, in the long run. The portion validators keep for themselves (commission fees) will be distributed directly to their fee addresses at the end of each round. 
 
 ![validator-reward-distribution](../../../static/img/validator/Reward-Distribution.png)
 
-Let us assume that the reward for a block is **100 CORE** and that a certain validator sets its commission rate to **20%**. These tokens do not go directly to the proposer. Instead, they are shared among validators and delegators. These **100 CORE** will be distributed according to each participant's stake. Assume that the fees generated from all transactions in the block was **1 CORE**.
+Let us assume that the base reward for a round is **3000 CORE** and that a certain validator sets its commission rate to **20%**. These tokens do not go directly to the proposer. Instead, they are shared among validators and delegators. These **3000 CORE** will be distributed according to each participant's stake. Assume that the fees generated from all transactions in all the blocks in a round was **100 CORE**.
 
 ```maths
-    System Reward Contract gets = 100 x 10% = 10 CORE  
+    Total Accumulated Reward = Base Reward + Transaction Fees = 3000 + 100 = 3100 CORE
 
-    Accumulated Validator Reward = 100 x 90% = 90 CORE
+    System Reward Contract gets = 3,100 x 10% = 310 CORE  
 
-    Commission = 90 x 20% = 18 CORE
+    Accumulated Validator Reward = (Base Reward + Transaction Fees) x 90% = 3,100 x 90% = 2,790 CORE
 
-    Validator gets = Fees from txs in the block + Commission = 1 CORE + 10 CORE = 11 CORE
+    Commission = (Base Reward + Transaction Fees) x 20% = 2,790 x 20% = 558 CORE
 
-    All delegators gets = 90 x 80% - Commission = 54 CORE
+    Total Reward Validator gets = Commission = 558 CORE
+
+    All Delegators gets = Accumulated Validator Reward Commission = 2,790 - 558 = 2,232 CORE
 ```
 
 :::note
