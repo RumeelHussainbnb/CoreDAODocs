@@ -16,13 +16,13 @@ New to Core Chain? Let's discover **Core Chain in less than 5 minutes**.
 
 ## 📔 Learn about Core Chain
 Dive into what is Core Chain is and start the journey with Core.
-    * [An overview about Core Chain](./Learn/introduction/what-is-core-dao.md)
+    * [An overview about Core Chain](./Learn/introduction/what-is-core-chain.md)
     * [Read about the core concepts of Core Chain](category/core-concepts)
     * [Understand the Underlying Architecture](./Learn/core-concepts/architecture.md)
 
 ## 👓 Explore Core Chain
 Get Familiar with the Core Chain Ecosystem
-    * [Explore Why Core Chain is the Right Choice](./Learn/introduction/why-core-dao.md)
+    * [Explore Why Core Chain is the Right Choice](./Learn/introduction/why-core-chain.md)
     * [Explore the Different Products by Core Chain](category/products)
     * [See Whats Being Build on the Core Chain](https://coredao.org/explore/ecosystem)
 
