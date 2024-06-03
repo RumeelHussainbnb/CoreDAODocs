@@ -26,7 +26,7 @@ const config = {
   organizationName: 'RumeelHussainbnb', // Usually your GitHub org/user name.
   projectName: 'CoreDAODocs', // Usually your repo name.
   deploymentBranch:'gh-pages',
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
