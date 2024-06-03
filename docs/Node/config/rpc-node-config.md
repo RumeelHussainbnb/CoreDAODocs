@@ -23,7 +23,7 @@ Core nodes perform several resource-intensive tasks, which can include storing b
 
 #### Testnet RPC Node Hardware Specifications
 
-For RPC Nodes on **Core testnet**, we recommend the following minimal hardware specs:
+For RPC Nodes on **Core Blockchain Testnet**, we recommend the following minimal hardware specs:
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ For RPC Nodes on **Core testnet**, we recommend the following minimal hardware s
 
 #### Mainnet RPC Node Hardware Specifications
 
-For Sanpshot Nodes on **Core mainnet**, we recommend the following minimal hardware specs:
+For Sanpshot Nodes on **Core Blockchain Mainnet**, we recommend the following minimal hardware specs:
 
 
 | Requirements   | Details                                                                                                 |  
@@ -82,8 +82,8 @@ INFO [07-18|14:57:20.730] Successfully wrote genesis state         database=ligh
 If you plan to run a RPC node, you can just run the following `geth` command directly:
 
 ```bash
-## start a full node
-geth --config ./config.toml --datadir ./node  --cache 8000
+## start a RPC node
+geth --config ./config.toml --datadir ./node --cache 8000 --gcmode=full --rpc.allow-unprotected-txs
 ```
 
-5\. As our RPC full node runs, we can monitor its logs to make sure that everything is operating correctly. The log file is located at `/node/logs/core.log` by default, but can be changed to another location if desired.
+5\. As our RPC full node runs, we can monitor its logs to make sure that everything is operating correctly. The log file is located at `./node/logs/core.log` by default, but can be changed to another location if desired.

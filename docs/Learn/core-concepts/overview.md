@@ -2,22 +2,22 @@
 sidebar_label: Overview
 hide_table_of_contents: false
 sidebar_position: 2
-description: Get an Overview of Core DAO - its Purpose, Mission, & Future Vision
+description: Get an Overview of Core Chain - its Purpose, Mission, & Future Vision
 ---
 
-# Overview of Core DAO
+# Overview of Core Chain
 ---
 
 ## Introduction
-Core DAO's Core Chain is designed as the first Bitcoin-aligned Ethereum Virtual Machine (EVM) blockchain. It introduces a novel consensus mechanism called Satoshi Plus, enhancing Bitcoin's utility by integrating it into the decentralized finance (DeFi) sector through smart contracts and additional blockchain functionalities.
+Core Chain is designed as the first Bitcoin-aligned Ethereum Virtual Machine (EVM) blockchain. It introduces a novel consensus mechanism called Satoshi Plus, enhancing Bitcoin's utility by integrating it into the decentralized finance (DeFi) sector through smart contracts and additional blockchain functionalities.
 
 ## Purpose and Mission
-The primary goal of Core DAO is to unlock the potential of Bitcoin in the DeFi ecosystem, termed **BTCFi**, leveraging the vast market value of Bitcoin to secure a decentralized, permissionless, and scalable smart contract platform. This initiative aims to bridge the inherent limitations of Bitcoin with the expansive capabilities of smart contracts, thereby broadening the utility and application of Bitcoin without compromising its core attributes of security and decentralization. Furthermore, Core's consenus mechanism, Satoshi Plus is a pioneering combination of Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). Through DPoW, it leverages the hash power of Bitcoin’s network of miners. Through DPoS, it not only allows CORE token staking but also allows any BTC holder to use absolute time-locks to delegate their Bitcoin to Core validators in exchange for token rewards. The combination of BTC miners, BTC stakers and CORE stakers provide a secure and transparent mechanism for security of the Core network. By simultaneously unlocking DeFi landscape for Bitcoin and leveraging the BTC miners, BTC stakers and CORE stakers, Core aims to provide a Bitcoin-secured, Bitcoin-aligned, and hyper-scalable smart contract platform. 
+The primary goal of Core Chain is to unlock the potential of Bitcoin in the DeFi ecosystem, termed **BTCFi**, leveraging the vast market value of Bitcoin to secure a decentralized, permissionless, and scalable smart contract platform. This initiative aims to bridge the inherent limitations of Bitcoin with the expansive capabilities of smart contracts, thereby broadening the utility and application of Bitcoin without compromising its core attributes of security and decentralization. Furthermore, Core's consenus mechanism, Satoshi Plus is a pioneering combination of Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS) and Non-Custodial Bitcoin Staking. Through DPoW, it leverages the hash power of Bitcoin’s network of miners. Through DPoS, it not only allows CORE token staking but also allows any BTC holder to use absolute time-locks to delegate their Bitcoin to Core validators in exchange for token rewards. The combination of BTC miners, BTC stakers and CORE stakers provide a secure and transparent mechanism for security of the Core network. By simultaneously unlocking DeFi landscape for Bitcoin and leveraging the BTC miners, BTC stakers and CORE stakers, Core aims to provide a Bitcoin-secured, Bitcoin-aligned, and hyper-scalable smart contract platform. 
 
 ## Core Chain Technology
 
 1. **Satoshi Plus Consensus**
-This innovative consensus mechanism combines Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS) to utilize Bitcoin's mining infrastructure, integrating Bitcoin miners and mining pools into the security framework of a scalable smart contract platform. Satoshi Plus leverages the hash power of Bitcoin miners while also integrating stake-based voting, thus securing the Core Chain with a robust and hybrid consensus model that is both energy-efficient and scalable. This consensus not only facilitates the participation of Bitcoin miners but also allows CORE token holders to participate actively in the governance of the network.
+This innovative consensus mechanism combines Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS), and Non-Custodial Bitcoin Staking. By doing so, Satoshi Plus aims to utilize Bitcoin's mining infrastructure, integrating Bitcoin miners and mining pools into the security framework of a scalable smart contract platform. Satoshi Plus leverages the hash power of Bitcoin miners while also integrating stake-based voting, thus securing the Core Chain with a robust and hybrid consensus model that is both energy-efficient and scalable. This consensus not only facilitates the participation of Bitcoin miners but also allows CORE token holders to participate actively in the governance of the network.
     * **Delegated Proof of Work (DPoW):** This component allows Bitcoin miners to participate directly in the security of Core Chain by recycling their hash power. Miners can delegate their hashing power to Core Validators, earning additional rewards in CORE tokens, thus incentivizing continued participation in the Bitcoin network.
     * **Delegated Proof of Stake (DPoS):** CORE token holders can stake their tokens with Core Validators, influencing the network’s governance and earning rewards. This mechanism promotes a democratic and decentralized governance model where all stakeholders can participate in network decisions.
     * **Non-custodial Bitcoin Staking:** A feature allowing Bitcoin holders to stake their bitcoin directly on the blockchain without giving up control. This is achieved using absolute time locks that ensure bitcoin remains in the holder's control while participating in staking. This means users can participate in the network's consensus without transferring ownership of their coins. Stakers can lock their bitcoins in time-locked contracts directly on the Bitcoin blockchain, contributing to the network's security and decision-making processes, while earning rewards in CORE tokens.
@@ -44,9 +44,9 @@ This innovative consensus mechanism combines Delegated Proof of Work (DPoW) and 
 
 
 ## Strategic Objectives
-* **Interoperability and Expansion:** Core DAO is set to introduce trustless atomic swaps between Bitcoin, Core Chain, and other EVM chains, increasing interoperability within the blockchain ecosystem.
+* **Interoperability and Expansion:** Core Chain is set to introduce trustless atomic swaps between Bitcoin, Core Chain, and other EVM chains, increasing interoperability within the blockchain ecosystem.
 * **Enhanced Tokenomics:** Core-native wrapped bitcoin (coreBTC) and other Bitcoin-related improvements aim to enhance the liquidity and functional scope of Bitcoin in various financial applications.
-* **Community and Stakeholder Engagement:** Core DAO places a strong emphasis on community involvement and stakeholder benefits, ensuring that both miners and token holders are integral to the platform's consensus and rewarded accordingly.
+* **Community and Stakeholder Engagement:** Core Chain places a strong emphasis on community involvement and stakeholder benefits, ensuring that both miners and token holders (BTC/CORE) are integral to the platform's consensus and rewarded accordingly.
 
 ## State of the Core Ecosystem
 Many protocols in Core Chain’s ecosystem are focused on BTC and BTC derivatives (i.e., Bitcoin-native assets based on BTC such as Ordinals NFTs). BTC is largely an underutilized asset, as the limited programmability of Bitcoin Script makes it challenging to activate BTC in conventional DeFi protocols while maintaining custody of the asset(s). With a consensus mechanism integrated with Bitcoin’s own consensus, Core Chain aims to provide a DeFi environment for protocols to utilize BTC assets with minimal trust assumptions. [Core Ignition](https://coredao.org/explore/blog/63) is a six-month incentive program intended to catalyze more growth around Bitcoin DeFi.
@@ -99,7 +99,7 @@ More recently, newer layers have emerged, such as BOB, Citrea, Bison, and more. 
 Many existing sidechains will likely reduce their trust assumptions and gravitate towards rollup models as the tech becomes available. Also, many of the upcoming rollups will initially launch as sidechains. This would be a similar route compared to the gradual development of Ethereum L2s, which ran in production for years before nearly any of them had working proofs (fraud or validity) to enforce transaction validity.
 
 ## Future Vision
-The roadmap includes expanding the utility and performance of Bitcoin by maintaining the core ethos of the network while introducing enhancements that do not alter the base layer. Core DAO envisions a more interconnected and functionally diverse blockchain ecosystem where Bitcoin's foundational strengths are leveraged to support new and emerging technologies and applications in DeFi. Core DAO has a series of development plans on its roadmap:
+The roadmap includes expanding the utility and performance of Bitcoin by maintaining the core ethos of the network while introducing enhancements that do not alter the base layer. Core Chain envisions a more interconnected and functionally diverse blockchain ecosystem where Bitcoin's foundational strengths are leveraged to support new and emerging technologies and applications in DeFi. Core Chain has a series of development plans on its roadmap:
 
 * **Local fee markets:** These can make transactions more predictable and potentially cheaper.
 * **Atomic swaps:** Leveraging HTLCs, atomic swaps could be used for general purposes.
@@ -109,5 +109,5 @@ The roadmap includes expanding the utility and performance of Bitcoin by maintai
 * **Restaking:** This would enable other protocols to benefit from Core Chain’s Bitcoin protection.
 
 ## Conclusion
-Core DAO represents a significant step forward in the evolution of blockchain technology by effectively merging Bitcoin's robust security framework with the expansive capabilities of smart contracts. It aims to set a new standard for how traditional cryptocurrencies can interact with and benefit from the burgeoning field of decentralized finance.
+Core Chain represents a significant step forward in the evolution of blockchain technology by effectively merging Bitcoin's robust security framework with the expansive capabilities of smart contracts. It aims to set a new standard for how traditional cryptocurrencies can interact with and benefit from the burgeoning field of decentralized finance.
 

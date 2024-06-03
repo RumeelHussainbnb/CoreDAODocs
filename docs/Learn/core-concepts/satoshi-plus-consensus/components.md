@@ -8,11 +8,11 @@ description: Learn about the major components of the Satoshi Plus Mechanism
 # Satoshi Plus Consensus Mechanism 
 ---
 
-The Satoshi Plus consensus mechanism represents a groundbreaking innovation in blockchain technology, specifically engineered for the Core Chain platform to synergistically combine the robust security attributes of Bitcoin with the flexibility and scalability of smart contracts. This hybrid consensus model merges Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS), enabling Bitcoin miners to participate directly in the governance and security of a decentralized smart contract platform without incurring additional costs. By leveraging the established Bitcoin mining infrastructure, Satoshi Plus not only fosters a dual-layered security protocol but also enhances the incentive structures across both ecosystems, ensuring a balanced alignment of interests among all stakeholders involved in Core Chain. 
+The Satoshi Plus consensus mechanism represents a groundbreaking innovation in blockchain technology, specifically engineered for the Core Chain platform to synergistically combine the robust security attributes of Bitcoin with the flexibility and scalability of smart contracts. This hybrid consensus model merges Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS), and Non-custodial Bitcoin Staking, enables Bitcoin miners to participate directly in the governance and security of a decentralized smart contract platform without incurring additional costs. By leveraging the established Bitcoin mining infrastructure, Satoshi Plus not only fosters a dual-layered security protocol but also enhances the incentive structures across both ecosystems, ensuring a balanced alignment of interests among all stakeholders involved in Core Chain. 
 
 ## Major Components of the Satoshi Plus Mechanism
 
-The Satoshi Plus consensus mechanism, designed for Core Chain, ingeniously integrates features of both Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). This hybrid system is tailored to harness the strengths of Bitcoin's existing mining infrastructure while simultaneously incorporating the flexibility of staking mechanisms prevalent in many modern blockchains. Below are the various components, their roles, and how they interoperate to maintain network security and efficiency. Below, is a diagram illustrating how the different major components of the Satoshiu plus consensus mechanism fit together to provide a secure and robust ecosystem. 
+The Satoshi Plus consensus mechanism, designed for Core Chain, ingeniously integrates features of both Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS) and Non-Cstodial BTC Staking. This hybrid system is tailored to harness the strengths of Bitcoin's existing mining infrastructure while simultaneously incorporating the flexibility of staking mechanisms prevalent in many modern blockchains. Below are the various components, their roles, and how they interoperate to maintain network security and efficiency. Below, is a diagram illustrating how the different major components of the Satoshiu plus consensus mechanism fit together to provide a secure and robust ecosystem. 
 
 ![component-diagram](../../../../static/img/staoshi-plus/component-diagram.jpg)
 
@@ -30,7 +30,7 @@ DPoW extends the traditional Proof of Work (PoW) system used by Bitcoin to inclu
 
 ### 2. **Delegated Proof of Stake (DPoS)**
 **Description:**
-DPoS allows CORE token holders to engage in the network's governance by staking their tokens with Validators. This model promotes a more democratic and scalable consensus process compared to traditional PoW.
+DPoS allows BTC and CORE token holders to engage in the network's governance by staking their tokens with Validators. This model promotes a more democratic and scalable consensus process compared to traditional PoW.
 
 **How it works:**
 - **Staking and Voting:** Token holders stake their CORE tokens with Validators, effectively voting for them to participate in the consensus process. The more tokens staked with a Validator, the greater their influence in validating transactions and creating new blocks.
@@ -38,7 +38,17 @@ DPoS allows CORE token holders to engage in the network's governance by staking 
     * **Bitcoin Stakers** - The third leg of Satoshi Plus consensus is non-custodial Bitcoin staking, which allows any bitcoin holder to earn yield by staking their bitcoin tokens without giving up custody.
     * **CORE Stakers** - All holders of Core Chain’s native CORE tokens are able to underwrite the network’s security by delegating their token holdings to a validator.
 
-### 3. **Validators**
+
+### 3. **Non-Custodial Bitcoin Staking**
+**Description:**
+The third most important component of the Satoshi Plush consensus mechanism is the **Non-custodial Bitcoin Staking**. This features allows BTC holders to engage in the network's governance by staking their BTC on the Core Chain and then delegating them to their desired validators. This model promotes a more democratic and scalable consensus process compared to traditional PoW.
+
+**How it works:**
+- **Staking and Voting:** BTC holders stake their assets on Core Chain and also delegate them to their desired Validators on the Core blockchain, effectively voting for them to participate in the consensus process. The more BTC staked with a Validator, the greater their influence in validating transactions and creating new blocks.
+- **Workflow:** Stakers delegate their BTC to Validators through a secure staking process on the Core Chain platform. In exchange, they receive staking rewards in the form of CORE tokens. The staked tokens contribute to the network's overall security and decision-making processes.
+
+
+### 4. **Validators**
 **Description:**
 Validators are central to the functioning of the Satoshi Plus mechanism. They perform critical network functions including block production, transaction validation, and consensus achievement. Anyone can become a Core validator by registering with the network and locking up a refundable CORE token deposit.
 
@@ -58,7 +68,7 @@ Validators are central to the functioning of the Satoshi Plus mechanism. They pe
     * **Epoch** - An epoch is the span of time during which the system checks each validator’s status so as to exclude jailed validators from participating in consensus activities. Currently, an epoch is set to **200** slots, which is **600** seconds or **10** minutes. Validator status is checked once per epoch (rather than continuously) in order to keep TPS roughly constant in a given round.
 
 
-### 4. **Incentive Alignment**
+### 5. **Incentive Alignment**
 **Description:**
 A critical aspect of Satoshi Plus is the alignment of incentives across miners, stakers, and Validators. This ensures all parties are motivated to act in the best interests of the network.
 
@@ -66,7 +76,7 @@ A critical aspect of Satoshi Plus is the alignment of incentives across miners, 
 - **Rewards Distribution:** Both miners and stakers receive rewards in CORE tokens, aligning their interests with the network's health. This dual-reward system encourages ongoing participation and support for the network.
 - **Workflow:** Rewards are calculated based on several factors including the amount of computational power or tokens contributed, and are distributed automatically by the Core Chain protocol. This incentivizes continuous and honest participation in the network.
 
-### 5. **Network Security and Symbiosis**
+### 6. **Network Security and Symbiosis**
 **Description:**
 Satoshi Plus enhances the security of both the Bitcoin and Core Chain networks by creating a symbiotic relationship where security enhancements in one benefit the other.
 

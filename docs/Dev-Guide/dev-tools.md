@@ -9,7 +9,7 @@ sidebar_position: 2
 
 #### _Access Core's tools and resources_
 
-### Core Testnet Resources
+### Core Blockchain Testnet Resources
 
 * **[Block Explorer](https://scan.test.btcs.network/):** search and review transactions, accounts, blocks, and more.
 
@@ -23,13 +23,13 @@ sidebar_position: 2
 
 ### General Resources
 
-* **[Core DAO GitHub](https://github.com/coredao-org):** the official Core GitHub, including our blockchain codebase and more.
+* **[Core DAO GitHub](https://github.com/coredao-org):** the official GitHub Page, including Core blockchain codebase and more.
 
-### Core Mainnet Resources
+### Core Blockchain Mainnet Resources
 
 * **[Block Explorer](https://scan.coredao.org/):** search and review transactions, accounts, blocks, and more.
 
-* **[RPC Endpoints](https://chainlist.org/chain/1116):** RPC endpoints for Core Testnet's RPC service.
+* **[RPC Endpoints](https://chainlist.org/chain/1116):** RPC endpoints for Core Mainnet's RPC service.
 
 * **[Core Bridge](https://bridge.coredao.org/):** official bridge for the Core ecosystem (more details in Core Bridge Resources)
 

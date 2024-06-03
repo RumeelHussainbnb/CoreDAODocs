@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # Validator Node Configuration
 ---
-Validators are crucial for securing the network by producing blocks and validating transactions within the Core DAO’s Satoshi Plus consensus framework.
+Validators are crucial for securing the network by producing blocks and validating transactions within the Core Chain’s Satoshi Plus consensus framework.
 
 ## System Requirements
 
@@ -22,7 +22,7 @@ Core nodes perform several resource-intensive tasks, which can include storing b
 
 #### Testnet Validator Node Hardware Specifications
 
-For Validator Nodes on **Core testnet**, we recommend the following minimal hardware specs:
+For Validator Nodes on **Core Blockchain Testnet**, we recommend the following minimal hardware specs:
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ For Validator Nodes on **Core testnet**, we recommend the following minimal hard
 
 #### Mainnet Validator Node Hardware Specifications
 
-For Validator Nodes on **Core mainnet**, we recommend the following minimal hardware specs:
+For Validator Nodes on **Core Blockchain Mainnet**, we recommend the following minimal hardware specs:
 
 
 | Requirements   | Details                                                                                                 |  

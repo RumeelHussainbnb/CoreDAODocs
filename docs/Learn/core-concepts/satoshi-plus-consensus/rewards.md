@@ -5,15 +5,15 @@ sidebar_position: 2
 description: Rewards in the Core Ecosystem
 ---
 
-# Rewards in the Core DAO Ecosystem 
+# Rewards in the Core Chain Ecosystem 
 ---
 
-The Core DAO ecosystem is designed to incentivize participation and secure commitment from its community through a well-structured rewards system. This system underpins the Satoshi Plus consensus mechanism, ensuring network security, stakeholder engagement, and alignment of interests among all participants. The rewards system is fundamental in encouraging the community to partake actively in mining, staking, and governance, thereby enhancing the overall health and growth of the ecosystem.
+The Core Chain ecosystem is designed to incentivize participation and secure commitment from its community through a well-structured rewards system. This system underpins the Satoshi Plus consensus mechanism, ensuring network security, stakeholder engagement, and alignment of interests among all participants. The rewards system is fundamental in encouraging the community to partake actively in mining, staking, and governance, thereby enhancing the overall health and growth of the ecosystem.
 
 ## Types of Rewards
 
 :::warning
-The reward structure in Core DAO is subject to adjustments based on periodic governance votes, allowing the community to respond to changes in the ecosystem, such as fluctuations in token value or shifts in the security landscape.
+The reward structure on  Core Chain is subject to adjustments based on periodic governance votes, allowing the community to respond to changes in the ecosystem, such as fluctuations in token value or shifts in the security landscape.
 :::
 
 ![rewards](../../../../static/img/validator/Reward-Distribution.png)
@@ -79,22 +79,22 @@ Where:
 These reward-splitting functions are designed to create an active market for rewards while encouraging competition amongst the validator set for both delegated hash power and delegated stake. For their part, delegators will try to optimize their own rewards by choosing validators with lower amounts of delegated hash power and stake. To maximize their rewards, delegators will look both for validators that are generous in their payouts, but also don’t already have a substantial amount of delegated CORE tokens or delegated PoW. The less a given validator has staked, the greater a contribution from a delegator will be. If a delegator adds one CORE token to a validator that only has one token, they’re 50% of that validator’s total delegation. If they delegate to a validator with 99 CORE tokens, they’re only 1% of that validator’s total delegation. Since payouts are determined in part based on the percentage of total stake each delegator accounts for, they’ll be incentivized to try and find validators with small delegations.
 
 ### 4. Relayer and Verifier Rewards
-In the Core DAO ecosystem, the base rewards are calculated and distributed when the last block of a round is mined, with **90%** going to the validators and **10%** to the System Rewards Contract. The System Reward Contract accumulates rewards to remunerate relayers and verifiers. As things stand, there is a cap of **10 million** total CORE tokens in the System Reward Contract. Any rewards in excess of this amount are burned.
+In the Core Chain ecosystem, the base rewards are calculated and distributed when the last block of a round is mined, with **90%** going to the validators and **10%** to the System Rewards Contract. The System Reward Contract accumulates rewards to remunerate relayers and verifiers. As things stand, there is a cap of **10 million** total CORE tokens in the System Reward Contract. Any rewards in excess of this amount are burned.
 
 Relayers are responsible for communicating the Bitcoin block headers to the Core network. They earn a portion of the base system rewards and transaction fees for this cross-chain communications work. Relayer rewards are distributed in batches, every 100 Bitcoin blocks. Relayers claim their rewards periodically.
 
-Verifiers in the Core DAO ecosytem are responsible for monitoring the behavior of validators and report them if they engage in double signing or other malicious activity. When successful, rewards are paid out immediately from the System Rewards Contract, in the same transaction.
+Verifiers in the Core Chain ecosytem are responsible for monitoring the behavior of validators and report them if they engage in double signing or other malicious activity. When successful, rewards are paid out immediately from the System Rewards Contract, in the same transaction.
 
 ### 5. Governance Participation Rewards:
-* **Description:** Participants in the Core DAO governance process are incentivized through rewards that encourage active and thoughtful participation in decision-making processes.
+* **Description:** Participants in the Core Chain governance process are incentivized through rewards that encourage active and thoughtful participation in decision-making processes.
 * **Mechanism:** Rewards are distributed to users who vote on proposals and participate in other governance activities. These rewards aim to foster a proactive governance community and ensure that decisions reflect the broad consensus of the ecosystem’s stakeholders.
 
 ## Reward Distribution Strategy
-Core DAO follows the following distribution Principles:
+Core Chain follows the following distribution Principles:
     * **Fairness:** The rewards system is designed to be fair, ensuring that contributions, whether in the form of staking, mining, or governance participation, are equitably recognized and rewarded.
     * **Transparency:** All aspects of the reward distribution are transparent, allowing participants to understand how rewards are calculated and distributed.
     * **Security:** The distribution mechanism is secured against manipulation and abuse, using cryptographic and smart contract-based safeguards to ensure the integrity of the reward process.
 
 
 ## Conclusion
-The rewards in the Core DAO ecosystem play a crucial role in maintaining the security, vitality, and decentralization of the network. By aligning the incentives of various participants through a comprehensive and adaptable rewards system, Core DAO ensures ongoing engagement and contributes to the sustained growth and stability of the platform. This structured approach to incentivization is foundational to the success of Core Chain as a leading platform in the Bitcoin DeFi landscape.
+The rewards in the Core Chain ecosystem play a crucial role in maintaining the security, vitality, and decentralization of the network. By aligning the incentives of various participants through a comprehensive and adaptable rewards system, Core Chain ensures ongoing engagement and contributes to the sustained growth and stability of the platform. This structured approach to incentivization is foundational to the success of Core Chain as a leading platform in the Bitcoin DeFi landscape.

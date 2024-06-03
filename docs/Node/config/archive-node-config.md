@@ -23,7 +23,7 @@ Core nodes perform several resource-intensive tasks, which can include storing b
 
 #### Testnet Archive Node Hardware Specifications
 
-For Archive Nodes on **Core testnet**, we recommend the following minimal hardware specs:
+For Archive Nodes on **Core Blockchain Testnet**, we recommend the following minimal hardware specs:
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ For Archive Nodes on **Core testnet**, we recommend the following minimal hardwa
 
 #### Mainnet Archive Node Hardware Specifications
 
-For Archive Nodes on **Core mainnet**, we recommend the following minimal hardware specs:
+For Archive Nodes on **Core Blockchain Mainnet**, we recommend the following minimal hardware specs:
 
 
 | Requirements   | Details                                                                                                 |  
@@ -60,8 +60,8 @@ geth --datadir node init genesis.json
 4\. Our full/archive node is ready, let's start running it! You can just run the following `geth` command directly:
 
 ```bash
-## start a full node
-geth --config ./config.toml --datadir ./node  --cache 8000
+## start an archive node
+geth --config ./config.toml --datadir ./node --cache 8000 --gcmode=archive --syncmode=full 
 ```
 
-5\. As our full/archive node runs, we can monitor its logs to make sure that everything is operating correctly. The log file is located at `/node/logs/core.log` by default, but can be changed to another location if desired.
+5\. As our archive node runs, we can monitor its logs to make sure that everything is operating correctly. The log file is located at `./node/logs/core.log` by default, but can be changed to another location if desired.

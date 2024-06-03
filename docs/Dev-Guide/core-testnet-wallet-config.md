@@ -23,7 +23,7 @@ There are multiple ways to add Core Testnet configurations to your MetaMask Wall
 #### Adding Network Manually
 Once you've set up your MetaMask wallet, you can use it to connect to Core Testnet by adding Core Testnet's chain details in MetaMask's network settings. Navigate to `Settings->Networks` in MetaMask and click the `Add Network` button. Input the following information:
 
-* **Network Name:** Core Chain TestNet
+* **Network Name:** Core Blockchain TestNet
 * **New RPC URL:** https://rpc.test.btcs.network
 * **Chain ID:** 1115
 * **Currency Symbol:** tCORE
@@ -72,7 +72,7 @@ You can use MetaMask to send tCORE to other addresses.
 
 ![send-metmask](../../static/img/testnet-wallet-config/send-tcore-1.png)
 
-3. Enter the amount of tCORE tokens you want to send and the address whom you want to send the tCORE tokens make sure its a Core Testnet Address. Then click next and confirm teh transaction. 
+3. Enter the amount of tCORE tokens you want to send and the address whom you want to send the tCORE tokens make sure its a Core Testnet Address. Then click next and confirm the transaction. 
 
 ![send-metmask](../../static/img/testnet-wallet-config/send-tcore-2.png)
 

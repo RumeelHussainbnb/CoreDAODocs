@@ -4,14 +4,14 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Governance in Core DAO
+# Governance on the Core Chain
 ---
 
-Core DAO's governance system is designed to ensure a decentralized and democratic management of the Core Chain network. It empowers the community to actively participate in decision-making processes that shape the ecosystem's future, from protocol changes to feature implementations and more. This section outlines the governance structureof the Core DAO ecosystem.
+Core Chain's governance system is designed to ensure a decentralized and democratic management of the Core Chain network. It empowers the community to actively participate in decision-making processes that shape the ecosystem's future, from protocol changes to feature implementations and more. This section outlines the governance structure of the Core Chain ecosystem.
 
 ## Progressive Decentralization Strategy
 
-The Core DAO's governance is designed to evolve over time, with a phased approach that begins with necessary centralization for network establishment and progressively hands over control to the community as it grows and stabilizes.
+The Core Chain's governance is designed to evolve over time, with a phased approach that begins with necessary centralization for network establishment and progressively hands over control to the community as it grows and stabilizes.
 
 * **Stage 1: Offchain Governance**
     - Proposals and decisions are conducted offchain through Core Improvement Proposals (CIPs).
@@ -35,7 +35,7 @@ The Core DAO's governance is designed to evolve over time, with a phased approac
 
 ## Current State of Governance
 
-Core DAO governance is currently in transition, situated at Stage 1.5, with the objective of reaching Stage 3, which represents full decentralization. Governance is facilitated through the CORE token, empowering the community to guide the development and direction of the Core Chain.
+Core Chain's governance is currently in transition, situated at Stage 1.5, with the objective of reaching Stage 3, which represents full decentralization. Governance is facilitated through the CORE token, empowering the community to guide the development and direction of the Core Chain.
 
 ## Governance Oversight by the Core Team
 
@@ -45,8 +45,8 @@ Until Core achieves its decentralization goals, the Core team has been entrusted
 - Adjusting governance parameters.
 - Determining the percentage of block rewards and transaction fees that are burned.
 
-The DAO is set to gradually expand its membership, transitioning governance responsibilities to the community as the network matures.
+The Core DAO is set to gradually expand its membership, transitioning governance responsibilities to the community as the network matures.
 
 ## Conclusion
 
-The governance framework of Core DAO embodies a phased approach, beginning with offchain governance and advancing through stages towards full onchain governance. By adapting to the evolving needs and maturity of the network, Core DAO aims to foster a strong, decentralized, and active community governance model. This gradual transition ensures that Core Chain can maintain security, stability, and user trust, while progressively enhancing community control and participation in its governance processes.
+The governance framework of Core Chain embodies a phased approach, beginning with offchain governance and advancing through stages towards full onchain governance. By adapting to the evolving needs and maturity of the network, Core Chain aims to foster a strong, decentralized, and active community governance model. This gradual transition ensures that Core Chain can maintain security, stability, and user trust, while progressively enhancing community control and participation in its governance processes.

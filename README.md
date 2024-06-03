@@ -1,6 +1,6 @@
 # Core DAO Documentation 
 
-This is the restructuring of Core DAO official Docs built using [Docusaurus](https://docusaurus.io/).
+This is the restructuring of Core DAO's official Docs built using [Docusaurus](https://docusaurus.io/).
 
 ### Installation
 

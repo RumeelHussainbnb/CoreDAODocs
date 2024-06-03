@@ -8,10 +8,10 @@ sidebar_position: 2
 ---
 
 ## What is coreBTC?
-Core-native wrapped bitcoin (coreBTC) serves as a synthetic representation of Bitcoin on the Core Chain, designed to integrate Bitcoin into the decentralized finance (DeFi) landscape of Core DAO. By locking Bitcoin and issuing an equivalent amount of coreBTC, it ensures a **1:1** value correlation, enabling Bitcoin holders to engage securely in DeFi activities without directly using their Bitcoin holdings.
+Core-native wrapped bitcoin (coreBTC) serves as a synthetic representation of Bitcoin on the Core Chain, designed to integrate Bitcoin into the decentralized finance (DeFi) landscape of Core Chain. By locking Bitcoin and issuing an equivalent amount of coreBTC, it ensures a **1:1** value correlation, enabling Bitcoin holders to engage securely in DeFi activities without directly using their Bitcoin holdings.
 
 ## Importance in the Core Ecosystem
-coreBTC is central to developing a vibrant Bitcoin DeFi (BTCFi) ecosystem within Core DAO. It unlocks the significant value stored in Bitcoin by making it usable in smart contracts and other blockchain-based financial services, potentially involving nearly **$1 trillion** worth of Bitcoin. This facilitates greater liquidity and usability of Bitcoin, enhancing its overall ecosystem.
+coreBTC is central to developing a vibrant Bitcoin DeFi (BTCFi) ecosystem within Core Chain. It unlocks the significant value stored in Bitcoin by making it usable in smart contracts and other blockchain-based financial services, potentially involving nearly **$1 trillion** worth of Bitcoin. This facilitates greater liquidity and usability of Bitcoin, enhancing its overall ecosystem.
 
 ## Advantages of coreBTC
 
@@ -37,7 +37,7 @@ coreBTC is central to developing a vibrant Bitcoin DeFi (BTCFi) ecosystem within
 
 
 ## Why Opt for coreBTC?
-Opting for coreBTC offers several compelling benefits, making it an attractive choice for Bitcoin holders and users in the Core DAO ecosystem. Here’s a bulleted list outlining why one might choose coreBTC:
+Opting for coreBTC offers several compelling benefits, making it an attractive choice for Bitcoin holders and users in the Core Chain ecosystem. Here’s a bulleted list outlining why one might choose coreBTC:
 
 - **Seamless DeFi Integration:** coreBTC allows Bitcoin holders to seamlessly engage with DeFi applications on the Core Chain, expanding the utility of their Bitcoin without converting it into other cryptocurrencies.
   
@@ -49,7 +49,7 @@ Opting for coreBTC offers several compelling benefits, making it an attractive c
 
 - **Trustless Transactions:** coreBTC maintains a trustless environment where users don’t have to trust a single entity with their Bitcoin; instead, the security is distributed among multiple parties (Lockers and Relayers), each bound by economic incentives to act honestly.
 
-<!-- - **Direct Participation in Governance:** Holding coreBTC enables users to participate in the governance of the Core DAO, influencing decisions regarding the platform's development and the use of community funds. -->
+<!-- - **Direct Participation in Governance:** Holding coreBTC enables users to participate in the governance of the Core Chain, influencing decisions regarding the platform's development and the use of community funds. -->
 
 - **No Custody Risk:** Users retain full control over their Bitcoin until they decide to lock it up for coreBTC, reducing the custody risk typically associated with handing over assets to a third party.
 
@@ -57,7 +57,7 @@ Opting for coreBTC offers several compelling benefits, making it an attractive c
 
 - **Reward Opportunities:** Users can earn additional rewards in CORE tokens by participating in the staking and security of the Core Chain, thereby increasing their potential investment returns.
 
-- **Future-Proof Investment:** As Core DAO continues to develop and expand its offerings, holding coreBTC could provide strategic advantages in accessing new services and features as they become available on the platform.
+- **Future-Proof Investment:** As Core Chain continues to develop and expand its offerings, holding coreBTC could provide strategic advantages in accessing new services and features as they become available on the platform.
 
 Choosing coreBTC allows users to leverage the security and value of Bitcoin within a dynamic and growing DeFi ecosystem, aligning traditional Bitcoin investment with modern blockchain technology opportunities.
 
@@ -67,4 +67,4 @@ Choosing coreBTC allows users to leverage the security and value of Bitcoin with
 - **Redemption Process:** Users can burn their coreBTC to retrieve their locked Bitcoin. The coreBTC smart contract verifies the burn and instructs the Locker to send the equivalent Bitcoin to the user’s specified address.
 
 ## Conclusion
-coreBTC is a transformative component of the Core DAO ecosystem, enhancing the utility of Bitcoin by enabling its active participation in DeFi while adhering to the principles of decentralization and security. Through its intricate system of Lockers, Relayers, and smart contracts, coreBTC ensures that Bitcoin can be safely used and transacted within the Core DAO ecosystem, broadening its appeal and functional utility.
+coreBTC is a transformative component of the Core Chain ecosystem, enhancing the utility of Bitcoin by enabling its active participation in DeFi while adhering to the principles of decentralization and security. Through its intricate system of Lockers, Relayers, and smart contracts, coreBTC ensures that Bitcoin can be safely used and transacted within the Core Chain ecosystem, broadening its appeal and functional utility.

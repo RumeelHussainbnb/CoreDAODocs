@@ -1,13 +1,13 @@
 ---
-sidebar_label: Overview of Core DAO Nodes
+sidebar_label: Overview of Nodes Running on Core Chain
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# Nodes in the Core DAO Ecosystem
+# Nodes in the Core Chain Ecosystem
 ---
 
-In the Core DAO ecosystem, the robustness, security, and decentralization of the network are upheld by the nodes operated by community participants. These nodes facilitate various functions, from transaction validation to block propagation, ensuring the network's overall health and efficiency. Depending on your goals, there are different node configurations possible on the Core network. If you haven't already started the Core Chain node, please review the documentation for [Running a Local Validator Node](./validator/running-validator.md) before proceeding with different configurations.
+In the Core Chain ecosystem, the robustness, security, and decentralization of the network are upheld by the nodes operated by community participants. These nodes facilitate various functions, from transaction validation to block propagation, ensuring the network's overall health and efficiency. Depending on your goals, there are different node configurations possible on the Core network. If you haven't already started the Core Chain node, please review the documentation for [Running a Local Validator Node](./validator/running-validator.md) before proceeding with different configurations.
 
 * If you want to be part of the governance of the Core Nework:
 
@@ -28,9 +28,9 @@ In the Core DAO ecosystem, the robustness, security, and decentralization of the
 
     * [Start a Snapshot Node](./config/snapshot-node-config.md)
 
-## Types of Nodes in Core DAO
+## Types of Nodes on the Core Chain Network
 1. **Validators:**
-    * **Role:** Validators are crucial for securing the network by producing blocks and validating transactions within the Core DAO’s consensus framework.
+    * **Role:** Validators are crucial for securing the network by producing blocks and validating transactions within the Core Chain’s consensus framework.
     * **Requirements:** Validators need to stake minimum amount of **10,000 CORE tokens** to participate, aligning their financial incentives with the network's performance and security.
     * **Incentives:** Validators earn rewards in CORE tokens for their active role in maintaining and securing network operations.
 
@@ -59,4 +59,4 @@ In the Core DAO ecosystem, the robustness, security, and decentralization of the
 * **Snapshot Nodes** aid in efficient network scaling and faster node synchronization.
 
 ## Conclusion
-The diverse roles of nodes in the Core DAO ecosystem collectively ensure the blockchain is secure, efficient, accessible, and robust. Validators, Full Nodes, and Archive Nodes form the backbone of the network's security and data integrity. At the same time, RPC Nodes, and Snapshot Nodes provide flexibility, accessibility, and scalability. This multi-faceted node architecture supports a wide range of operations from transaction processing to complex dApp interactions and historical data analysis.
+The diverse roles of nodes in the Core Chain ecosystem collectively ensure the blockchain is secure, efficient, accessible, and robust. Validators, Full Nodes, and Archive Nodes form the backbone of the network's security and data integrity. At the same time, RPC Nodes, and Snapshot Nodes provide flexibility, accessibility, and scalability. This multi-faceted node architecture supports a wide range of operations from transaction processing to complex dApp interactions and historical data analysis.

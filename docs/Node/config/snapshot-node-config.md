@@ -18,15 +18,15 @@ There are several system requirements, both software and hardware, for setting u
 
 ### Hardware
 
-Core nodes perform several resource-intensive tasks, which can include storing blockchain data, verifying blocks or transactions, communicating with peer nodes, and answering network requests, depending on their configuration. Each type of Core node has specific hardware requirements based on their expected needs.
+On the Core network, Snapshot nodes act also as the archive nodes, storing the enitre blockchain data. 
 
 #### Testnet Snapshot Node Hardware Specifications
 
-For Snapshot Nodes on **Core testnet**, we recommend the following minimal hardware specs:
+For Snapshot Nodes on **Core Blockchain Testnet**, we recommend the following minimal hardware specs:
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
-| Storage        | Solid State Drive (SSD) with a minimum capacity of 1TB                                                  |
+| Storage        | Solid State Drive (SSD) with a minimum capacity of 4TB                                                  |
 | CPU            | 4 CPU cores                                                                                             |
 | RAM            | 16 Gigabytes                                                                                            |
 | Internet Speed | A broadband Internet connection with upload/download speeds of 5Mbps                                    |
@@ -34,11 +34,11 @@ For Snapshot Nodes on **Core testnet**, we recommend the following minimal hardw
 
 #### Mainnet Snapshot Node Hardware Specifications
 
-For Sanpshot Nodes on **Core mainnet**, we recommend the following minimal hardware specs:
+For Sanpshot Nodes on **Core Blockchain Mainnet**, we recommend the following minimal hardware specs:
 
 | Requirements   | Details                                                                                                 |  
 |----------------|---------------------------------------------------------------------------------------------------------|
-| Storage        | Solid State Drive (SSD) with a minimum capacity of 1TB                                                  |
+| Storage        | Solid State Drive (SSD) with a minimum capacity of 4TB                                                  |
 | CPU            | 4 CPU cores                                                                                             |
 | RAM            | 16 Gigabytes                                                                                            |
 | Internet Speed | A broadband Internet connection with upload/download speeds of 5Mbps                                    |
@@ -48,7 +48,7 @@ For Sanpshot Nodes on **Core mainnet**, we recommend the following minimal hardw
 
 You can get the latest snapshots from [here](https://github.com/coredao-org/core-snapshots).
 
-## Syncing Nodes Using Snapshots on Core Network
+## Syncing Nodes Using Snapshots on Core Chain Network
 
 On Core Chain network, you can sync your node to the latest state by several ways. In this document, we guide you through the syncing process of nodes on the Core network using the snapshots.
 
@@ -117,7 +117,7 @@ It is recommended to run a fast node, which is a full node with the flag --tries
 :::
 
 ### Monitor node status
-You can monitor the log from `/node/logs/core.log` by default. 
+You can monitor the logs for node status. By default the logs are stored at `./node/logs/core.log`. 
 
 ## Sync Mode
 

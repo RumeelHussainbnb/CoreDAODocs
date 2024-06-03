@@ -14,11 +14,11 @@ Design Summary
 
 After researching different LST projects, LiDO and Kava, etc, and combining the unique characteristics of Core blockchain, we came up with the following designs
 
-●	We introduce a new module called Earn along with a standard ERC-20 token stCORE
-●	Users interact with Earn module, mint/redeem/withdraw
-●	Earn module interacts with Core platform contracts such as PledgeAgent (the staking contract) and CandidateHub
-●	All incurred value of Earn will be reflected in the stCORE token value
-●	The CORE/stCORE conversion ratio will be updated daily to fit the turn round mechanism of Core blockchain
+●	We introduce a new module called `Earn` along with a standard ERC-20 token `stCORE`
+●	Users interact with `Earn` module, mint/redeem/withdraw
+●	`Earn` module interacts with Core platform contracts such as `PledgeAgent` (the staking contract) and `CandidateHub`
+●	All incurred value of `Earn` will be reflected in the `stCORE` token value
+●	The **CORE/stCORE** conversion ratio will be updated daily to fit the turn round mechanism of Core blockchain
 ●	We also introduce a few methods so the system operator can rebalance and optimize stakings across all validators. 
 
 User Perspective

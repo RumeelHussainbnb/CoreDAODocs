@@ -5,12 +5,12 @@ sidebar_position: 2
 ---
 # Design of coreBTC
 
-The coreBTC within Core DAO represents a significant innovation in the realm of blockchain technology, specifically focusing on enhancing Bitcoin's utility within decentralized finance (DeFi). This synthetic representation of Bitcoin on the Core Chain ensures seamless interaction with DeFi applications while maintaining the inherent properties of Bitcoin. 
+The coreBTC within the Core blockchain represents a significant innovation in the realm of blockchain technology, specifically focusing on enhancing Bitcoin's utility within decentralized finance (DeFi). This synthetic representation of Bitcoin on the Core Chain ensures seamless interaction with DeFi applications while maintaining the inherent properties of Bitcoin. 
 
 ## Key Components and Their Roles
 
 **1. Lockers:**
-   - **Role:** Lockers are responsible for holding the actual Bitcoin that backs the coreBTC. Users send their Bitcoin to a Locker's address to initiate the wrapping process. Anyone can register as a Locker on Core Chain by locking up collateral, and the Core DAO itself also runs one of the many Lockers.
+   - **Role:** Lockers are responsible for holding the actual Bitcoin that backs the coreBTC. Users send their Bitcoin to a Locker's address to initiate the wrapping process. Anyone can register as a Locker on Core Chain by locking up collateral, and the Core Chain itself also runs one of the many Lockers.
    - **Security:** Lockers must provide a significant amount of collateral in CORE tokens to ensure the security of the Bitcoin they hold. This collateral can be liquidated to cover losses in case of malfeasance, providing a strong disincentive against fraudulent activities.
 
 **2. Collateral:**
@@ -20,7 +20,7 @@ The coreBTC within Core DAO represents a significant innovation in the realm of 
 
 **2. Relayers:**
    - **Role:** Relayers monitor the Bitcoin blockchain for locking transactions directed at Lockers and validate these transactions. They play a crucial role in ensuring that the locked Bitcoin corresponds accurately to the minted coreBTC on the Core Chain.
-   - **Functionality:** Upon detecting a valid locking transaction, Relayers submit proof to the Core Chain to mint the corresponding amount of coreBTC, bridging Bitcoin into the Core DAO ecosystem securely.
+   - **Functionality:** Upon detecting a valid locking transaction, Relayers submit proof to the Core Chain to mint the corresponding amount of coreBTC, bridging Bitcoin into the Core Chain ecosystem securely.
 
 **3. coreBTC Smart Contract:**
    - **Role:** The coreBTC smart contract on the Core Chain manages the minting and burning of coreBTC tokens. It interacts with Relayers and Lockers to ensure that all operations adhere to the protocol rules.
@@ -37,9 +37,9 @@ The coreBTC within Core DAO represents a significant innovation in the realm of 
 
 ## How coreBTC Works
 
-coreBTC is an innovative synthetic asset developed within the Core DAO ecosystem that allows Bitcoin to be used seamlessly in decentralized finance (DeFi) applications on the Core Chain. The process begins when a user locks their Bitcoin with a designated custodian known as a **Locker**, who holds the actual Bitcoin and provides a significant amount of collateral to secure the transaction. This Bitcoin is then represented on the Core Chain as coreBTC, maintaining a strict **1:1 peg** to ensure value consistency between the locked Bitcoin and the issued coreBTC.
+coreBTC is an innovative synthetic asset developed within the Core blockchain ecosystem that allows Bitcoin to be used seamlessly in decentralized finance (DeFi) applications on the Core Chain. The process begins when a user locks their Bitcoin with a designated custodian known as a **Locker**, who holds the actual Bitcoin and provides a significant amount of collateral to secure the transaction. This Bitcoin is then represented on the Core Chain as coreBTC, maintaining a strict **1:1 peg** to ensure value consistency between the locked Bitcoin and the issued coreBTC.
 
-Relayers play a crucial role in monitoring these Bitcoin transactions and validating them to the Core Chain. Once validated, the transaction details are sent to the coreBTC smart contract, which mints an equivalent amount of coreBTC and credits it to the user's wallet. This coreBTC can then be used across various DeFi platforms within the Core DAO ecosystem, enabling Bitcoin holders to engage in lending, borrowing, trading, and other financial activities without actually spending or risking their original Bitcoin holdings.
+Relayers play a crucial role in monitoring these Bitcoin transactions and validating them to the Core Chain. Once validated, the transaction details are sent to the coreBTC smart contract, which mints an equivalent amount of coreBTC and credits it to the user's wallet. This coreBTC can then be used across various DeFi platforms within the Core Chain ecosystem, enabling Bitcoin holders to engage in lending, borrowing, trading, and other financial activities without actually spending or risking their original Bitcoin holdings.
 
 Redemption of coreBTC for the original Bitcoin involves the user initiating a burn process where the coreBTC is destroyed, and the corresponding Bitcoin is unlocked and returned from the Locker to the user’s specified address. The entire system is safeguarded by rigorous collateral management and liquidation protocols that ensure Lockers maintain sufficient collateral against the Bitcoin they hold. Additionally, slashing mechanisms are in place to penalize any fraudulent activities by Lockers, protecting the integrity and trustworthiness of coreBTC within the Core Chain ecosystem. This design not only enhances the liquidity and utility of Bitcoin but also maintains its core properties of decentralization and security.
 
@@ -77,7 +77,7 @@ The liquidation process is designed to protect the system from defaults and ensu
 ![liquidation](../../../../static/img/coreBTC/liquidation-process.png)
 
 ## Slashing Process
-In the Core DAO ecosystem, the concept of slashing is crucial to maintaining the integrity and security of coreBTC transactions. Slashing is a punitive measure used to penalize Lockers for misconduct or failure to adhere to the established protocols. There are two primary scenarios where slashing may occur, each designed to protect the system and its users from potential fraud and malfeasance:
+On the Core Chain, the concept of slashing is crucial to maintaining the integrity and security of coreBTC transactions. Slashing is a punitive measure used to penalize Lockers for misconduct or failure to adhere to the established protocols. There are two primary scenarios where slashing may occur, each designed to protect the system and its users from potential fraud and malfeasance:
 
 ### 1. **Unauthorized Movement of Locked Bitcoin**
 In this case, slashing occurs if a Locker moves locked Bitcoin without receiving a corresponding burn request from a coreBTC holder. This scenario is considered a serious breach as it directly threatens the 1:1 pegging and trust that coreBTC holders have in the system's ability to securely back their tokens with real Bitcoin.
@@ -99,4 +99,4 @@ This scenario occurs when a coreBTC holder decides to redeem their tokens for th
 ![slashing](../../../../static/img/coreBTC/slashing-2.png)
 
 ## Conclusion
-The design of coreBTC in Core DAO presents a robust framework for integrating Bitcoin into DeFi applications while maintaining its fundamental characteristics of security and decentralization. Through a well-structured system of minting, redemption, liquidation, and slashing, all backed by strict collateral requirements, coreBTC ensures that Bitcoin's value can be leveraged in new and innovative ways without compromising the trust and security that define it.
+The design of coreBTC in Core Chain presents a robust framework for integrating Bitcoin into DeFi applications while maintaining its fundamental characteristics of security and decentralization. Through a well-structured system of minting, redemption, liquidation, and slashing, all backed by strict collateral requirements, coreBTC ensures that Bitcoin's value can be leveraged in new and innovative ways without compromising the trust and security that define it.

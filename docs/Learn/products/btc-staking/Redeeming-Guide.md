@@ -11,7 +11,7 @@ Core offers BTC holders to stake their assets onto the Core blockchain to ear pa
 ## Reward Distribution Information
 
 * **Distribution of Rewards:** Core token rewards are distributed to stakers as incentives for their contribution to network security and governance.
-* **Reward Source:** Rewards are sourced from the consensus reward pool shared between participants of Core's dual mechanisms: dPoW (Bitcoin miners) and dPoS (Core stakers).
+* **Reward Source:** Rewards are sourced from the consensus reward pool shared between participants of Core's dual mechanisms: dPoW (Bitcoin miners) and dPoS (BTC and CORE stakers).
 
 ## Redeem an Expired Staked BTC
 

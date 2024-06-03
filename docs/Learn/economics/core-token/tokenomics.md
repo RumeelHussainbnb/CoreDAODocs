@@ -7,14 +7,14 @@ sidebar_position: 2
 # Tokenomics
 ---
 
-# Core DAO Tokenomics and Utility
+# Core Chain Tokenomics and Utility
 ---
 
 ## Overview
-The tokenomics of CORE, the native utility and governance token of Core DAO, is structured to reflect a philosophy deeply rooted in decentralization, sustainability, and long-term alignment of incentives. With a capped supply mirroring Bitcoin's scarcity model and a distribution strategy focusing on decentralization, Core DAO aims to be among the most equitably launched blockchains in history.
+The tokenomics of CORE, the native utility and governance token of Core Chain, is structured to reflect a philosophy deeply rooted in decentralization, sustainability, and long-term alignment of incentives. With a capped supply mirroring Bitcoin's scarcity model and a distribution strategy focusing on decentralization, Core Chain aims to be among the most equitably launched blockchains in history.
 
 ## Token Distribution
-CORE tokenomics is designed with a focus on long-term sustainability and decentralization. Inspired by the sound monetary policy of Bitcoin and the need for a fair distribution of governance power, CORE tokens serve as the backbone of the Core DAO ecosystem. 
+CORE tokenomics is designed with a focus on long-term sustainability and decentralization. Inspired by the sound monetary policy of Bitcoin and the need for a fair distribution of governance power, CORE tokens serve as the backbone of the Core Chain ecosystem. 
 
 ![tokenomics](../../../../static/img/tokenomics-distribution.png)
 
@@ -49,17 +49,17 @@ Following a strict hard cap of **2.1 billion** tokens, CORE adopts Bitcoin's abs
 
 ## Decentralization and Direction
 
-- Core DAO's strategy focuses on a stable and deliberate path toward decentralization and antifragility. The token launch aims to place CORE tokens in the hands of those committed to building and sustaining the network.
+- Core Chain's strategy focuses on a stable and deliberate path toward decentralization and antifragility. The token launch aims to place CORE tokens in the hands of those committed to building and sustaining the network.
 
-- The direction and pace of the project prioritize robustness over rapid expansion. The token distribution and economic policies reflect Core DAO's commitment to a sturdy foundation that values antifragility and is capable of weathering the volatility of the crypto markets.
+- The direction and pace of the project prioritize robustness over rapid expansion. The token distribution and economic policies reflect Core Chain's commitment to a sturdy foundation that values antifragility and is capable of weathering the volatility of the crypto markets.
 
 - By targeting a diverse group of stakeholders, including builders, users, and believers, CORE tokenomics lays the groundwork for a decentralized governance model that can evolve and adapt as the network matures.
 
-- The distribution is targeted towards builders, users, and long-term supporters, fostering a community aligned with Core DAO's vision of decentralization.
+- The distribution is targeted towards builders, users, and long-term supporters, fostering a community aligned with Core Chain's vision of decentralization.
 
 ## Sound Monetary Policy
 
-In addition to the hard cap, Core DAO introduces a deflationary mechanism:
+In addition to the hard cap, Core Chain introduces a deflationary mechanism:
 
 - **Transaction Fee Burns:** A portion of transaction fees and block rewards will be burned, as determined by the DAO, ensuring the supply of CORE tokens asymptotically approaches the hard cap without exceeding it.
 
@@ -69,4 +69,4 @@ In addition to the hard cap, Core DAO introduces a deflationary mechanism:
 
 ## Conclusion
 
-The tokenomics of CORE is crafted to support a robust and decentralized economy within the Core network. With a clear utility, a hard cap on supply, and a long-term reward distribution plan, Core DAO stands out as a platform that balances the principles of sound money with the necessities of a growing and evolving blockchain ecosystem. This financial model is designed to attract dedicated participants who will contribute to the network's strength and resiliency for decades to come.
+The tokenomics of CORE is crafted to support a robust and decentralized economy within the Core network. With a clear utility, a hard cap on supply, and a long-term reward distribution plan, Core Chain stands out as a platform that balances the principles of sound money with the necessities of a growing and evolving blockchain ecosystem. This financial model is designed to attract dedicated participants who will contribute to the network's strength and resiliency for decades to come.

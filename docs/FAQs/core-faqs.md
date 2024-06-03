@@ -9,9 +9,9 @@ sidebar_position: 2
 
 ### 1. Where can I find the codebase for Core Chain?
     
-Core Chain advocates open source project building and hence we have all of our codebase available for community use. You can find Core DAO’s codebase and other developer tools on the [official GitHub account of Core Chain](https://github.com/coredao-org).
+Core Chain advocates open source project building and hence we have all of our codebase available for community use. You can find Core Chain’s codebase and other developer tools on the [official GitHub account of Core Chain](https://github.com/coredao-org).
 
-### 2. What are Core DAO’s official communication channels?
+### 2. What are Core Chain’s official communication channels?
     
 * **Telegram:** [https://t.me/CoreDAOTelegram](https://t.me/CoreDAOTelegram)
 * **Discord:** [https://discord.com/invite/coredaoofficial](https://discord.com/invite/coredaoofficial)

@@ -2,34 +2,35 @@
 sidebar_label: Architecture
 hide_table_of_contents: false
 sidebar_position: 2
-description: Quick Glance on the Core DAO's Underlying Architecture
+description: Quick Glance on the Core Chain's Underlying Architecture
 ---
 
-# Architecture of Core DAO
+# Architecture of Core Chain
 ---
 
 Core Chain, a Bitcoin-aligned EVM blockchain, represents a critical innovation for Bitcoin's integration into the decentralized finance (DeFi) space. This document outlines the architectural components of Core Chain, which is designed to function as a highly scalable smart contract platform that enhances Bitcoin’s utility without compromising its foundational principles.
 
-The Core DAO ecosystem is constructed upon a multifaceted and innovative blockchain architecture that ensures the network's security, scalability, and decentralization. At the forefront is the CORE Consensus Engine which integrates the Satoshi Plus consensus mechanism, a hybrid system that utilizes the combined strength of Bitcoin miners and Core validators.
+The Core Chain ecosystem is constructed upon a multifaceted and innovative blockchain architecture that ensures the network's security, scalability, and decentralization. At the forefront is the CORE Consensus Engine which integrates the Satoshi Plus consensus mechanism, a hybrid system that utilizes the combined strength of Bitcoin miners and Core validators.
 
 
 ![component-diagram](../../../static/img/staoshi-plus/component-diagram.jpg)
 
-## CORE Consensus Engine
-The CORE Consensus Engine is the heart of the Core DAO, where consensus is achieved through a unique combination of Delegated Proof of Work (DPoW) and Delegated Proof of Stake (DPoS). This engine coordinates the intricate processes involving validators, relayers, and other network participants to maintain the blockchain's integrity and performance.
+## Core Consensus Engine
+The Core Consensus Engine is the heart of the Core Chain, where consensus is achieved through a unique combination of Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS) and Non-Custodial Bitcoin Staking. This engine coordinates the intricate processes involving validators, delegators, stakers, relayers, and other network participants to maintain the blockchain's integrity and performance.
 
 ### Satoshi Plus Consensus Mechanism
 
-Core Chain introduces a novel consensus mechanism known as Satoshi Plus, a hybrid model that blends Delegated Proof of Work (DPoW) with Delegated Proof of Stake (DPoS). This model is designed to leverage the existing Bitcoin mining infrastructure to secure a smart contract platform, thereby providing a symbiotic relationship between the two chains.
+Core Chain introduces a novel consensus mechanism known as Satoshi Plus, a hybrid model that blends Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS), and Non-Custodial Bitcoin Staking. This model is designed to leverage the existing Bitcoin mining infrastructure to secure a smart contract platform, thereby providing a symbiotic relationship between the two chains.
 
-#### Delegated Proof of Work
-- Bitcoin miners can participate in the DPoW by appending additional metadata in the `op_return` field of Bitcoin blocks. This metadata includes the address of the Core Validator to whom they wish to delegate their hashing power, and the address for receiving CORE token rewards.
+#### Delegated Proof of Work (DPoW)
+- Bitcoin miners can participate in the Satoshi Plus mechanism's DPoW part by appending additional metadata in the `op_return` field of Bitcoin blocks. This metadata includes the address of the Core Validator to whom they wish to delegate their hashing power, and the address for receiving CORE token rewards.
 - This mechanism allows miners to earn supplemental rewards in CORE tokens over and above their usual Bitcoin mining rewards, thus incentivizing their participation in the Core Chain ecosystem.
 
-#### Delegated Proof of Stake
+#### Delegated Proof of Stake (DPoS) and Non-Custodial Bitcoin Staking
 - CORE token holders can stake their tokens with Core Validators, participating directly in the blockchain’s security and governance.
 - BTC holders can stake their BTC on the Core network through non-custodial BTC staking and then delegate these to any Core Validators, participating directly in the blockchain’s security and governance.
 - Stakers receive CORE token rewards, aligning their interests with the overall health and security of the network.
+
 
 #### Major Components and Roles 
 
@@ -50,7 +51,7 @@ Core Chain introduces a novel consensus mechanism known as Satoshi Plus, a hybri
    - **Role**: BTC holders can stake thier BTC onto the Core network and then delegate thier staked BTC to a Core validator of their choice and earn CORE tokens as rewards in exchange of their staked BTC. In this way, BTC holders can participate in securing the network and influencing the validator election process.
 
 **6. Verifiers:**
-   - **Role**: Verifiers are responsible for identifying and reporting malicious behaviors within the network. They play a vital role in the security mechanisms of the Core DAO ecosystem.
+   - **Role**: Verifiers are responsible for identifying and reporting malicious behaviors within the network. They play a vital role in the security mechanisms of the Core Chain ecosystem.
 
 #### Workflows and Processes
 

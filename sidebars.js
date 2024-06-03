@@ -17,15 +17,15 @@ const sidebars = {
   learnSidebar: [
     {
       type: 'category',
-      label: '📖 All About Core DAO',
+      label: '📖 All About Core Chain',
       link: {type: 'doc', id: 'intro'},
       items:[
           {
             type: 'category',
             collapsed: true,
             label: 'Introduction',
-            items: ['Learn/introduction/what-is-core-dao',
-                    'Learn/introduction/why-core-dao',
+            items: ['Learn/introduction/what-is-core-chain',
+                    'Learn/introduction/why-core-chain',
                     'Learn/introduction/quickstart',
                     {
                       type: 'link',
@@ -41,7 +41,7 @@ const sidebars = {
             link: {
               type: 'generated-index',
               title: 'Core Concepts',
-              description: 'Learn about the Nuts and Bolts of the Core DAO Ecossytem!',
+              description: 'Learn about the Nuts and Bolts of the Core Chain Ecossytem!',
               slug: '/category/core-concepts',
             },
             items: ['Learn/core-concepts/overview', 'Learn/core-concepts/architecture',
@@ -86,8 +86,8 @@ const sidebars = {
               label: 'Products',
               link: {
                 type: 'generated-index',
-                title: 'Exploring Core DAO: Pioneering DeFi Solutions for Bitcoin',
-                description: 'Learn about the different innovative products offered by Core DAO that are helping in unclocking the DeFi landscape for Bitcoin!',
+                title: 'Exploring Core Chain: Pioneering DeFi Solutions for Bitcoin',
+                description: 'Learn about the different innovative products offered by Core Chain that are helping in unclocking the DeFi landscape for Bitcoin!',
                 slug: '/category/products',
               },
               items: [
@@ -161,7 +161,7 @@ const sidebars = {
     {
       type: 'category',
       collapsed: true,
-      label: '💻 Core DAO for Developers',
+      label: '💻 Core Chain for Developers',
       items: [
       {
         type: 'category',
@@ -199,7 +199,7 @@ const sidebars = {
         label: 'Developer Guides',
         link: {
           type: 'generated-index',
-          title: 'Developer Guides: Mastering Core DAO Essentials',
+          title: 'Developer Guides: Mastering Core Chain Essentials',
           description: 'Unlock Your Potential: Detailed Developer Guides for Building on Core Chain',
           slug: '/category/dev-guides',
         },

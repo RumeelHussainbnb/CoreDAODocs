@@ -14,11 +14,11 @@ Hashed TimeLock Contracts (HTLCs) atomic swaps are a sophisticated mechanism use
 1. **Cryptographic Hash Functions:** At the heart of an HTLC atomic swap is the use of a cryptographic hash function. This function allows a party to generate a secret hash that can lock and unlock a transaction. The hash and its corresponding preimage (the original data used to create the hash) are central to ensuring that transactions can only be completed if all conditions are met.
 2. **TimeLocks:** TimeLocks are another critical component. They ensure that the funds in a transaction can only be accessed within a specified time frame. If the transaction conditions are not met within this period, the funds are automatically returned to the original owner. This feature protects the participants by ensuring that their funds aren't permanently locked if the swap doesn't complete.
 
-## HTLC Atomic Swaps in Core DAO
-In the context of Core DAO, Hashed TimeLock Contracts (HTLC) atomic swaps are a sophisticated method for conducting trustless, peer-to-peer exchanges between different blockchain systems, including Bitcoin and other EVM-compatible chains. This technology utilizes cryptographic hash functions combined with time-bound contracts to ensure secure and simultaneous swaps of cryptocurrency across blockchain networks without needing a trusted intermediary.
+## HTLC Atomic Swaps in Core Chain
+In the context of Core Chain, Hashed TimeLock Contracts (HTLC) atomic swaps are a sophisticated method for conducting trustless, peer-to-peer exchanges between different blockchain systems, including Bitcoin and other EVM-compatible chains. This technology utilizes cryptographic hash functions combined with time-bound contracts to ensure secure and simultaneous swaps of cryptocurrency across blockchain networks without needing a trusted intermediary.
 
-## Importance in the Core DAO Ecosystem
-HTLC atomic swaps are vital for enhancing the interoperability and flexibility of the Core DAO ecosystem. They enable users to seamlessly exchange assets like Bitcoin with coreBTC or other tokens within the Core Chain, thereby connecting Core DAO more closely with the broader blockchain environment. This capability is essential for fostering a robust Bitcoin DeFi (BTCFi) ecosystem, where Bitcoin can be effectively utilized in various decentralized applications.
+## Importance in the Core Chain Ecosystem
+HTLC atomic swaps are vital for enhancing the interoperability and flexibility of the Core Chain ecosystem. They enable users to seamlessly exchange assets like Bitcoin with coreBTC or other tokens within the Core Chain, thereby connecting Core Chain more closely with the broader blockchain environment. This capability is essential for fostering a robust Bitcoin DeFi (BTCFi) ecosystem, where Bitcoin can be effectively utilized in various decentralized applications.
 
 ## Advantages of HTLC Atomic Swaps
 - **Trustlessness:** HTLC atomic swaps do not require trust in a counterparty or intermediary, as the contracts are self-executing and only release funds when all conditions are met.
@@ -40,4 +40,4 @@ The process of conducting an HTLC atomic swap involves several key steps:
 5. **Transaction Finality:** If any party fails to act before the deadline (e.g., Party A does not reveal the secret), the funds can be reclaimed by the original owner once the contract expires. This ensures that funds are not permanently locked in the event of incomplete swaps.
 
 ## Conclusion
-HTLC atomic swaps are a critical component of Core DAO's strategy to integrate Bitcoin more deeply into its DeFi ecosystem, allowing seamless and secure transactions across blockchains while maintaining user sovereignty and trust. This mechanism significantly contributes to the liquidity and usability of digital assets within the Core DAO environment, promoting a more interconnected and efficient blockchain space.
+HTLC atomic swaps are a critical component of Core Chain's strategy to integrate Bitcoin more deeply into its DeFi ecosystem, allowing seamless and secure transactions across blockchains while maintaining user sovereignty and trust. This mechanism significantly contributes to the liquidity and usability of digital assets within the Core Chain environment, promoting a more interconnected and efficient blockchain space.
