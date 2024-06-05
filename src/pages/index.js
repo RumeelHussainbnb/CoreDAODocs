@@ -10,7 +10,7 @@ import styles from './index.module.css';
 import  { Redirect } from 'react-router-dom';
 
 function HomepageHeader() {
-  return <Redirect to='/CoreDAODocs/docs/intro' />;
+  return <Redirect to='/docs/intro' />;
   // const {siteConfig} = useDocusaurusContext();
   // return (
   //   <header className={clsx('hero hero--primary', styles.heroBanner)}>
