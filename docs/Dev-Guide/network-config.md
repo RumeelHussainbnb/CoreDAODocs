@@ -10,7 +10,7 @@ sidebar_position: 2
 Core mainnet and testnet chain details
 
 ## Core Testnet
-* **Network Name:** Core Chain TestNet
+* **Network Name:** Core Blockchain Testnet
 * **RPC URL:** https://rpc.test.btcs.network
 * **Chain ID:** 1115 (0x45b)
 * **Currency Symbol:** tCORE
@@ -19,7 +19,7 @@ Core mainnet and testnet chain details
 To import Core Testnet chain details to MetaMask, refer to our [Core Testnet user guide](./core-testnet-wallet-config.md).
 
 ## Core Mainnet
-* **Network Name:** Core Blockchain
+* **Network Name:** Core Blockchain Mainnet
 * **RPC URL:** https://rpc.coredao.org/
 * **Chain ID** 1116 (0x45c)
 * **Currency Symbol:** CORE

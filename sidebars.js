@@ -60,26 +60,6 @@ const sidebars = {
                       },
                   ]
           },
-          'Learn/governance',
-          {
-            type: 'category',
-              collapsed: true,
-              label: 'Economics',
-              items: [
-                  // {
-                  //   type: 'category',
-                  //     collapsed: true,
-                  //     label: 'CORE Token',
-                  //     items: [
-                  //       'Learn/economics/core-token/token-utility',
-                  //       'Learn/economics/core-token/tokenomics',
-                  //       'Learn/economics/core-token/incentives'
-                  //     ]
-                  // },
-                  'Learn/economics/core-token/tokenomics-and-utility',
-                  // 'Learn/economics/gas-and-fees',
-              ]
-          },
           {
             type: 'category',
               collapsed: true,
@@ -117,43 +97,22 @@ const sidebars = {
                     items: [
                       'Learn/products/coreBTC/overview',
                       'Learn/products/coreBTC/design',
-                      // 'Learn/products/coreBTC/architecture',
                       'Learn/products/coreBTC/how-to-guides',
                     ]
                 },
-                // {
-                //   type: 'category',
-                //     collapsed: true,
-                //     label: 'HTLC Atomic Swap',
-                //     items: [
-                //       'Learn/products/htlc-atomic-swap/overview',
-                //       'Learn/products/htlc-atomic-swap/design',
-                //       // 'Learn/products/htlc-atomic-swap/architecture',
-                //       'Learn/products/htlc-atomic-swap/how-to-guides',
-                //     ]
-                // },
-                // {
-                //   type: 'category',
-                //     collapsed: true,
-                //     label: 'Liquid Staking stCore',
-                //     items: [
-                //       'Learn/products/lst-stCore/overview',
-                //       'Learn/products/lst-stCore/design',
-                //       // 'Learn/products/lst-stCore/architecture',
-                //       'Learn/products/lst-stCore/how-to-guides',
-                //     ]
-                // },
               ]
           },
+          {
+            type: 'category',
+              collapsed: true,
+              label: 'Economics',
+              items: [
+                  'Learn/economics/core-token/tokenomics-and-utility',
+              ]
+          },
+          'Learn/governance',
           {type: 'doc', id: 'Learn/audit', label:'Audit'},
-          // {
-          //   type: 'category',
-          //     collapsed: true,
-          //     label: 'Audits',
-          //     items: [
-          //         'Learn/audit'
-          //     ]
-          // }
+
     ]
     },
   ],
@@ -175,7 +134,6 @@ const sidebars = {
           link: {type: 'doc', id: 'Dev-Guide/rpc-list'},
           items: ['Dev-Guide/rpc-cli', 'Dev-Guide/rpc-postman']
         },
-        // 'Dev-Guide/rpc'
       ]
       },
       {
@@ -187,12 +145,6 @@ const sidebars = {
       },
       'Dev-Guide/precompile-addresses',
       'Dev-Guide/core-explorer', 
-      // {
-      //   type: 'category',
-      //   collapsed: true,
-      //   label: 'Token Swapping',
-      //   items: ['Dev-Guide/token-swapping']
-      // },
       {
         type: 'category',
         collapsed: true,
@@ -238,8 +190,6 @@ const sidebars = {
       items: ['FAQs/core-faqs', 'FAQs/core-node-faqs',
               'FAQs/validator-faqs', 'FAQs/delegator-faqs', 
               'FAQs/btc-staking-faqs', 'FAQs/coreBTC-faqs',
-              // 'FAQs/htlc-atomic-swap-faqs',
-              // 'FAQs/LST-stCore-faqs', 
               'FAQs/core-api-faqs' ]
     },
   ],
@@ -255,15 +205,7 @@ const sidebars = {
         label: 'Node Configurations',
         items: ['Node/config/validator-node-config', 'Node/config/rpc-node-config',
         'Node/config/archive-node-config', 'Node/config/snapshot-node-config']
-      },
-      // {
-      //   type: 'category',
-      //   collapsed: true,
-      //   label: 'Syncing Nodes',
-      //   items: ['Node/sync/block-sync', 
-      //   'Node/sync/state-sync', 'Node/sync/snapshot-sync']
-      // },
-     
+      },     
       {
         type: 'category',
         collapsed: true,
@@ -288,8 +230,6 @@ const sidebars = {
           collapsed: true,
           label: 'Slashing',
           items: ['Node/slashing/overview', 'Node/slashing/slashing-fee'
-          //  'Node/slashing/jail-and-unjail',
-          // 'Node/slashing/slashing-fee', 'Node/slashing/submit-evidence'
         ]
         },
       ],
@@ -298,12 +238,8 @@ const sidebars = {
         type: 'category',
         collapsed: true,
         label: 'Node Maintenance',
-        items: ['Node/maintenance/maintenance','Node/maintenance/network-upgrade', 
-        // 'Node/maintenance/node-monitoring',
-        // 'Node/maintenance/restore-node', 
-        'Node/maintenance/security-practices']
+        items: ['Node/maintenance/maintenance','Node/maintenance/network-upgrade', ]
       },
-      //'Node/known-issues-and-errors',
     ]
     },
   ],

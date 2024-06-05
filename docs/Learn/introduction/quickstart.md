@@ -29,7 +29,7 @@ sidebar_position: 2
 
 * **[Block Explorer](https://scan.coredao.org/):** search and review transactions, accounts, blocks, and more.
 
-* **[RPC Endpoints](https://chainlist.org/chain/1116):** RPC endpoints for Core Testnet's RPC service.
+* **[RPC Endpoints](https://chainlist.org/chain/1116):** RPC endpoints for Core Mainnet's RPC service.
 
 * **[Core Bridge](https://bridge.coredao.org/):** official bridge for the Core ecosystem (more details in Core Bridge Resources)
 

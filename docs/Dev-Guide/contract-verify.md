@@ -7,7 +7,11 @@ sidebar_position: 2
 # Contract Verification
 ---
 
-In the interest of transparency, we recommend verifying all contracts on [Core Scan](https://scan.coredao.org/). Let’s check out a few of the common methods for verifying contracts, via the web, API, and Hardhat.
+In the interest of transparency, we recommend verifying all contracts on [Core Scan](https://scan.coredao.org/). Let’s check out a few of the common methods for verifying contracts, via the web, API, and Hardhat. 
+
+:::note
+Make sure that your smart contract follows the [Solidity Support Guidelines by Core Chain](./smart-contract-guidelines.md), to do so ensure that the `evmVersion` parameter is set to `paris` under the solidity compiler settings.
+:::
 
 ## Web Verification via Core Scan
 

@@ -82,6 +82,7 @@ Copy the following into your `hardhat.config.js` file:
          {
             version: '0.8.9',
             settings: {
+               evmVersion: 'paris',
                optimizer: {
                   enabled: true,
                   runs: 200,
@@ -101,6 +102,8 @@ Copy the following into your `hardhat.config.js` file:
  };
  
 ```
+
+**Make sure that your smart contract follows the [Solidity Support Guidelines by Core Chain](./smart-contract-guidelines.md)**, to do so ensure that the `evmVersion` parameter is set to `paris` under the solidity compiler settings in the `hardhat.config.js` file.
 
 > Note that we need to pass in private keys/mnemonic for Provider. You can create a `secret.json` to store them. Do not forget to add this file to the `.gitignore` of your project so that you don't accidentally check your private keys into a public repository. And make sure you keep this file in an absolutely safe place!
 

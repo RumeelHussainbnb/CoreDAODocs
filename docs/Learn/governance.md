@@ -37,15 +37,9 @@ The Core Chain's governance is designed to evolve over time, with a phased appro
 
 Core Chain's governance is currently in transition, situated at Stage 1.5, with the objective of reaching Stage 3, which represents full decentralization. Governance is facilitated through the CORE token, empowering the community to guide the development and direction of the Core Chain.
 
-## Governance Oversight by the Core Team
+## Governance Oversight
 
-Until Core achieves its decentralization goals, the Core team has been entrusted with overseeing the network, with responsibilities including but not limited to:
-
-- Modifying the number of validators.
-- Adjusting governance parameters.
-- Determining the percentage of block rewards and transaction fees that are burned.
-
-The Core DAO is set to gradually expand its membership, transitioning governance responsibilities to the community as the network matures.
+In the current governance model of Core Chain, The Core team, together with the Core community, is tasked with overseeing the network. Responsibilities include, but are not limited to, expanding the validator set, adjusting governance parameters, and determining the percentage of block rewards and transaction fees that are burned, among other duties.
 
 ## Conclusion
 

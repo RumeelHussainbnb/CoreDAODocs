@@ -1,25 +1,25 @@
 ---
-sidebar_label: Core API FAQs
+sidebar_label: CoreScan API FAQs
 hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# CORE API FAQs
+# CoreScan API FAQs
 ---
 
-### 1. What is the CORE API?
+### 1. What is the CoreScan API?
 
 We've developed the CoreScan Open API to give developers direct access to CoreScan's block explorer data and services. CoreScan's APIs are provided as a community service and without warranty, so please use what you need and no more.
 
 Check out the full API docs available [here](https://docs.coredao.org/api/).
 
-### 2. How can I access the Core API?
+### 2. How can I access the CoreScan API?
 
-In order to access CORE API, you need to have an account registered on the Core Scan, refer [here](https://docs.coredao.org/api/tutorials/creating-an-account) for a detailed guide on this. Other than this you also need to have an API key generated using the registered account, refer to detailed guide [here](https://docs.coredao.org/api/tutorials/generate-an-api-key).
+In order to access CoreScan API, you need to have an account registered on the CoreScan, refer [here](https://docs.coredao.org/api/tutorials/creating-an-account) for a detailed guide on this. Other than this, you also need to have an API key generated using the registered account, refer to detailed guide [here](https://docs.coredao.org/api/tutorials/generate-an-api-key).
 
-### 3. How to create API Keys for using with CORE API?
+### 3. How to create API Keys for using with CoreScan API?
 
-To generate API keys using a registered account on Core Scan, refer to detailed guide [here](https://docs.coredao.org/api/tutorials/generate-an-api-key).
+To generate API keys using a registered account on CoreScan, refer to detailed guide [here](https://docs.coredao.org/api/tutorials/generate-an-api-key).
 
 ### 4. My API keys are not working, what can I do?
 
@@ -45,14 +45,6 @@ An API call that encounters an error will return 0 as its status code and displa
 }
 ```
 
-<!-- ### 7. Does the Core API support smart contract interactions?
-
-### 8. How do I ensure the security of my API usage?
-
-### 9. Are there any tools or libraries available to simplify API integration? -->
-
 ### 7. What should I do if I encounter issues or bugs with the API?
 
 Refer to official API documentation for [Common issues messages](https://docs.coredao.org/api/tutorials/common-error-messages), If the problem persists, contact us on our official [Discord](https://discord.com/invite/coredaoofficial) server.
-
-<!-- ### 11. What types of data can I retrieve using the Core API? -->

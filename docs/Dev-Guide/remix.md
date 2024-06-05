@@ -32,21 +32,27 @@ You will be asked to connect to MetaMask. Once connected, Remix shows the connec
 
 ## Smart Contract Compilation and Deployment
 
-Remix comes with several default preset contracts loaded to the default workspace, as shown below. For this tutorial, let's use the preloaded `1_Storage.sol` contract. This contract implements a simple database that allows us to store one number via the `store()` function and view it via the `retrieve()` function.
+* **Make sure that your smart contract follows the [Solidity Support Guidelines by Core Chain](./smart-contract-guidelines.md)**.
+
+* Remix comes with several default preset contracts loaded to the default workspace, as shown below. For this tutorial, let's use the preloaded `1_Storage.sol` contract. This contract implements a simple database that allows us to store one number via the `store()` function and view it via the `retrieve()` function.
 
 ![remix-ide](../../static/img/remix/remix-5.avif)
 
-From the menu on the left, navigate to the `SOLIDITY COMPILER` and select the blue **Compile** button to compile your smart contract.
+* From the menu on the left, navigate to the `SOLIDITY COMPILER`, navigate to `Advance Configurations` and select `Paris` from the `EVM Version` dropdown. 
 
-Then switch to the `DEPLOY & RUN TRANSACTIONS` from the same lefthand menu and select the **Deploy** button, outlined in red below.
+![evm-version](../../static/img/remix/remix-13.png)
+
+* Then select the blue **Compile** button to compile your smart contract.
+
+* Then switch to the `DEPLOY & RUN TRANSACTIONS` from the same lefthand menu and select the **Deploy** button, outlined in red below.
 
 ![remix-ide](../../static/img/remix/remix-6.avif)
 
-After selecting the **Deploy** button, MetaMask will open a popup asking you to sign and then send the deployment transaction on Core Testnet, as seen below.
+* After selecting the **Deploy** button, MetaMask will open a popup asking you to sign and then send the deployment transaction on Core Testnet, as seen below.
 
 ![remix-ide](../../static/img/remix/remix-7.png)
 
-Once the contract is successfully deployed, you should receive a message on the console.
+* Once the contract is successfully deployed, you should receive a message on the console.
 
 ![remix-ide](../../static/img/remix/remix-8.avif)
 

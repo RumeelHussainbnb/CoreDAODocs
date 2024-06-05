@@ -18,13 +18,13 @@ Core Chain's major innovation is it's novel consensus mechanism, **Satoshi Plus*
 
 Some of the key features of Core Chain that distinguishes it from its competitors:
 
-* **Satoshi Plus Consensus Mechanism:** the novel consensus mechanism, which is a hybrid of Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS) anf Non-Custodial Bitcoin Staking.
+* **Satoshi Plus Consensus Mechanism:** the novel consensus mechanism, which is a hybrid of Delegated Proof of Work (DPoW), Delegated Proof of Stake (DPoS), and Non-Custodial Bitcoin Staking.
 * **Core DAO:** the DAO that manages on-chain governance.
 * **EVM Execution Layer:** Core Chain adaptes Ethereum Virtual Machine (EVM) for smart contract execution making it EVM-compatible, similar to [BNB Smart Chain's implementation](https://github.com/bnb-chain/bsc) of Geth.
 * **coreBTC:** the enshrined Core-native bridged BTC.
 * **Non-custodial BTC Staking:** Core offers BTC holders to stake their assets onto the Core blockchain in a trustless and secure manner without having to give up custody of their assets. This innovative feature integrates Bitcoin into Core Chain's DeFi activities, enhancing liquidity and enabling Bitcoin users to earn staking rewards in the form of CORE tokens within the Core ecosystem.
 * **stCore:** Core Chain offers Liquid Staking in the form of stCore which is designed to enhance the utility of the CORE token and simplify the staking process. This initiative allows token holders to maximize their asset potential with greater flexibility and efficiency.
-* **HTLC Atomic Swaps:** enables trustless, peer-to-peer exchange of tokens between Core Chain and other blockchains, including (and especially) Bitcoin, through Hashed TimeLock Contracts (HTLCs).
+* **HTLC Atomic Swaps _(Coming Soon)_:** enables trustless, peer-to-peer exchange of tokens between Core Chain and other blockchains, including (and especially) Bitcoin, through Hashed TimeLock Contracts (HTLCs).
 
 ## Problems Addressed by Core Chain
 

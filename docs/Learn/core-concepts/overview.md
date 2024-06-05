@@ -49,54 +49,8 @@ This innovative consensus mechanism combines Delegated Proof of Work (DPoW), Del
 * **Community and Stakeholder Engagement:** Core Chain places a strong emphasis on community involvement and stakeholder benefits, ensuring that both miners and token holders (BTC/CORE) are integral to the platform's consensus and rewarded accordingly.
 
 ## State of the Core Ecosystem
-Many protocols in Core Chain’s ecosystem are focused on BTC and BTC derivatives (i.e., Bitcoin-native assets based on BTC such as Ordinals NFTs). BTC is largely an underutilized asset, as the limited programmability of Bitcoin Script makes it challenging to activate BTC in conventional DeFi protocols while maintaining custody of the asset(s). With a consensus mechanism integrated with Bitcoin’s own consensus, Core Chain aims to provide a DeFi environment for protocols to utilize BTC assets with minimal trust assumptions. [Core Ignition](https://coredao.org/explore/blog/63) is a six-month incentive program intended to catalyze more growth around Bitcoin DeFi.
+Many protocols in Core Chain’s ecosystem are focused on BTC and BTC derivatives (i.e., Bitcoin-native assets based on BTC such as Ordinals NFTs). BTC is largely an underutilized asset, as the limited programmability of Bitcoin Script makes it challenging to activate BTC in conventional DeFi protocols while maintaining custody of the asset(s). With a consensus mechanism integrated with Bitcoin’s own consensus, Core Chain aims to provide a DeFi environment for protocols to utilize BTC assets with minimal trust assumptions. Core offers grants and builder programs like [Core Wishlist](https://github.com/coredao-org/core-community-contributions/blob/main/Core-Wishlist.md), [Core Ignition](https://ignition.coredao.org/) and [Core Ignition Builders' Incentive Program](https://coredao.org/initiatives/incentiveprogram) intended to incentivize building innovative projects on Core Chain and catalyzing more growth around Bitcoin DeFi. Refer [here](https://coredao.org/explore/ecosystem) to explore the ever growing ecosystem of Core Chain.
 
-Notable native projects already on Core Chain include:
-
-* [Glyph](https://glyph.exchange/) — a DEX and liquidity hub
-* [Colend](https://www.colend.xyz/) — a borrowing and lending protocol
-* [NLX](https://nlx.trade/) — a perps DEX
-* Spiritdex — a Uniswap V4 style DEX
-* [WizardNFT](https://wizardgallery.xyz/) — an NFT marketplace for Core NFTs and bridged Bitcoin Ordinals
-CoreX — a social DEX
-* [Pinksale](https://www.pinksale.finance/) — a launchpad
-* [Element Wallet](https://www.elementwallet.com/) — a Core-native mobile app with built-in chat and wallet features, designed to be the end-to-end interface for Core Chain users.
-* Satoshi App — a mobile application designed for Core ecosystem airdrops, enabling users to earn tokens of protocols launching on Core Chain.
-* [BitStable](https://bitstable.finance/) — a stablecoin issuers that takes both BTC assets and Ethereum assets as collateral
-
-Other than Core's native coreBTC BTC bridge, Core Chain also has connections with third-party bridges to interop with other ecosystems:
-* [coreBTC](https://bridge.coredao.org/coreBTC) — Core Chain's enshrined BTC bridge
-* [LayerZero](https://layerzero.network/) — a bridging integration that connects Core Chain to Avalanche, BNB, Arbitrum, Polygon, and other networks
-* [Multibit](https://multibit.exchange/) — a BRC-20 focused bridge connecting Core Chain to Ethereum, BNB, and Bitcoin
-
-Core Chain also features cross-chain dapps and infrastructure that have originated in other ecosystems, including:
-
-* [Pyth](https://pyth.network/) — an oracles service
-* [Ankr](https://www.ankr.com/) — an RPC service
-* [IceCreamSwap](https://icecreamswap.com/?chain=core) and [SushiSwap](https://www.sushi.com/swap?chainId=1116&token0=NATIVE&token1=0xa4151B2B3e269645181dCcF2D426cE75fcbDeca9) — DEXs
-
-Upcoming Core ecosystems projects include
-
-* [NLX](https://twitter.com/nlx_trade) — a perpetuals DEX
-* A launchpad and DEX for bridged Ordinals (NFTs and BRC20s)
-
-## Competitive Landscape
-Bitcoin layers have proliferated dramatically since the start of 2023. A space that previously only consisted of a handful of state channels, client-side validated (CSV) networks, and sidechains, is now home to over [40 projects](https://www.bitcoinlayers.org/), although most are still in development phase.
-
-The leading incumbents include Stacks, Rootstock, Liquid, and Lightning Network. Core Chain’s EVM-compatible, sidechain model is
-
-* Similar to Stacks in that they’re both sidechains. Both networks’ consensus adaptations (Stacks’ Stacking and Core Chain’s Satoshi Plus) rely on not only Bitcoin miners but also a PoS component for added security. Stacks uses the Clarity execution environment, which does not a community as robust as the EVM one.
-* Similar to Rootstock in that they’re both sidechains. Both networks’ execution environments are the EVM. Rootstock uses direct merge-mining without any PoS component, unlike Core Chain’s Satoshi Plus consensus, which includes a PoS component.
-* Similar to Liquid in that they’re sidechains. Liquid is more limited in functionality, unlike the Turing-complete EVM execution environment of Core Chain. Liquid operates as a federation, as opposed to the open network that is Core Chain.
-* Unlike Lightning Network, which is a state channel. Lightning offers no added functionality (other than scaling), unlike the Turing-complete EVM execution environment of Core Chain. Lightning does not require any additional trust assumptions (i.e., users can unilaterally exit from a channel after a challenge period). Unlike Core Chain’s Satoshi Plus consensus, it places trust in Core nodes for duties such as consensus and transaction integrity.
-
-More recently, newer layers have emerged, such as BOB, Citrea, Bison, and more. Several of these entrants are leveraging the EVM as they explore the development of rollups. Currently, rollups cannot exist on Bitcoin due to technical limitations. However, this could change in a few years time, building on innovations such as BitVM to support the key features needed to be considered a rollup:
-
-* Enforcing the validity of rollup transactions on Bitcoin L1 with validity or fraud proofs. With fraud proofs, it a rollup would require a permissionless and open set of challengers rather than a federated set like many of today’s BitVM-based models propos).
-* Storing necessary calldata on Bitcoin to recreate the rollup’s state.
-* BTC bridging with minimal trust assumptions, allowing for unilateral exits from the rollup back to Bitcoin L1.
-
-Many existing sidechains will likely reduce their trust assumptions and gravitate towards rollup models as the tech becomes available. Also, many of the upcoming rollups will initially launch as sidechains. This would be a similar route compared to the gradual development of Ethereum L2s, which ran in production for years before nearly any of them had working proofs (fraud or validity) to enforce transaction validity.
 
 ## Future Vision
 The roadmap includes expanding the utility and performance of Bitcoin by maintaining the core ethos of the network while introducing enhancements that do not alter the base layer. Core Chain envisions a more interconnected and functionally diverse blockchain ecosystem where Bitcoin's foundational strengths are leveraged to support new and emerging technologies and applications in DeFi. Core Chain has a series of development plans on its roadmap:
