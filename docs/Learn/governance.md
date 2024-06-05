@@ -39,7 +39,7 @@ Core Chain's governance is currently in transition, situated at Stage 1.5, with 
 
 ## Governance Oversight
 
-In the current governance model of Core Chain, The Core team, together with the Core community, is tasked with overseeing the network. Responsibilities include, but are not limited to, expanding the validator set, adjusting governance parameters, and determining the percentage of block rewards and transaction fees that are burned, among other duties.
+In the current governance model of Core Chain, The Core team, together with the Core community, is tasked with overseeing the network. Responsibilities include, but are not limited to, expanding the validator set, adjusting governance parameters, and determining the percentage of block rewards and transaction fees that are burned. For more details on proposed and implemented improvements related to governance of Core Chain, visit the [official Core Chain Governance Website](https://gov.coredao.org/).
 
 ## Conclusion
 
