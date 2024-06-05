@@ -16,10 +16,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://testdocs.coredao.org/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/CoreDAODocs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -127,12 +127,6 @@ const config = {
             position: 'left',
             label: 'Staking & Delegation',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'apiSidebar',
-          //   position: 'left',
-          //   label: 'Core API',
-          // },
           {
             href: 'https://docs.coredao.org/api',
             label: 'Core API',
@@ -144,12 +138,7 @@ const config = {
             position: 'left',
             label: 'FAQs',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'communitySidebar',
-          //   position: 'left',
-          //   label: 'Community',
-          // },
+
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -164,13 +153,6 @@ const config = {
       },
       footer: {
         style: 'light',
-        // logo: {
-        //   alt: 'Core DAO Logo',
-        //   src: 'img/core-logo.jpeg',
-        //   //href: 'https://coredao.org/',
-        //   width: 160,
-        //   height: 51,
-        // },
         links: [
           {
             label: 'Core DAO',
@@ -200,14 +182,6 @@ const config = {
             label:'Telegram',
             href:'https://t.me/CoreDAOTelegram'
           },
-          // {
-          //   label: 'Terms',
-          //   href: 'https://discordapp.com/invite/docusaurus',
-          // },
-          // {
-          //       label: 'Privacy Policy',
-          //       href: 'https://twitter.com/docusaurus',
-          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Core DAO`,
       },
