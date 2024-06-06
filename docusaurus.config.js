@@ -168,7 +168,7 @@ const config = {
           },
           {
            label: 'Blog',
-           href: 'https://medium.com/@core_dao',
+           href: 'https://coredao.org/explore/blog',
           },
           {
             label:'Discord',
