@@ -63,7 +63,7 @@ Non-Custodial BTC staking introduces a secure and decentralized method for Bitco
 5. **Claiming Rewards:** Core token rewards will appear when users connect their wallet, and can be claimed daily. Core token rewards will appear on the (staking site)\[[https://stake.coredao.org](http://stake.coredao.org/)].
 6. **Redeem BTC:** Once the staking lock time expires, the staked BTC will remain idle in the staking address until redeemed by the user.
 
-## BTC Native Staking Walkthrough 
+## Non-Custodial BTC Staking Walkthrough 
 
 To begin staking your Bitcoin on the Core blockchain and earn Core token rewards, follow these steps:
 

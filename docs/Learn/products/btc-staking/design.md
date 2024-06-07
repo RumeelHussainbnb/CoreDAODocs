@@ -4,7 +4,7 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
-# BTC Native Staking Transaction Design
+# Design of Non-Custodial BTC Staking
 ---
 
 ## Background
@@ -144,10 +144,10 @@ In the input, the redeem script `041f5e0e66b17576a914c4b8ae927ff2b9ce218e20bf06d
 
 ## Role of Relayers
 
-In a strict sense, the BTC Native Staking process consists of two steps
+In a strict sense, the Non-Custodial BTC Staking process consists of two steps
 
-- Stake on the Bitcoin network
-- Submit the confirmed BTC staking transaction to the Core chain
+1. Stake on the Bitcoin network
+2. Submit the confirmed BTC staking transaction to the Core chain
 
 To make the entire process more convenient, Core Chain introduces the role of relayers. Relayers can help users submit transactions to the Core network after the staking transaction is confirmed on the Bitcoin network. Since it is necessary to verify the transaction on the Core network with the embedded Bitcoin light client, relayers needs to obtain the corresponding `RedeemScript` of the `P2SH/P2WSH` output. To meet this requirement, we suggest users to either
 

@@ -10,7 +10,7 @@ sidebar_position: 2
 ### 1. What is Non-Custodial BTC Staking on the Core network?
 Core provides BTC holders with a risk free and transparent opportunity to lock up/stake their BTC on the Bitcoin Network without giving up custody of their BTC assets, in order to participate in Core Chain’s security and earn CORE rewards in return.
 
-### 2. How BTC Native Staking Works
+### 2. How does Non-Custodial BTC Staking work?
 
 With the non-custodial bitcoin staking, Core Chain's protocol incorporate bitcoin holders as the third part of Satoshi Plus consensus. Core Chain's methodology for integrating bitcoin staking centers on [CLTV timelock](https://en.bitcoin.it/wiki/Timelock#CheckLockTimeVerify). CLTV timelock are Bitcoin-native cryptographic feature that specify a condition under which the transaction output cannot be spent until a certain point in time has passed. This time can be defined in terms of a specific date and time or by block height. Rather than holders giving up custody of their bitcoins to external staking, stakers on Core Chain merely need to place their bitcoins in CLTV timelocks as part of a transaction, and the transaction can be designed to return the output after the time period has elapsed. Within that transaction, stakers must include a script containing the same information that Bitcoin miners include in their delegated blocks: 
 
@@ -36,7 +36,7 @@ By allowing users to stake their bitcoins without moving them off the Bitcoin bl
 
 6. **Flexibility in Transaction Building:** Users have the flexibility to build their staking transactions using any preferred tool, significantly reducing the risk of supply chain attacks from third-party libraries.
 
-### 5. Are there any specific requirements to participate in BTC Native Staking?
+### 5. Are there any specific requirements to participate in Non-Custodial BTC Staking?
 Yes, participants must stake a minimum of **0.01 BTC for at least 7 days**. This minimal requirement makes it accessible for a wide range of Bitcoin holders.
 
 ### 6. Why is that the staking address provided differs from your original Bitcoin address?
@@ -44,7 +44,7 @@ The staking address is derived from your wallet's master private key, ensuring y
 
 You can view your staked funds by searching the staking address on the any BTC explorer like [Mempool](https://mempool.space/). We're actively working to make staked assets visible in all supported wallets especially through command line versions.
 
-### 7. Does Core Chain provide any hardware wallet support for BTC Native Staking?
+### 7. Does Core Chain provide any hardware wallet support for Non-Custodial BTC Staking?
 
 At present, Non-Custodial BTC Staking does not support hardware wallets due to technical constraints. Nevertheless, we're constantly exploring ways to enhance compatibility with various wallet types, prioritizing both security and convenience for our users.
 
@@ -52,12 +52,12 @@ At present, Non-Custodial BTC Staking does not support hardware wallets due to t
 
 * **Time Lock Expiration:** When you lock your Bitcoin for staking, it's inaccessible until the staking period concludes.
 * **Choosing wisely:** We advise selecting your locking period thoughtfully, taking into account your investment objectives and risk tolerance. Starting with shorter locking periods can help you become familiar with the process before committing to longer durations.
-* **Staked Amount Verification:** currently due to some technical complexities it is possible that your staked asset is not visible in your wallet when checked through CLI, however, you can easily verify that you have the complete ownership of your staked assets from the [Core Chain BTC Native Staking Website](https://stake.coredao.org/).
+* **Staked Amount Verification:** currently due to some technical complexities it is possible that your staked asset is not visible in your wallet when checked through CLI, however, you can easily verify that you have the complete ownership of your staked assets from the [Core Chain Non-Custodial BTC Staking Website](https://stake.coredao.org/).
 
 
 ### 9. Why is my staked asset not visible in my wallet?
 
-Currently due to some technical complexities it is possible that your staked asset is not visible in your wallet when checked through CLI, however, you can easily verify that you have the complete ownership of your staked assets from the [Core Chain BTC Native Staking Website](https://stake.coredao.org/).
+Currently due to some technical complexities it is possible that your staked asset is not visible in your wallet when checked through CLI, however, you can easily verify that you have the complete ownership of your staked assets from the [Core Chain Non-Custodial BTC Staking Website](https://stake.coredao.org/).
 
 
 ### 10. How is the security of non-custodial BTC staking ensured?

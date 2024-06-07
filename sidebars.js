@@ -74,7 +74,7 @@ const sidebars = {
                 {
                   type: 'category',
                     collapsed: true,
-                    label: 'BTC Native Staking',
+                    label: 'Non-Custodial BTC Staking',
                     items: [
                       'Learn/products/btc-staking/overview',
                       'Learn/products/btc-staking/design',
@@ -98,6 +98,24 @@ const sidebars = {
                       'Learn/products/coreBTC/overview',
                       'Learn/products/coreBTC/design',
                       'Learn/products/coreBTC/how-to-guides',
+                    ]
+                },
+                {
+                  type: 'category',
+                    collapsed: true,
+                    label: 'stCORE',
+                    items: [
+                      'Learn/products/stCore/overview',
+                      'Learn/products/stCore/design',
+                      {
+                        type: 'category',
+                          collapsed: true,
+                          label: 'How To Guides',
+                          items: [
+                            'Learn/products/stCore/stCore-on-Core',
+                          ]
+                      },
+                      
                     ]
                 },
               ]
@@ -174,14 +192,7 @@ const sidebars = {
        ]
     },
   ],
-  communitySidebar: [
-    {
-      type: 'category',
-      collapsed: true,
-      label: '📝 Community',
-      items: ['Community/contribution', 'Community/join-core-dao']
-    },
-  ],
+
   faqSidebar: [
     {
       type: 'category',
@@ -189,8 +200,8 @@ const sidebars = {
       label: '🤔 FAQs',
       items: ['FAQs/core-faqs', 'FAQs/core-node-faqs',
               'FAQs/validator-faqs', 'FAQs/delegator-faqs', 
-              'FAQs/btc-staking-faqs', 'FAQs/coreBTC-faqs',
-              'FAQs/core-api-faqs' ]
+              'FAQs/coreBTC-faqs', 'FAQs/btc-staking-faqs', 
+              'FAQs/LST-stCore-faqs','FAQs/core-api-faqs' ]
     },
   ],
   nodeSidebar:[ 

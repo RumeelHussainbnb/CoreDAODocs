@@ -15,11 +15,11 @@ One of the most outstanding features of Core Chain that distinguishes it from ot
 #### _The Dual Benefits of Non-Custodial BTC Staking_
 
 1. **Benefits for BTC Holders from Non-Custodial BTC Staking**
-    - **Maintaining Assets on Bitcoin:** By participating in BTC native staking, Bitcoin holders have the unique opportunity to keep their assets securely on the Bitcoin network. This is significant because it allows them to retain their investment in what is widely regarded as the most decentralized and secure blockchain, often referred to as digital gold. In essence, they can continue to hold their Bitcoin, enjoying the security and reputation it offers, without needing to transfer their assets elsewhere.
-    - **Earning Core Tokens as Rewards:** Participating in BTC native staking offers an additional incentive: earning Core tokens. This is a way for Bitcoin holders to not only retain their Bitcoin assets but also to receive additional rewards in the form of Core tokens.
+    - **Maintaining Assets on Bitcoin:** By Non-Custodial BTC Staking, Bitcoin holders have the unique opportunity to keep their assets securely on the Bitcoin network. This is significant because it allows them to retain their investment in what is widely regarded as the most decentralized and secure blockchain, often referred to as digital gold. In essence, they can continue to hold their Bitcoin, enjoying the security and reputation it offers, without needing to transfer their assets elsewhere.
+    - **Earning Core Tokens as Rewards:** Participating in Non-Custodial BTC Staking offers an additional incentive: earning Core tokens. This is a way for Bitcoin holders to not only retain their Bitcoin assets but also to receive additional rewards in the form of Core tokens.
     - **Social Responsibility in Decentralization:** By staking their BTC, holders contribute to the decentralization of the Core blockchain. This is a form of social responsibility, as their participation helps in maintaining a diverse and distributed network, which is fundamental to the ethos of blockchain technology.
-2. **Core's Rationale Behind Offering BTC Native Staking**
-    - **Enhancing Decentralization and Security:** Core blockchain is offering BTC native staking as a strategic move to enhance its decentralization and security. By incorporating Bitcoin, which has a robust and well-established network, into its consensus mechanism, Core can leverage the decentralization and security features of Bitcoin.
+2. **Core's Rationale Behind Offering Non-Custodial BTC Staking**
+    - **Enhancing Decentralization and Security:** Core blockchain is offeringNon-Custodial BTC Staking as a strategic move to enhance its decentralization and security. By incorporating Bitcoin, which has a robust and well-established network, into its consensus mechanism, Core can leverage the decentralization and security features of Bitcoin.
 
 ## Advantages of Non-Custodial BTC Staking
 
@@ -62,7 +62,7 @@ Core Chain welcomes BTC holders to stake their BTC on the Bitcoin network. By vo
 
 ![btc-staking-flow](../../../../static/img/btc-staking/btc-staking-flow.png)
 
-Core Chain's implementation of BTC Native Staking is completely non-custodial, i.e., users can keep their BTC assets on the Bitcoin network without bridging them out before staking. Users are required to perform only the following steps:
+Core Chain's implementation of BTC native staking is completely non-custodial, i.e., users can keep their BTC assets on the Bitcoin network without bridging them out before staking. Users are required to perform only the following steps:
 
 * Send a BTC transaction to their own address, and lock up the output whose amount is intended to stake on Core blockchain by using the Bitcoin native timelock feature. Besides, the transaction should also contain an `op_return` output in which users can designate the Core validator address to stake to and a `reward address` to receive CORE rewards. For details to compose such a staking transaction, please refer to the [transaction design](design.md).
 
