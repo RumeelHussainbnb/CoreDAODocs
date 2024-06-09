@@ -10,7 +10,7 @@ sidebar_position: 2
 stCORE is designed to enhance the utility of the CORE token and simplify the staking process. This initiative allows token holders to maximize their asset potential with greater flexibility and efficiency.
 
 ## Design Principles
-The primary design principles of liquid stakign through stCORE on the Chain Chain are as follows:
+The primary design principles of liquid staking through stCORE on the Chain Chain are as follows:
 
 * Simple and least/no changes to existing blockchain protocols. 
 * Decentralized and won’t bring security concerns to the network.
@@ -18,7 +18,7 @@ The primary design principles of liquid stakign through stCORE on the Chain Chai
 
 ## Design Summary
 
-After researching different LST projects, LiDO and Kava, etc., and combining the unique characteristics of Core blockchain, the liquid staking on the Core blockhain in the form of stCORE is designed as described below:
+After researching different LST projects, LiDO and Kava, etc., and combining the unique characteristics of Core blockchain, the liquid staking on the Core blockchain in the form of stCORE is designed as described below:
 
 * We introduce a new module called `Earn` along with a standard ERC-20 token **stCORE**
 * Users interact with `Earn` module, to mint/redeem/withdraw their assets
@@ -47,7 +47,7 @@ stCORE is a standard ERC-20 token and users can do whatever actions which are el
 
 ## Implementations
 
-The implementation for `Earn` module of liquid staking can eb found [here](https://github.com/coredao-org/Earn/blob/main/contracts/Earn.sol).
+The implementation for `Earn` module of liquid staking can be found [here](https://github.com/coredao-org/Earn/blob/main/contracts/Earn.sol).
 
 User methods in the `Earn` module includes the following:
 * **mint():** mint stCORE using CORE

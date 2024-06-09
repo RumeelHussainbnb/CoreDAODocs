@@ -3,7 +3,7 @@ title: Core DAO - Decentralized applications secured by Bitcoin
 sidebar_position: 1
 ---
 
-# Core DAO - Decentralized applications secured by Bitcoin
+# Core DAO - Decentralized Applications Secured by Bitcoin
 
 ## 👨‍💻 Getting Started
 
