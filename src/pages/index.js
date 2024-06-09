@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout
        title={`Hello from ${siteConfig.title}`}
-       description="Official Documentation for Core DAO />">
+       description="Official Documentation for Core DAO/>">
       <main>
       return <Redirect to='/docs/intro' />;
       </main>
